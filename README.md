@@ -1,108 +1,302 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# DINOTOPIA
 
-Welcome USER_NAME,
+![GitHub contributors](https://img.shields.io/github/contributors/manni8436/dinotopia)
+![GitHub last commit](https://img.shields.io/github/last-commit/manni8436/dinotopia)
+![GitHub language count](https://img.shields.io/github/languages/count/manni8436/dinotopia)
+![GitHub top language](https://img.shields.io/github/languages/top/manni8436/dinotopia)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[Here is a link to the final project]()
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## INITIAL DESIGN
 
-## Gitpod Reminders
+## FINAL DESIGN
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![Final project image home page]()
 
-`python3 -m http.server`
+## CONTENTS
 
-A blue button should appear to click: _Make Public_,
+* [User Experience](#user-experience)  
+  * [User Stories](#user-stories)
 
-Another blue button should appear to click: _Open Browser_.
+* [Design](#design)
+  * [Color Scheme](#color-scheme)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* [Wireframes](#wireframes)
 
-A blue button should appear to click: _Make Public_,
+* [Features](#features)
+  * [Future Implementations](#future-implementations)
+  
+* [Solved Bugs](#solved-bugs)
 
-Another blue button should appear to click: _Open Browser_.
+* [Technologies Used](#technologies-used)
+  * [Languages](#languages)
+  * [Design](#design)
+  * [Database](#database)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* [Deployment](#deployment)
+  * [Initial Deployment](#initial-deployment)
+  * [How To Fork A Repository](#how-to-fork-a-repository)
+  * [How To Clone A Repository](#how-to-clone-a-repository)
+  * [How To Make A Local Clone](#how-to-make-a-local-clone)
 
-To log into the Heroku toolbelt CLI:
+* [Testing](#testing)
+  * [Code Validators](#code-validators)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* [Content](#content)
+  * [Images](#images)
+  * [Text Content](#text-content)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+* [Acknowledgements](#acknowledgements)
 
-------
+[Back To Top](#dinotopia)
 
-## Release History
+## USER EXPERIENCE
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+[Back To Top](#dinotopia)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### USER STORIES
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+#### CLIENT GOALS
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+[Back To Top](#dinotopia)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+#### FIRST TIME VISITORS
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+[Back To Top](#dinotopia)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+#### RETURNING USER
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+[Back To Top](#dinotopia)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## DESIGN
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### COLOR SCHEME
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+My overall colour scheme used throughout the site was the variety of colours in the image below.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![site colours]()
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+[Back To Top](#dinotopia)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## WIREFRAMES
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+[Here are my wireframes for desktop, mobile and tablet for this project]()
 
-------
+[Back To Top](#dinotopia)
 
-## FAQ about the uptime script
+## FEATURES
 
-**Why have you added this script?**
+[Back To Top](#dinotopia)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### FUTURE IMPLEMENTATIONS
 
-**How will this affect me?**
+[Back To Top](#dinotopia)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## SOLVED BUGS
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+[Back To Top](#dinotopia)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## TECHNOLOGIES USED
 
-**So….?**
+### LANGUAGES
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+<img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain-wordmark.svg" alt="HTML logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" alt="CSS logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" alt="JavaScript logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" alt="Python logo" width="50px" height="50px" />
 
-**Can I opt out?**
+[Back To Top](#dinotopia)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### PROGRAMS USED
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+#### Git
 
-**Anything more?**
+[Git](https://git-scm.com/) was used for version control by using the Gitpod terminal to add and commit to Git and push to Github.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+#### GitPod
 
----
+[GitPod](https://gitpod.io) was used as an IDE whilst coding this site.
 
-Happy coding!
+#### GitHub
+
+[GitHub](https://github.com/) is being used to store all the code for this project after being pushed from GitPod.
+
+#### Am i Responsive
+
+[Am i Responsive](http://ami.responsivedesign.is/) was used to create the image in my [Final Design](#final-design) section.
+
+#### Firefox Developer Tools
+
+[Firefox Developer](https://www.mozilla.org/en-GB/firefox/developer/) Tools was used for troubleshooting and trying new visual changes without it affecting the current code.
+
+#### Lighthouse
+
+[Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to ensure that the site was performing well, conforming to best practices, SEO and Accessibility guidelines.
+
+[Favicon](https://favicon.io/) was used to create a favicon image that was added to the website.
+
+### DESIGN:-
+
+#### Font Awesome
+
+[Font Awesome](https://fontawesome.com/) was used for a few icons in the footer on all of this site's pages.
+
+#### Google Fonts
+
+[Google Fonts](https://fonts.google.com/) was used for all the text content on the site pages.
+
+#### Balsamiq
+
+[Balsamiq](https://balsamiq.com/) was used in the initial design process to make wireframes.
+
+[Back To Top](#dinotopia)
+
+### DATABASE
+
+### LIBRARIES
+
+#### jQuery
+
+[jQuery](https://developer.mozilla.org/en-US/docs/Glossary/jQuery) was used to initialise Materialize CSS.
+
+#### Flask
+
+[Flask](https://palletsprojects.com/p/flask/) was used as the application framework.
+
+#### Werkzeug
+
+[Werkzeug](https://werkzeug.palletsprojects.com/en/2.0.x/#) was used for user information protection.
+
+#### PyMongo
+
+[PyMongo](https://pymongo.readthedocs.io/en/stable/) was used to be able to work with MongoDB.
+
+#### DNSPython
+
+[DNSPython](https://www.dnspython.org/) was used as a toolkit to use with Python.
+
+#### Flask-PyMongo
+
+[Flask-Pymongo](https://flask-pymongo.readthedocs.io/en/latest/) was used to connect Python/Flask app to MongoDB.
+
+#### Jinja
+
+[Jinja](https://jinja.palletsprojects.com/en/3.0.x/) was used to populate the site using the content from the site database.
+
+[Back To Top](#)
+
+## DEPLOYMENT
+
+[Heroku](https://www.heroku.com/) was used to deploy the live site.
+
+[Back To Top](#dinotopia)
+
+### INITIAL DEPLOYMENT
+
+This project was developed using [GitPod](https://gitpod.io) and pushed to [GitHub](https://github.com/) then was deployed using [Heroku](https://www.heroku.com/) using the following steps below:
+
+1. Create a `requirements.txt` file using the command `pip3 freeze --local > requirements.txt` in the GitPod terminal.
+2. Create a `Procfile` with the command `echo web: python app.py > Procfile`.
+3. `git add .` and `git commit -m` the new requirements and Procfile files and then `git push` them to the GitHub repository.
+4. Login or Sign up to [Heroku](https://www.heroku.com/).
+5. Create a new app upon Login by clicking the "New" button in your dashboard. Choose a unique name and set the region to the one closest to you.
+6. From the Heroku dashboard of your newly created application, click on "Deploy" > "Deployment method" and select GitHub.
+7. Search for your GitHub repository and connect.
+8. In the Heroku dashboard for the application, click on "settings" > "Reveal Config Vars".
+9. Set the following config vars:
+
+| Key | Value |
+| ----------|--------- |
+| PORT | 5000 |
+| IP | 0.0.0.0 |
+| DEBUG | False |
+| MONGO_URI | USER_MONGODB_URI |
+| MONGO_DBNAME | USER_MONGODB_NAME |
+| SECRET_KEY | USER_SECRET_KEY |
+
+[Back To Top](#dinotopia)
+
+### HOW TO FORK A REPOSITORY
+
+If you need to make a copy of a repository:
+
+1. Login or Sign Up to [GitHub](www.github.com).
+2. On GitHub, go to [manni8436/dinotopia](manni8436/dinotopia).
+3. In the top right corner, click "Fork".
+
+### HOW TO CLONE A REPOSITORY
+
+If you need to make a clone:
+
+1. Login in to [GitHub](www.github.com).
+2. Fork the repository manni8436/dinotopia using the steps above in [How To Fork a Repository](#HOW-TO-FORK-A-REPOSITORY).
+3. Above the file list, click "Code".
+4. Choose if you want to close using HTTPS, SSH or GitHub CLI, then click the copy button to the right.
+5. Open Git Bash.
+6. Change the directory to where you want your clone to go.
+7. Type `git clone` and then paste the URL you copied in step 4.
+8. Press Enter to create your clone.
+
+[Back To Top](#dinotopia)
+
+### HOW TO MAKE A LOCAL CLONE
+
+If you need to make a local clone:
+
+1. Login in to [GitHub](www.github.com).
+2. Under the repository name, above the list of files, click "Code".
+3. Here you can either Clone or Download the repository.
+4. You should close the repository using HTTPS, clicking on the icon to copy the link.
+5. Open Git Bash.
+6. Change the current working directory to the new location, where you want the cloned directory to be.
+7. Type `git clone` and then paste the URL you copied in step 4.
+8. Press Enter, and your local clone will be created.
+
+[Back To Top](#dinotopia)
+
+## TESTING
+
+### CODE VALIDATORS
+
+The W3C Markup Validator and W3C CSS Validator was used to validate my project to make sure there were no errors within the site.
+
+* W3C CSS Validator Results
+
+* JSHint
+  * ![JavaScript]()
+
+* PEP8 Online
+  * ![PEP8]()
+
+[Back To Top](#dinotopia)
+
+### FULL TESTING
+
+[Click Here](testing.md) to view the full testing steps that were completed on every device and browser.
+
+### LIGHTHOUSE
+
+### DESKTOP
+
+#### Performance
+
+#### Accessibility
+
+#### Best Practices
+
+#### SEO
+
+## CONTENT
+
+[Back To Top](#dinotopia)
+
+### IMAGES
+
+[Back To Top](#dinotopia)
+
+### TEXT CONTENT
+
+[Back To Top](#dinotopia)
+
+### Code Credit
+
+## ACKNOWLEDGEMENTS
+
+[Back To Top](#dinotopia)
