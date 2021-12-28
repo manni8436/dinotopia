@@ -33,6 +33,7 @@
 * [Technologies](#technologies)
   * [Languages](#languages)
   * [Frameworks And Libraries](#frameworks-and-libraries)
+  * [Programs](#programs)
 
 * [Deployment](#deployment)
   * [Initial Deployment](#initial-deployment)
@@ -97,12 +98,12 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported int
 
 <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain-wordmark.svg" alt="HTML logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" alt="CSS logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" alt="JavaScript logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" alt="Python logo" width="50px" height="50px" /> 
 
-## FRAMESWORKS AND LIBRARIES
+## FRAMEWORKS AND LIBRARIES
 <img src="https://github.com/devicons/devicon/blob/master/icons/bulma/bulma-plain.svg" alt="Bulma logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/django/django-plain.svg" alt="Django logo" width="50px" height="50px" />
 
-### PROGRAMS USED
+### PROGRAMS
 
-#### Git
+<img src="https://github.com/devicons/devicon/tree/master/icons/git" alt="Git logo" width="50px" height="50px" />
 
 [Git](https://git-scm.com/) was used for version control by using the Gitpod terminal to add and commit to Git and push to Github.
 
