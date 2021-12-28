@@ -19,9 +19,9 @@
   * [User Stories](#user-stories)
 
 * [Design](#design)
+  * [Fonts](#fonts)
   * [Color Scheme](#color-scheme)
-
-* [Wireframes](#wireframes)
+  * [Wireframes](#wireframes)
 
 * [Features](#features)
   * [Future Implementations](#future-implementations)
@@ -70,6 +70,8 @@
 
 ## DESIGN
 
+### FONTS
+
 ### COLOR SCHEME
 
 My overall colour scheme used throughout the site was the variety of colours in the image below.
@@ -80,7 +82,7 @@ My overall colour scheme used throughout the site was the variety of colours in 
 
 ## WIREFRAMES
 
-[Here are my wireframes for desktop, mobile and tablet for this project]()
+Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported into a pdf format, which can be viewed [Here](add wireframes link here)
 
 [Back To Top](#dinotopia)
 
