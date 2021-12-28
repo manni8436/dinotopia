@@ -27,14 +27,12 @@
   * [Features Implemented](#features-implemented)
   * [Future Implementations](#future-implementations)
 
-* [Database](#databse)
-  
-* [Solved Bugs](#solved-bugs)
+* [Database](#database)
+  * [Database Schema](#database-schema)
 
-* [Technologies Used](#technologies-used)
+* [Technologies](#technologies)
   * [Languages](#languages)
-  * [Design](#design)
-  * [Database](#database)
+  * [Frameworks And Libraries](#frameworks-and-libraries)
 
 * [Deployment](#deployment)
   * [Initial Deployment](#initial-deployment)
@@ -55,17 +53,11 @@
 
 ## USER EXPERIENCE
 
-[Back To Top](#dinotopia)
-
 ### USER STORIES
 
 #### CLIENT GOALS
 
-[Back To Top](#dinotopia)
-
 #### FIRST TIME VISITORS
-
-[Back To Top](#dinotopia)
 
 #### RETURNING USER
 
@@ -81,9 +73,7 @@ My overall colour scheme used throughout the site was the variety of colours in 
 
 ![site colours]()
 
-[Back To Top](#dinotopia)
-
-## WIREFRAMES
+### WIREFRAMES
 
 Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported into a pdf format, which can be viewed [Here](add wireframes link here)
 
@@ -105,11 +95,10 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported int
 
 ### LANGUAGES
 
-<img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain-wordmark.svg" alt="HTML logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" alt="CSS logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" alt="JavaScript logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" alt="Python logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/django/django-plain.svg" alt="Django logo" width="50px" height="50px" />
+<img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain-wordmark.svg" alt="HTML logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" alt="CSS logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" alt="JavaScript logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" alt="Python logo" width="50px" height="50px" /> 
 
 ## FRAMESWORKS AND LIBRARIES
 <img src="https://github.com/devicons/devicon/blob/master/icons/bulma/bulma-plain.svg" alt="Bulma logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/django/django-plain.svg" alt="Django logo" width="50px" height="50px" />
-
 
 ### PROGRAMS USED
 
@@ -138,8 +127,6 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported int
 [Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to ensure that the site was performing well, conforming to best practices, SEO and Accessibility guidelines.
 
 [Favicon](https://favicon.io/) was used to create a favicon image that was added to the website.
-
-### DESIGN:-
 
 #### Font Awesome
 
