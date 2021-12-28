@@ -113,7 +113,14 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported int
 
 #### GitHub
 
-[GitHub](https://github.com/) is being used to store all the code for this project after being pushed from GitPod.
+[GitHub](https://github.com/) is being used to store all the code for this project after being pushed from GitPod, which I also used a Project board to 
+keep track of the project development by splitting tasks into smaller and more managable sections.
+
+[Favicon](https://favicon.io/) was used to create a favicon image that was added to the website.
+
+#### Google Fonts
+
+[Google Fonts](https://fonts.google.com/) was used for all the text content on the site pages.
 
 #### Am i Responsive
 
@@ -122,54 +129,6 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported int
 #### Firefox Developer Tools
 
 [Firefox Developer](https://www.mozilla.org/en-GB/firefox/developer/) Tools was used for troubleshooting and trying new visual changes without it affecting the current code.
-
-#### Lighthouse
-
-[Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to ensure that the site was performing well, conforming to best practices, SEO and Accessibility guidelines.
-
-[Favicon](https://favicon.io/) was used to create a favicon image that was added to the website.
-
-#### Font Awesome
-
-[Font Awesome](https://fontawesome.com/) was used for a few icons in the footer on all of this site's pages.
-
-#### Google Fonts
-
-[Google Fonts](https://fonts.google.com/) was used for all the text content on the site pages.
-
-#### Balsamiq
-
-[Balsamiq](https://balsamiq.com/) was used in the initial design process to make wireframes.
-
-[Back To Top](#dinotopia)
-
-#### jQuery
-
-[jQuery](https://developer.mozilla.org/en-US/docs/Glossary/jQuery) was used to initialise Materialize CSS.
-
-#### Flask
-
-[Flask](https://palletsprojects.com/p/flask/) was used as the application framework.
-
-#### Werkzeug
-
-[Werkzeug](https://werkzeug.palletsprojects.com/en/2.0.x/#) was used for user information protection.
-
-#### PyMongo
-
-[PyMongo](https://pymongo.readthedocs.io/en/stable/) was used to be able to work with MongoDB.
-
-#### DNSPython
-
-[DNSPython](https://www.dnspython.org/) was used as a toolkit to use with Python.
-
-#### Flask-PyMongo
-
-[Flask-Pymongo](https://flask-pymongo.readthedocs.io/en/latest/) was used to connect Python/Flask app to MongoDB.
-
-#### Jinja
-
-[Jinja](https://jinja.palletsprojects.com/en/3.0.x/) was used to populate the site using the content from the site database.
 
 [Back To Top](#dinotopia)
 
@@ -198,6 +157,8 @@ The W3C Markup Validator and W3C CSS Validator was used to validate my project t
 [Click Here](testing.md) to view the full testing steps that were completed on every device and browser.
 
 ### LIGHTHOUSE
+
+[Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to ensure that the site was performing well, conforming to best practices, SEO and Accessibility guidelines.
 
 ### DESKTOP
 
@@ -235,12 +196,12 @@ This project was developed using [GitPod](https://gitpod.io) and pushed to [GitH
 
 | Key | Value |
 | ----------|--------- |
-| PORT | 5000 |
+| PORT | 8000 |
 | IP | 0.0.0.0 |
-| DEBUG | False |
-| MONGO_URI | USER_MONGODB_URI |
-| MONGO_DBNAME | USER_MONGODB_NAME |
-| SECRET_KEY | USER_SECRET_KEY |
+| SECRET_KEY | YOUR_SECRET_KEY |
+| STRIPE_PUBLIC_KEY | STRIPE_PUBLIC_KEY |
+| STRIPE_SECRET_KEY | YOUR_STRIPE_SECRET_KEY |
+| STRIPE_WH_KEY | STRIPE_WEBHOOKS_KEY |
 
 [Back To Top](#dinotopia)
 
