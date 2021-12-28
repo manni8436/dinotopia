@@ -5,7 +5,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/manni8436/dinotopia)
 ![GitHub top language](https://img.shields.io/github/languages/top/manni8436/dinotopia)
 
-[Here is a link to the final project]()
+[Here is a link to the live final project]()
 
 ## INITIAL DESIGN
 
@@ -24,7 +24,10 @@
   * [Wireframes](#wireframes)
 
 * [Features](#features)
+  * [Features Implemented](#features-implemented)
   * [Future Implementations](#future-implementations)
+
+* [Database](#databse)
   
 * [Solved Bugs](#solved-bugs)
 
@@ -88,23 +91,25 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported int
 
 ## FEATURES
 
-[Back To Top](#dinotopia)
+### FEATURES IMPLEMENTED
 
 ### FUTURE IMPLEMENTATIONS
 
 [Back To Top](#dinotopia)
 
-## SOLVED BUGS
+## DATABASE
 
-[Back To Top](#dinotopia)
+### DATABASE SCHEMA
 
-## TECHNOLOGIES USED
+## TECHNOLOGIES
 
 ### LANGUAGES
 
-<img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain-wordmark.svg" alt="HTML logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" alt="CSS logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" alt="JavaScript logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" alt="Python logo" width="50px" height="50px" />
+<img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain-wordmark.svg" alt="HTML logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" alt="CSS logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" alt="JavaScript logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" alt="Python logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/django/django-plain.svg" alt="Django logo" width="50px" height="50px" />
 
-[Back To Top](#dinotopia)
+## FRAMESWORKS AND LIBRARIES
+<img src="https://github.com/devicons/devicon/blob/master/icons/bulma/bulma-plain.svg" alt="Bulma logo" width="50px" height="50px" /> <img src="https://github.com/devicons/devicon/blob/master/icons/django/django-plain.svg" alt="Django logo" width="50px" height="50px" />
+
 
 ### PROGRAMS USED
 
@@ -150,10 +155,6 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported int
 
 [Back To Top](#dinotopia)
 
-### DATABASE
-
-### LIBRARIES
-
 #### jQuery
 
 [jQuery](https://developer.mozilla.org/en-US/docs/Glossary/jQuery) was used to initialise Materialize CSS.
@@ -182,7 +183,47 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported int
 
 [Jinja](https://jinja.palletsprojects.com/en/3.0.x/) was used to populate the site using the content from the site database.
 
-[Back To Top](#)
+[Back To Top](#dinotopia)
+
+## SOLVED BUGS
+
+[Back To Top](#dinotopia)
+
+## TESTING
+
+### CODE VALIDATORS
+
+The W3C Markup Validator and W3C CSS Validator was used to validate my project to make sure there were no errors within the site.
+
+* W3C CSS Validator Results
+
+* JSHint
+  * ![JavaScript]()
+
+* PEP8 Online
+  * ![PEP8]()
+
+[Back To Top](#dinotopia)
+
+### FULL TESTING
+
+[Click Here](testing.md) to view the full testing steps that were completed on every device and browser.
+
+### LIGHTHOUSE
+
+### DESKTOP
+
+#### Performance
+
+#### Accessibility
+
+#### Best Practices
+
+#### SEO
+
+## CONTENT
+
+[Back To Top](#dinotopia)
 
 ## DEPLOYMENT
 
@@ -250,42 +291,6 @@ If you need to make a local clone:
 6. Change the current working directory to the new location, where you want the cloned directory to be.
 7. Type `git clone` and then paste the URL you copied in step 4.
 8. Press Enter, and your local clone will be created.
-
-[Back To Top](#dinotopia)
-
-## TESTING
-
-### CODE VALIDATORS
-
-The W3C Markup Validator and W3C CSS Validator was used to validate my project to make sure there were no errors within the site.
-
-* W3C CSS Validator Results
-
-* JSHint
-  * ![JavaScript]()
-
-* PEP8 Online
-  * ![PEP8]()
-
-[Back To Top](#dinotopia)
-
-### FULL TESTING
-
-[Click Here](testing.md) to view the full testing steps that were completed on every device and browser.
-
-### LIGHTHOUSE
-
-### DESKTOP
-
-#### Performance
-
-#### Accessibility
-
-#### Best Practices
-
-#### SEO
-
-## CONTENT
 
 [Back To Top](#dinotopia)
 
