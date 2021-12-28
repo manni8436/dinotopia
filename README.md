@@ -116,11 +116,17 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported int
 [GitHub](https://github.com/) is being used to store all the code for this project after being pushed from GitPod, which I also used a Project board to 
 keep track of the project development by splitting tasks into smaller and more managable sections.
 
+[Heroku]()
+
+[AWS]()
+
 [Favicon](https://favicon.io/) was used to create a favicon image that was added to the website.
 
 #### Google Fonts
 
 [Google Fonts](https://fonts.google.com/) was used for all the text content on the site pages.
+
+[Coolors]()
 
 #### Am i Responsive
 
