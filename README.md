@@ -103,7 +103,7 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported int
 
 ### PROGRAMS
 
-<img src="https://github.com/devicons/devicon/tree/master/icons/git" alt="Git logo" width="50px" height="50px" />
+<img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" alt="Git logo" width="50px" height="50px" />
 
 [Git](https://git-scm.com/) was used for version control by using the Gitpod terminal to add and commit to Git and push to Github.
 
