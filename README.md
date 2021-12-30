@@ -9,8 +9,8 @@
 
 ## INITIAL IDEA
 My initial idea behind Dinotopia is to make a eCommerce site about Dinosaurs, where anyone will be able to purchase their own
-Dinosaur ranging from eggs, young, adult, old Dinosaurs and fossils. The site is being designed to be responsive for mobile, tablet 
-sized devices and to be able to navigate easily throughtout the site and easily accessible for all types of users.
+Dinosaur, including eggs, young dinosaurs, adult dinosaurs, old dinosaurs and fossils. The site is being designed to be responsive
+for mobile, tablet, and desktop devices. The user will be able to navigate easily throughout the site, and the site will be fully accessible for all users.
 
 ## FINAL DESIGN
 
