@@ -71,9 +71,9 @@ for mobile, tablet, and desktop devices. The user will be able to navigate easil
 
 ### FONTS
 
-### COLOR SCHEME
+### COLOR THEME
 
-My overall colour scheme used throughout the site was the variety of colours in the image below.
+These colors were chosen to connect to a jungle theme. The green has been used to resemble leaves, and the brown resembles the tree trunks and/or ground. This relates to the way that the Dinosaurs lived in the wild. White was chosen as to make the content stand out and be easily readable, ensuring full AAA WCAG colour contrast compliance.
 
 ![site colours](static/docs/images/readme-images/color-theme.png)
 
