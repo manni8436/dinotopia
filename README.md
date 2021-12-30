@@ -75,7 +75,7 @@ for mobile, tablet, and desktop devices. The user will be able to navigate easil
 
 My overall colour scheme used throughout the site was the variety of colours in the image below.
 
-![site colours]()
+![site colours](static/docs/images/readme-images/color-theme.png)
 
 ### WIREFRAMES
 
