@@ -35,7 +35,7 @@ for mobile, tablet, and desktop devices. The user will be able to navigate easil
 
 * [Technologies](#technologies)
   * [Languages](#languages)
-  * [Frameworks And Libraries](#frameworks-and-libraries)
+  * [Frameworks and Libraries](#frameworks-and-libraries)
   * [Programs](#programs)
 
 * [Deployment](#deployment)
@@ -59,7 +59,26 @@ for mobile, tablet, and desktop devices. The user will be able to navigate easil
 
 ### USER STORIES
 
+The structure of the site was designed to be simple and easy to use. It has a good balance of images and content, so 
+it does not overload the user, while giving them enough information about the products that they are planning to purchase
+and doesn't leave the user needing more information to carry out all steps needed on the site.
+
+* The website is for the following user types:
+  * Users who are curious at looking at Dinosaurs, what they looked like and have been recommended this site.
+  * Users who are browsing to look for their first purchase.
+  * Users who are going to make their next purchase and increase their personal collection.
+  * Users who are browsing to purchase something as a gift.
+  * Users who are looking to make a bulk purchase.
+
 #### CLIENT GOALS
+
+* The site needs to be easily accesible.
+* The navigation menu needs to be simple to use on a range of devices, including desktop, tablet and mobile.
+* Manoeuvering around the site should be simple and straightforward.
+* To be able to create an user account.
+* It should be easy to register, login and logout.
+* The site should be informative and all the text should be easy to read.
+* The images should be clear, not stretched and/or squashed.
 
 #### FIRST TIME VISITORS
 
