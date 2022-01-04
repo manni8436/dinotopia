@@ -98,6 +98,11 @@ and doesn't leave the user needing more information to carry out all steps neede
 
 #### ADMIN USER
 
+* I want the admin to be able to create an account.
+* I want the admin to be able to add a product.
+* I want the admin to be able to edit a product.
+* I want the admin to be able to delete a product.
+
 [Back To Top](#dinotopia)
 
 ## DESIGN
