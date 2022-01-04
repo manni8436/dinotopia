@@ -68,7 +68,7 @@ and doesn't leave the user needing more information to carry out all steps neede
   * Users who are browsing to look for their first purchase.
   * Users who are going to make their next purchase and increase their personal collection.
   * Users who are browsing to purchase something as a gift.
-  * Users who are looking to make a bulk purchase.
+  * Users who are looking to make a bulk purchases if they require.
 
 #### CLIENT GOALS
 
@@ -82,7 +82,21 @@ and doesn't leave the user needing more information to carry out all steps neede
 
 #### FIRST TIME VISITORS
 
+* I want the site to be easy to understand on how to navigate throughout the site.
+* I want the user to be able to create an account easily.
+* I want the content to be easily read and understandable.
+* I want the checkout process to be straightforward and easy to understand.
+* I want images to be clearly visible.
+
 #### RETURNING USER
+
+* To be able to login.
+* To be able to view previous orders.
+* To be able to Create, Read, Update and Delete products.
+* To Recommend the site to friends and family.
+* To make new purchases with saved details.
+
+#### ADMIN USER
 
 [Back To Top](#dinotopia)
 
