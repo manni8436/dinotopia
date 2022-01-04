@@ -219,10 +219,6 @@ The W3C Markup Validator and W3C CSS Validator was used to validate my project t
 
 #### SEO
 
-## CONTENT
-
-[Back To Top](#dinotopia)
-
 ## DEPLOYMENT
 
 [Heroku](https://www.heroku.com/) was used to deploy the live site.
