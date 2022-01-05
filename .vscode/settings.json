@@ -23,5 +23,21 @@
    "files.autoSave": "afterDelay",
    "workbench.colorTheme": "Visual Studio Dark",
    "terminal.integrated.gpuAcceleration": "canvas",
-   "editor.defaultFormatter": "HookyQR.beautify"
+   "editor.defaultFormatter": "HookyQR.beautify",
+   "cSpell.words": [
+      "accesible",
+      "Balsamiq",
+      "Coolors",
+      "dinotopia",
+      "Dinotopia",
+      "DINOTOPIA",
+      "Gitpod",
+      "managable",
+      "manni",
+      "Procfile",
+      "WCAG",
+      "wireframes",
+      "Wireframes",
+      "WIREFRAMES"
+   ]
 }
