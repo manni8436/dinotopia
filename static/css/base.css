@@ -1,6 +1,16 @@
+/* google font lobster & permanent marker */
+
+html {
+    height: 100%;
+}
+
 /* Navbar */
 .navbar {
     background-color: #432818;
+}
+
+.navbar-brand {
+    font-family: permanent marker;
 }
 
 .navbar-brand,
@@ -15,8 +25,26 @@
     color: #14591d;
 }
 
+.navbar-toggler {
+    border: 2px solid #fff !important;
+}
+
+.navbar-toggler-icon {
+    color: #fff !important;
+}
+
 .btn:hover {
     color: #14591d;
+}
+
+/* page titles */
+.new-dino-here-title {
+    text-transform: uppercase;
+}
+
+/* buttons */
+.shop-now-button {
+    text-transform: uppercase;
 }
 
 /* Footer */
