@@ -1,0 +1,39 @@
+/* Navbar */
+.navbar {
+    background-color: #432818;
+}
+
+.navbar-brand,
+.nav-link,
+.search-button {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    color: #14591d;
+}
+
+.btn:hover {
+    color: #14591d;
+}
+
+/* Footer */
+.footer {
+    background-color: #432818;
+    border-top: 3px solid #432818;
+    text-align: center;
+}
+
+.footer li,
+.footer a {
+    color: #fff;
+    display: inline;
+}
+
+.footer li:hover,
+.footer a:hover {
+    color: #14591d;
+    text-decoration: underline;
+}
