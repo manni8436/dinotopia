@@ -4,6 +4,13 @@ html {
     height: 100%;
 }
 
+body {
+    background-color: #000 !important;
+    background-image: url('/media/jungle.jpg'); 
+    background-size: cover;
+    height: calc(100vh - 164px);
+}
+
 /* Navbar */
 .navbar {
     background-color: #432818;
@@ -39,13 +46,23 @@ html {
 
 /* page titles */
 .new-dino-here-title {
+    background-color: #432818;
+    color: #fff;
     text-transform: uppercase;
+    padding: 10px;
+    opacity: 0.8;
+    border-radius: 20px;
 }
 
 /* buttons */
 .shop-now-button {
+    color: #fff !important;
     text-transform: uppercase;
+    float: right;
 }
+ .btn {
+    border: 2px #fff solid !important;
+ }
 
 /* Footer */
 .footer {
@@ -63,5 +80,4 @@ html {
 .footer li:hover,
 .footer a:hover {
     color: #14591d;
-    text-decoration: underline;
 }
