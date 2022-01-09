@@ -12,12 +12,13 @@ body {
 }
 
 /* Navbar */
-.navbar {
+.topnav {
     background-color: #432818;
 }
 
-.navbar-brand {
+.title-link-home {
     font-family: permanent marker;
+    font-size: 50px;
 }
 
 .navbar-brand,
@@ -28,7 +29,8 @@ body {
 }
 
 .navbar-brand:hover,
-.nav-link:hover {
+.nav-link:hover,
+.search-button:hover {
     color: #14591d;
 }
 
@@ -36,12 +38,28 @@ body {
     border: 2px solid #fff !important;
 }
 
-.navbar-toggler-icon {
-    color: #fff !important;
-}
-
 .btn:hover {
     color: #14591d;
+}
+
+/* mobile navbar */
+
+.mobile-navbar {
+    background-color: #432818;
+}
+
+.dropdown-menu.show {
+    background-color: #432818;
+}
+
+.dropdown-item {
+    background-color: #432818 !important;
+    color: #fff !important;
+    text-transform: uppercase;
+}
+
+.dropdown-item:hover {
+    color: #14591d !important;
 }
 
 /* page titles */
@@ -59,10 +77,32 @@ body {
     color: #fff !important;
     text-transform: uppercase;
     float: right;
+    border-radius: 10px;
 }
- .btn {
+
+.shop-now-button:hover {
+    background-color: #14591d !important;
+}
+
+.btn {
     border: 2px #fff solid !important;
  }
+
+/* search bar */
+
+.search-bar {
+    border: 3px #14591d solid;
+    border-radius: 5px;
+}
+
+/* free delivery banner */
+
+.delivery-banner {
+    background-color: #14591d;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+}
 
 /* Footer */
 .footer {
