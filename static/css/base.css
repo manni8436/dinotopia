@@ -130,11 +130,14 @@ body {
     font-variant: small-caps;
     border: 3px #000 solid !important;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 380px;
 }
 
 .card-img-top {
     background-color: #432818 !important;
-    height: 300px;
+    /* height: 300px; */
     padding: 8px;
 }
 
@@ -144,7 +147,10 @@ body {
 
 .image-card {
     background-color: #432818 !important;
-    height: 300px;
+    /* display: flex;
+    justify-content: center;
+    width: 380px; */
+    /* height: 300px; */
 }
 
 /* Footer */
