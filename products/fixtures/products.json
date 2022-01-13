@@ -1,0 +1,145 @@
+[{
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "egg-1",
+            "name": "T-rex",
+            "description": "A carnivorous Dinosaurs from the early cretaceous period",
+            "era": "Early Cretaceous",
+            "diet": "Carnivorous",
+            "aggressiveness": "10",
+            "length": "12.0 metres when fully grown",
+            "star_rating": "5",
+            "price": "30,000",
+            "image_url": "https://www.pngaaa.com/detail/1393984",
+            "image": "t-rex-egg.png",
+            "category": "1"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku": "baby-dino-1",
+            "name": "T-rex",
+            "description": "A carnivorous Dinosaurs from the early cretaceous period",
+            "era": "Early Cretaceous",
+            "diet": "Carnivorous",
+            "aggressiveness": "6",
+            "length": "12.0 metres when fully grown",
+            "star_rating": "5",
+            "price": "300,000",
+            "image_url": "https://www.pngaaa.com/detail/1410440",
+            "image": "baby-t-rex.png",
+            "category": "2"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "dino-1",
+            "name": "Acrocanthosaurus",
+            "description": "A carnivorous Dinosaurs from the early cretaceous period",
+            "era": "Early Cretaceous",
+            "diet": "Carnivorous",
+            "aggressiveness": "6",
+            "length": "13.0 metres",
+            "star_rating": "5",
+            "price": "300,000",
+            "image_url": "https://www.pngaaa.com/detail/1410440",
+            "image": "acrocanthosaurus.png",
+            "category": "3"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "sku": "dino-2",
+            "name": "Afrovenator",
+            "description": "A carnivorous Dinosaurs from the early cretaceous period",
+            "era": "Early Cretaceous",
+            "diet": "Carnivorous",
+            "aggressiveness": "5",
+            "length": "9.0 metres",
+            "star_rating": "4",
+            "price": "300,000",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Afrovenator_reconstruction.png",
+            "image": "afrovenator.png",
+            "category": "3"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "dino-3",
+            "name": "Albertosaurus",
+            "description": "A carnivorous Dinosaurs from the early cretaceous period",
+            "era": "Early Cretaceous",
+            "diet": "Carnivorous",
+            "aggressiveness": "6",
+            "length": "9.0 metres",
+            "star_rating": "5",
+            "price": "300,000",
+            "image_url": "https://images.dinosaurpictures.org/Primeval_Continued_Albertosaurus_promo_d158.jpg",
+            "image": "albertosaurus.png",
+            "category": "3"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "dino-4",
+            "name": "Allosaurus",
+            "description": "A carnivorous Dinosaurs from the late jurassic period",
+            "era": "late jurassic",
+            "diet": "Carnivorous",
+            "aggressiveness": "5",
+            "length": "13.0 metres",
+            "star_rating": "4",
+            "price": "350,000",
+            "image_url": "https://www.pngaaa.com/detail/1483363",
+            "image": "allosaurus.png",
+            "category": "3"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "old-dino-1",
+            "name": "T-rex",
+            "description": "A carnivorous Dinosaurs from the late jurassic period",
+            "era": "late jurassic",
+            "diet": "Carnivorous",
+            "aggressiveness": "10",
+            "length": "12.0 metres",
+            "star_rating": "5",
+            "price": "5,000",
+            "image_url": "https://www.pngaaa.com/detail/1013890",
+            "image": "tyrannosaurus.png",
+            "category": "5"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku": "fossil-1",
+            "name": "T-rex Fossil",
+            "description": "A carnivorous Dinosaurs from the late jurassic period",
+            "era": "late jurassic",
+            "diet": "Carnivorous",
+            "aggressiveness": "10",
+            "length": "12.0 metres",
+            "star_rating": "5",
+            "price": "1,000,000",
+            "image_url": "https://www.pngaaa.com/detail/753306",
+            "image": "t-rex-fossil.png",
+            "category": "5"
+        }
+    }
+]
