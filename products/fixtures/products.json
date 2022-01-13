@@ -4,7 +4,7 @@
         "fields": {
             "sku": "egg-1",
             "name": "T-rex",
-            "description": "A carnivorous Dinosaurs from the early cretaceous period",
+            "description": "A carnivorous Dinosaur from the early cretaceous period",
             "rating": "5",
             "price": "30.000",
             "image_url": "https://www.pngaaa.com/detail/1393984",
@@ -18,7 +18,7 @@
         "fields": {
             "sku": "baby-dino-1",
             "name": "T-rex",
-            "description": "A carnivorous Dinosaurs from the early cretaceous period",
+            "description": "A carnivorous Dinosaur from the early cretaceous period",
             "rating": "5",
             "price": "300.000",
             "image_url": "https://www.pngaaa.com/detail/1410440",
@@ -32,7 +32,7 @@
         "fields": {
             "sku": "dino-1",
             "name": "Acrocanthosaurus",
-            "description": "A carnivorous Dinosaurs from the early cretaceous period",
+            "description": "A carnivorous Dinosaur from the early cretaceous period",
             "rating": "5",
             "price": "300.000",
             "image_url": "https://www.pngaaa.com/detail/1410440",
@@ -46,7 +46,7 @@
         "fields": {
             "sku": "dino-2",
             "name": "Afrovenator",
-            "description": "A carnivorous Dinosaurs from the early cretaceous period",
+            "description": "A carnivorous Dinosaur from the early cretaceous period",
             "rating": "4",
             "price": "300.000",
             "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Afrovenator_reconstruction.png",
@@ -60,7 +60,7 @@
         "fields": {
             "sku": "dino-3",
             "name": "Albertosaurus",
-            "description": "A carnivorous Dinosaurs from the early cretaceous period",
+            "description": "A carnivorous Dinosaur from the early cretaceous period",
             "rating": "5",
             "price": "300.000",
             "image_url": "https://images.dinosaurpictures.org/Primeval_Continued_Albertosaurus_promo_d158.jpg",
@@ -74,7 +74,7 @@
         "fields": {
             "sku": "dino-4",
             "name": "Allosaurus",
-            "description": "A carnivorous Dinosaurs from the late jurassic period",
+            "description": "A carnivorous Dinosaur from the late jurassic period",
             "rating": "4",
             "price": "350.000",
             "image_url": "https://www.pngaaa.com/detail/1483363",
@@ -88,7 +88,7 @@
         "fields": {
             "sku": "old-dino-1",
             "name": "T-rex",
-            "description": "A carnivorous Dinosaurs from the late jurassic period",
+            "description": "A carnivorous Dinosaur from the late jurassic period",
             "rating": "5",
             "price": "5.000",
             "image_url": "https://www.pngaaa.com/detail/1013890",
@@ -102,7 +102,7 @@
         "fields": {
             "sku": "fossil-1",
             "name": "T-rex Fossil",
-            "description": "A carnivorous Dinosaurs from the late jurassic period",
+            "description": "A carnivorous Dinosaur from the late jurassic period",
             "rating": "5",
             "price": "1.000",
             "image_url": "https://www.pngaaa.com/detail/753306",
