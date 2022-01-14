@@ -4,8 +4,8 @@
         "fields": {
             "sku": "egg-1",
             "name": "T-rex",
-            "description": "A carnivorous Dinosaur from the early cretaceous period",
-            "rating": "5",
+            "description": "a Dinosaur egg for a T-Rex, this egg can take between three to six months before hatching.",
+            "rating": "2",
             "price": "30.000",
             "image_url": "https://www.pngaaa.com/detail/1393984",
             "image": "t-rex-egg.png",
@@ -18,8 +18,8 @@
         "fields": {
             "sku": "baby-dino-1",
             "name": "T-rex",
-            "description": "A carnivorous Dinosaur from the early cretaceous period",
-            "rating": "5",
+            "description": "this baby T-Rex can grow up to twelve metres in length, and between four to six metres in height when fully grown.",
+            "rating": "3",
             "price": "300.000",
             "image_url": "https://www.pngaaa.com/detail/1410440",
             "image": "baby-t-rex.png",
@@ -32,7 +32,7 @@
         "fields": {
             "sku": "dino-1",
             "name": "Acrocanthosaurus",
-            "description": "A carnivorous Dinosaur from the early cretaceous period",
+            "description": "Acrocanthosaurus, lived around the Early Creataceous period, it has similar features to the T-Rex as in the height, walking style and both being carnivorous.",
             "rating": "5",
             "price": "300.000",
             "image_url": "https://www.pngaaa.com/detail/1410440",
@@ -46,7 +46,7 @@
         "fields": {
             "sku": "dino-2",
             "name": "Afrovenator",
-            "description": "A carnivorous Dinosaur from the early cretaceous period",
+            "description": "Afrovenator was from the Early Creataceous period, standing at nine metres tall, walking on two legs and a carnivore.",
             "rating": "4",
             "price": "300.000",
             "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Afrovenator_reconstruction.png",
@@ -60,7 +60,7 @@
         "fields": {
             "sku": "dino-3",
             "name": "Albertosaurus",
-            "description": "A carnivorous Dinosaur from the early cretaceous period",
+            "description": "Albertosaurus, is a large theropod from the Late Creataceous period, nine metres long with saw-edged, flesh slicing teeth and weighing in around 1500kg.",
             "rating": "5",
             "price": "300.000",
             "image_url": "https://images.dinosaurpictures.org/Primeval_Continued_Albertosaurus_promo_d158.jpg",
@@ -74,7 +74,7 @@
         "fields": {
             "sku": "dino-4",
             "name": "Allosaurus",
-            "description": "A carnivorous Dinosaur from the late jurassic period",
+            "description": "Allosaurus is from the late jurassic period, a carnivorous theropod with dagger-like teeth with serrated edges which were around 5-10cm long, curved backwards.",
             "rating": "4",
             "price": "350.000",
             "image_url": "https://www.pngaaa.com/detail/1483363",
@@ -88,7 +88,7 @@
         "fields": {
             "sku": "old-dino-1",
             "name": "T-rex",
-            "description": "A carnivorous Dinosaur from the late jurassic period",
+            "description": "a carnivorous Dinosaur from the late jurassic period",
             "rating": "5",
             "price": "5.000",
             "image_url": "https://www.pngaaa.com/detail/1013890",
@@ -102,7 +102,7 @@
         "fields": {
             "sku": "fossil-1",
             "name": "T-rex Fossil",
-            "description": "A carnivorous Dinosaur from the late jurassic period",
+            "description": "a carnivorous Dinosaur from the late jurassic period",
             "rating": "5",
             "price": "1.000",
             "image_url": "https://www.pngaaa.com/detail/753306",
