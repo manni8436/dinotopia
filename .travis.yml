@@ -1,0 +1,16 @@
+language: python
+python:
+    - "3.8"
+install:
+    - pip install -r requirements.txt
+
+# Command to run tests
+script:
+  - SECRET_KEY="the-stuff" python manage.py test
+
+notifications:
+    email:
+        recipients:
+            - emanuel.silva1984@hotmail.com
+        on_success: never
+        on_failure: always
