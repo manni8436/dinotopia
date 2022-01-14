@@ -70,12 +70,15 @@ body {
 } 
 
 /* page titles */
-.new-dino-here-title {
+.new-dino-here-box {
     background-color: #432818;
     color: #fff;
+    top: 100px;
     text-transform: uppercase;
     padding: 10px;
     opacity: 0.8;
+    text-align: justify;
+    border: 3px #000 solid;
     border-radius: 20px;
 }
 
@@ -154,6 +157,7 @@ body {
 }
 
 /* Footer */
+
 .footer {
     background-color: #432818;
     border-top: 3px solid #432818;
