@@ -156,6 +156,20 @@ body {
     flex-basis: 300px;
 }
 
+.product-details-img-top {
+    position: relative;
+    top: 250px;
+    height: 500px;
+}
+
+.product-details-content-box {
+    color: #fff;
+    position: relative;
+    top: 500px;
+    text-transform: uppercase;
+    border: 3px solid #000;
+}
+
 /* Footer */
 
 .footer {
