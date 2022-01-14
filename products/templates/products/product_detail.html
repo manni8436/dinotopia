@@ -13,11 +13,11 @@
 <div class="overlay"></div>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
+        <div class="col-sm-12 col-md-12 col-lg-6">
             <div class="image-container my-5">
                 {% if product.image %}
                     <a href="{{ product.image.url }}" target="_blank">
-                        <img src="{{ product.image.url }}" class="card-img-top image-fluid" alt="{{ product.name }}">
+                        <img src="{{ product.image.url }}" class="product-details-img-top image-fluid" alt="{{ product.name }}">
                     </a>
                 {% else %}
                     <a href="">
@@ -26,9 +26,9 @@
                 {% endif %}
             </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
-            <div class="product-details-container mb-5 mt-md-5">
-                <div class="card-body">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="product-details-container">
+                <div class="card-body product-details-content-box">
                     <h4 class="product-name">{{ product.name }}</h4>
                     <p class="card-text">{{ product.description }}</p>
                     <p class="card-text">{{ product.price }}</p>
@@ -42,40 +42,5 @@
         </div>
     </div>
 </div>
+</div>
 {% endblock %}
-
-
-                
-
-
-
-                
-
-
-
-
-
-            <!-- {% for product in products %}
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                    <div class="card" style="width: 18rem;">
-                        <div class="image-card">
-                            {% if product.image %}
-                                <img src="{{ product.image.url }}" class="card-img-top image-fluid" alt="{{ product.name }}">
-                            {% else %}
-                                <img src="{{ MEDIA_URL }}generic-image.jpg" class="card-img-top" alt="{{ product.name }}">
-                            {% endif %}
-                        </div>
-                        <div class="card-body">
-                            <h4 class="product-name">{{ product.name }}</h4>
-                            <p class="card-text">{{ product.description }}</p>
-                            <p class="card-text">{{ product.price }}</p>
-                            {% if product.rating %}
-                                <p class="card-text"><i class="fas fa-star"></i>{{ product.rating }} / 10</p>
-                            {% else %}
-                                <p class="card-text">Currently no rating</p>
-                            {% endif %}
-                        </div>
-                    </div>
-                </div>
-            {% endfor %} -->
-     
