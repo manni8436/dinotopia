@@ -124,6 +124,7 @@ body {
     color: #fff;
     text-transform: uppercase;
     padding: 10px;
+    border-bottom: 3px #000 solid;
 }
 
 /* image cards */
@@ -174,8 +175,11 @@ body {
 
 .footer {
     background-color: #432818;
-    border-top: 3px solid #432818;
     text-align: center;
+}
+
+.fixed-bottom {
+    border-top: 3px #000 solid;
 }
 
 .footer li,
