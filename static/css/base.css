@@ -148,9 +148,6 @@ body {
 
 .image-card {
     background-color: #432818 !important;
-    /* display: flex;
-    justify-content: center;
-    width: 380px; */
     flex-basis: 300px;
 }
 
