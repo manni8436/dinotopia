@@ -32,6 +32,13 @@
                     <h4 class="product-name">{{ product.name }}</h4>
                     <p class="card-text">{{ product.description }}</p>
                     <p class="card-text">{{ product.price }}</p>
+                    {% if product.category %}
+                        <p class="small mt-1 mb-0">
+                            <a href="{% url 'products' %}?category={{ product.category.name }}" class="text-muted">
+                                <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
+                            </a>
+                        </p>
+                    {% endif %}
                     {% if product.rating %}
                         <p class="card-text"><i class="fas fa-star"></i>{{ product.rating }} / 10</p>
                     {% else %}
