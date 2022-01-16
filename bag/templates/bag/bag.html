@@ -16,17 +16,17 @@
         <div class="container mb-2">
             <div class="row">
                 <div class="col">
-                    <h2 class="shopping-bag-title">shopping bag</h2>
+                    <h2 class="shopping-bag-title logo-font mb-4">shopping bag</h2>
                 </div>
             </div>
-            <div class="row">
+            <div class="row shopping-bag-content">
                 <div class="col">
                     {% if bag_items %}
                         <div class="table-responsive"></div>
                     {% else %}
-                        <p class="lead mb-5">You have no Dinosaurs in your bag at the moment.</p>
-                        <a href="{% url 'products' %}" class="btn btn-lg">
-                            <span class="icon">
+                        <p class="empty-bag-paragraph lead mb-5">You currently have no Dinosaurs in your trolley</p>
+                        <a href="{% url 'products' %}" class="btn btn-lg chevron-arrow-and-keep-shopping-text">
+                            <span class="icon chevron-arrow">
                                 <i class="fas fa-chevron-left"></i>
                             </span>
                             <span class="keep-shopping-text">Keep browsing for Dinosaurs</span>
