@@ -38,7 +38,7 @@
                             <p class="card-text">{{ product.price }}</p>
                             {% if product.category %}
                                 <p class="small mt-1 mb-0">
-                                    <a href="{% url 'products' %}?category={{ product.category.name }}" class="text-muted">
+                                    <a href="{% url 'products' %}?category={{ product.category.name }}" class="product-tag">
                                         <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
                                     </a>
                                 </p>
