@@ -243,7 +243,10 @@ body {
     border-radius: 10px;
 }
 
-
+.table-content {
+    color: #fff !important;
+    text-transform: uppercase;
+}
 
 /* Footer */
 
