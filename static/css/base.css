@@ -168,7 +168,7 @@ body {
 .product-details-content-box {
     color: #fff;
     position: relative;
-    top: 500px;
+    top: 300px;
     text-transform: uppercase;
     border: 3px solid #000;
 }
@@ -224,6 +224,26 @@ body {
 .keep-shopping-text {
     color: #fff;
 }
+
+/* add to bag */
+
+.add-bag-button {
+    color: #fff !important;
+    background-color: #14591d !important;
+    text-transform: uppercase;
+    border: 3px #000 solid !important;
+    border-radius: 10px;
+}
+
+.add-bag-chevron-arrow-and-keep-shopping-text {
+    background-color: #14591d !important;
+    color: #fff !important;
+    text-transform: uppercase;
+    border: 3px #000 solid !important;
+    border-radius: 10px;
+}
+
+
 
 /* Footer */
 
