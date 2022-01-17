@@ -22,9 +22,11 @@
             <div class="row shopping-bag-content">
                 <div class="col">
                     {% if bag_items %}
-                        <div class="table-responsive"></div>
+                        <div class="table-responsive">
+                            
+                        </div>
                     {% else %}
-                        <p class="empty-bag-paragraph lead mb-5">You currently have no Dinosaurs in your trolley</p>
+                        <p class="empty-bag-paragraph lead mb-5">You currently have no Dinosaurs in your bag</p>
                         <a href="{% url 'products' %}" class="btn btn-lg chevron-arrow-and-keep-shopping-text">
                             <span class="icon chevron-arrow">
                                 <i class="fas fa-chevron-left"></i>
