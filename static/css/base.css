@@ -248,6 +248,11 @@ body {
     text-transform: uppercase;
 }
 
+.update-link,
+.remove-item {
+    cursor: pointer;
+}
+
 /* Footer */
 
 .footer {
