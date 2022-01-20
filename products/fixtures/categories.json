@@ -2,7 +2,7 @@
         "pk": 1,
         "model": "products.category",
         "fields": {
-            "name": "dinosaurs_eggs",
+            "name": "dinosaur_eggs",
             "friendly_name": "Dinosaurs Eggs"
         }
     },
@@ -34,7 +34,7 @@
         "pk": 5,
         "model": "products.category",
         "fields": {
-            "name": "dinosaurs_fossils",
+            "name": "dinosaur_fossils",
             "friendly_name": "Fossils"
         }
     }
