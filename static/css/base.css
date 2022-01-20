@@ -30,7 +30,7 @@ body {
 .navbar-brand:hover,
 .nav-link:hover,
 .search-button:hover {
-    color: #14591d;
+    color: #28a745;
 }
 
 .navbar-toggler {
@@ -49,6 +49,7 @@ body {
 
 .dropdown-menu.show {
     background-color: #432818;
+    border: 3px #28a745 solid;
 }
 
 .dropdown-item {
@@ -58,7 +59,7 @@ body {
 }
 
 .dropdown-item:hover {
-    color: #14591d !important;
+    color: #28a745 !important;
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -227,16 +228,9 @@ body {
 
 /* add to bag */
 
+.add-bag-chevron-arrow-and-keep-shopping-text,
 .add-bag-button {
-    color: #fff !important;
-    background-color: #14591d !important;
-    text-transform: uppercase;
-    border: 3px #000 solid !important;
-    border-radius: 10px;
-}
-
-.add-bag-chevron-arrow-and-keep-shopping-text {
-    background-color: #14591d !important;
+    background-color: #432818 !important;
     color: #fff !important;
     text-transform: uppercase;
     border: 3px #000 solid !important;
@@ -253,6 +247,12 @@ body {
     cursor: pointer;
 }
 
+/* form */
+
+.form-control {
+    border: 3px #000 solid;
+}
+
 /* toast messages */
 
 .message-container {
@@ -262,12 +262,103 @@ body {
     z-index: 99999999999;
 }
 
+.toast-header {
+    background-color: #432818;
+    border: 2px #28a745 solid;
+}
+
+.success-text {
+    color: #28a745;
+    text-transform: uppercase;
+}
+
+.close {
+    color: #28a745;
+    text-shadow: 0 1px 0 #28a745;
+}
+
+.toast-body {
+    background-color: #432818;
+    color: #fff;
+    text-transform: uppercase;
+    border: 2px #28a745 solid;
+}
+
+.secure-checkout-button {
+    color: #fff;
+    border: 2px #28a745 solid !important;
+}
+
+.secure-checkout-button:hover {
+    color: #28a745;
+}
+
 .custom-toast {
     overflow: visible;
 }
 
 .toast-capper {
     height: 2px;
+}
+
+/* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent; 
+    border-bottom: 10px solid black;
+    position: absolute;
+    top: -10px;
+    right: 36px;
+}
+
+/* Convenience classes - colors copied from Bootstrap */
+.arrow-primary {
+    border-bottom-color: #007bff !important;
+}
+
+.arrow-secondary {
+    border-bottom-color: #6c757d !important;
+}
+
+.arrow-success {
+    border-bottom-color: #28a745  !important;
+}
+
+.arrow-danger {
+    border-bottom-color: #dc3545 !important;
+}
+
+.arrow-warning {
+    border-bottom-color: #ffc107 !important;
+}
+
+.arrow-info {
+    border-bottom-color: #17a2b8 !important;
+}
+
+.arrow-light {
+    border-bottom-color: #f8f9fa !important;
+}
+
+.arrow-dark {
+    border-bottom-color: #343a40 !important;
+}
+
+.bg-success {
+    background-color: #28a745 !important;
+}
+
+.bg-warning {
+    color: #000;
+    font-weight: bold;
+}
+
+.bag-notification-wrapper {
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 /* Footer */
