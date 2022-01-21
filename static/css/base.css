@@ -262,7 +262,9 @@ body {
     z-index: 99999999999;
 }
 
-.toast-header {
+/* success toast */
+
+.success-toast-header {
     background-color: #432818;
     border: 2px #28a745 solid;
 }
@@ -272,16 +274,20 @@ body {
     text-transform: uppercase;
 }
 
-.close {
+.success-close {
     color: #28a745;
     text-shadow: 0 1px 0 #28a745;
 }
 
-.toast-body {
+.success-toast-body {
     background-color: #432818;
     color: #fff;
     text-transform: uppercase;
     border: 2px #28a745 solid;
+}
+
+.bg-success {
+    background-color: #28a745 !important;
 }
 
 .secure-checkout-button {
@@ -292,6 +298,94 @@ body {
 .secure-checkout-button:hover {
     color: #28a745;
 }
+
+/* error toast */
+
+.error-toast-header {
+    background-color: #432818;
+    border: 2px #dc3545 solid;
+}
+
+.error-text {
+    color: #dc3545;
+    text-transform: uppercase;
+}
+
+.error-close {
+    color: #dc3545;
+    text-shadow: 0 1px 0 #dc3545;
+}
+
+.error-toast-body {
+    background-color: #432818;
+    color: #fff;
+    text-transform: uppercase;
+    border: 2px #dc3545 solid;
+}
+
+.bg-danger {
+    background-color: #dc3545 !important;
+}
+
+/* info toast */
+
+.info-toast-header {
+    background-color: #432818;
+    border: 2px #17a2b8 solid;
+}
+
+.info-text {
+    color: #17a2b8;
+    text-transform: uppercase;
+}
+
+.info-close {
+    color: #17a2b8;
+    text-shadow: 0 1px 0 #17a2b8;
+}
+
+.info-toast-body {
+    background-color: #432818;
+    color: #fff;
+    text-transform: uppercase;
+    border: 2px #17a2b8 solid;
+}
+
+.bg-info {
+    background-color: #17a2b8 !important;
+}
+
+
+/* warning toast */
+
+.warning-toast-header {
+    background-color: #432818;
+    border: 2px #ffc107 solid;
+}
+
+.warning-text {
+    color: #ffc107;
+    text-transform: uppercase;
+}
+
+.warning-close {
+    color: #ffc107;
+    text-shadow: 0 1px 0 #ffc107;
+}
+
+.warning-toast-body {
+    background-color: #432818;
+    color: #fff;
+    text-transform: uppercase;
+    border: 2px #ffc107 solid;
+}
+
+.bg-warning {
+    background-color: #ffc107 !important;
+}
+
+
+/* other */
 
 .custom-toast {
     overflow: visible;
@@ -344,10 +438,6 @@ body {
 
 .arrow-dark {
     border-bottom-color: #343a40 !important;
-}
-
-.bg-success {
-    background-color: #28a745 !important;
 }
 
 .bg-warning {
