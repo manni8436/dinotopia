@@ -111,7 +111,7 @@ and doesn't leave the user needing more information to carry out all steps neede
 
 ### COLOR THEME
 
-These colors were chosen to connect to a jungle theme. The green has been used to resemble leaves, and the brown resembles the tree trunks and/or ground. This relates to the way that the Dinosaurs lived in the wild. White was chosen as to make the content stand out and be easily readable, ensuring full AAA WCAG colour contrast compliance.
+These colors were chosen to connect to a jungle theme. The green has been used to resemble leaves, and the brown resembles the tree trunks and/or ground. This relates to the way that the Dinosaurs lived in the wild. Black was using for form borders and also in the case the background image fails to load correctly, Lastly the `#28A745` shade of green was used for the hover affect and white was chosen as to make the content stand out and be easily readable, ensuring full AAA WCAG colour contrast compliance.
 
 ![site colours](static/docs/images/readme-images/color-theme.png)
 
