@@ -197,7 +197,7 @@ body {
     background-color: #432818;
     color: #fff;
     position: relative;
-    top: 300px;
+    top: 200px;
     width: fit-content;
     padding: 20px;
     border: 3px #000 solid;
@@ -224,6 +224,14 @@ body {
 .chevron-arrow,
 .keep-shopping-text {
     color: #fff;
+}
+
+/* checkout page */
+
+.order-summary-paragraph,
+.form-order-paragraph,
+.item-subtotal-paragraph {
+    text-transform: uppercase;
 }
 
 /* add to bag */
@@ -354,7 +362,6 @@ body {
 .bg-info {
     background-color: #17a2b8 !important;
 }
-
 
 /* warning toast */
 
