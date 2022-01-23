@@ -111,6 +111,14 @@ body {
     border: 2px #fff solid !important;
  }
 
+ .text-info {
+     color: #fff !important;
+ }
+
+ a.text-info:focus, a.text-info:hover {
+    color: #28a745 !important;
+}
+
 /* search bar */
 
 .search-bar {
@@ -224,6 +232,18 @@ body {
 .chevron-arrow,
 .keep-shopping-text {
     color: #fff;
+}
+
+.bag-keep-shopping-span-text,
+.bag-icon,
+.bag-secure-checkout-span-text {
+    color: #fff;
+}
+
+.bag-keep-shopping-span-text:hover,
+.bag-icon:hover,
+.bag-secure-checkout-span-text:hover {
+    color: #28a745;
 }
 
 /* checkout page */
