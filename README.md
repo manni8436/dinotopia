@@ -183,6 +183,10 @@ keep track of the project development by splitting tasks into smaller and more m
 
 ## SOLVED BUGS
 
+1. During the development process a bug was found causing my dropdown menu button on mobile and tablet devices to stop working, when initially the dropdown button was working, after closer inspection on this issue, it turned out that I had changed and I had imported the wrong script, which was rectified by changing the script to the one below.
+
+![dropdown menu bug](static/docs/images/readme-images/dropdown-menu-bug.png)
+
 [Back To Top](#dinotopia)
 
 ## TESTING
