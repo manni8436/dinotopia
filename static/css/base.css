@@ -71,10 +71,9 @@ body {
 } 
 
 /* page titles */
-.new-dino-here-box {
+.dino-bonanza-box {
     background-color: #432818;
     color: #fff;
-    top: 100px;
     text-transform: uppercase;
     padding: 10px;
     opacity: 0.8;
