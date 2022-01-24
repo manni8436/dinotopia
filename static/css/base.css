@@ -87,7 +87,6 @@ body {
     background-color: #432818;
     color: #fff;
     position: relative;
-    top: 200px;
     font-size: 70px;
     margin: 10px;
     padding: 5px;
@@ -140,7 +139,6 @@ body {
 
 .card {
     color: #fff;
-    top: 200px;
     margin: 40px;
     font-variant: small-caps;
     border: 3px #000 solid !important;
@@ -170,14 +168,13 @@ body {
 
 .product-details-img-top {
     position: relative;
-    top: 250px;
     height: 500px;
 }
 
 .product-details-content-box {
     color: #fff;
     position: relative;
-    top: 300px;
+    top: 100px;
     text-transform: uppercase;
     border: 3px solid #000;
 }
@@ -193,7 +190,6 @@ body {
     background-color: #432818;
     color: #fff;
     position: relative;
-    top: 200px;
     font-size: 70px;
     margin: 10px;
     padding: 5px;
@@ -205,7 +201,6 @@ body {
     background-color: #432818;
     color: #fff;
     position: relative;
-    top: 200px;
     width: fit-content;
     padding: 20px;
     border: 3px #000 solid;
