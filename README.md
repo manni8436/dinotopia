@@ -187,6 +187,16 @@ keep track of the project development by splitting tasks into smaller and more m
 
 ![dropdown menu bug](static/docs/images/readme-images/dropdown-menu-bug.png)
 
+2. While working on my order successful functionality, I came across the error below after filling in the order form and pressing the complete order button.
+
+![numeric field overflow error](static/docs/images/readme-images/numeric-field-overflow-error.png)
+
+After looking at the error closely, I connected the numbers that were provided on the error screen with the `max_digits` values that I had in the `lineitem_total` inside the `OrderLineItem` class in the `models.py` file.
+
+![line item total code](static/docs/images/readme-images/numeric-field-overflow-bug-1.png)
+
+From the image above, I made two changes, my first change was `max_digit=6` to `max_digit=10` and my second change was `decimal_places=2` to `decimal_places=4`, after making these changes, it solved my issue.
+
 [Back To Top](#dinotopia)
 
 ## TESTING
