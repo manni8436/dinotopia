@@ -249,6 +249,19 @@ body {
     text-transform: uppercase;
 }
 
+/* checkout success page */
+
+.checkout-success-title {
+    background-color: #432818;
+    color: #fff;
+    position: relative;
+    font-size: 35px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 /* add to bag */
 
 .add-bag-chevron-arrow-and-keep-shopping-text,
