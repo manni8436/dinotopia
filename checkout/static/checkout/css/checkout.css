@@ -28,3 +28,23 @@
 .form-control:focus {
     border-color: #14591d;
 }
+
+#loading-overlay {
+	display: none;
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #432818;
+    z-index: 9999;
+    opacity: 0.9;
+}
+
+.loading-spinner {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100%;
+}
