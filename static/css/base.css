@@ -485,6 +485,84 @@ body {
     overflow-y: auto;
 }
 
+/* checkout page */
+
+.checkout-title {
+    background-color: #432818;
+    color: #fff;
+    position: relative;
+    font-size: 70px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.checkout-content {
+    background-color: #432818;
+    color: #fff;
+    position: relative;
+    width: fit-content;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    border: 3px #000 solid;
+    opacity: 0.9;
+}
+
+#submit-button,
+.adjust-bag-and-chevron-icon {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#submit-button:hover,
+.adjust-bag-and-chevron-icon:hover {
+    color: #28a745;
+}
+
+/* checkout success page */
+
+.checkout-thank-you-message {
+    background-color: #432818;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    width: fit-content;
+    border: 3px #000 solid;
+}
+
+.checkout-order-information-message {
+    background-color: #14591d;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    width: fit-content;
+    border: 3px #000 solid;
+}
+
+.checkout-order-email {
+    color: #000;
+}
+
+.order-confirmation-wrapper {
+    background-color: #432818;
+    color: #fff;
+    text-transform: uppercase;
+    border: 3px #000 solid !important;
+}
+
+.checkout-all-products-button {
+    background-color: #432818;
+    color: #fff;
+    text-transform: uppercase;
+    border: 3px #000 solid !important;
+}
+
+.checkout-all-products-button:hover {
+    color: #28a745;
+}
+
 /* Footer */
 
 .footer {
