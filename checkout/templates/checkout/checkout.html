@@ -22,10 +22,10 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h2 class="shopping-bag-title logo-font mb-4">Checkout</h2>
+                    <h2 class="checkout-title logo-font mb-4">Checkout</h2>
                 </div>
             </div>
-            <div class="row shopping-bag-content">
+            <div class="row checkout-content">
                 <div class="col-12 col-lg-6 order-lg-last mb-5">
                     <p class="order-summary-paragraph">Order Summary ({{ product_count }})</p>
                     <div class="row item-subtotal-paragraph">
@@ -108,7 +108,7 @@
                             <div class="mb-3 text-danger" id="card-errors" role="alert"></div>
                         </fieldset>
                         <div class="submit-button text-right mt-5 mb-2">
-                            <a href="{% url 'view_bag' %}" class="btn btn-outline-black">
+                            <a href="{% url 'view_bag' %}" class="btn btn-outline-black adjust-bag-and-chevron-icon">
                                 <span class="icon">
                                     <i class="fas fa-chevron-left"></i>
                                 </span>
