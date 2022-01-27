@@ -27,7 +27,7 @@
             </div>
             <div class="row checkout-content">
                 <div class="col-12 col-lg-6 order-lg-last mb-5">
-                    <p class="order-summary-paragraph">Order Summary ({{ product_count }})</p>
+                    <p class="order-summary-paragraph">Order Summary ({ product_count })</p>
                     <div class="row item-subtotal-paragraph">
                         <div class="col-7 offset-2">
                             <p class="mb-1 mt-0">Item</p>
@@ -43,7 +43,7 @@
                                 {% if item.product.image %}
                                     <img class="w-100" src="{{ item.product.image.url }}" alt="{{ product.name }}">
                                 {% else %}
-                                    <img class="w-100" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                                    <img class="w-100" src="{{ MEDIA_URL }}generic-image.jpg" alt="{{ product.name }}">
                                 {% endif %}
                             </a>
                         </div>

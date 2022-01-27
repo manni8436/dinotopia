@@ -116,7 +116,7 @@
                                     {% if grand_total %}
                                     £ {{ grand_total|intcomma }}
                                     {% else %}
-                                    £0.00
+                                    £ 0.00
                                     {% endif %}
                                 </p>
                             </div>
@@ -137,7 +137,7 @@
         </div>
         <div class="row text-center delivery-banner">
             <div class="col">
-                <h4 class="my-1">Free delivery on orders over £{{ free_delivery_threshold|intcomma }}!</h4>                
+                <h4 class="my-1">Free delivery on orders over £ {{ free_delivery_threshold|intcomma }}!</h4>                
             </div>            
         </div>
     </header>
