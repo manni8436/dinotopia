@@ -1,0 +1,10 @@
+.profile-title {
+    background-color: #432818;
+    color: #fff;
+    position: relative;
+    font-size: 70px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
