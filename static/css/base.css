@@ -664,6 +664,29 @@ body {
     border-color: #28a745 !important;
 }
 
+/* profile page */
+
+.profile-delivery-form {
+    background-color: #432818;
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.profile-delivery-information-text {
+    text-align: center;
+}
+
+.profile-update-information-button {
+    color: #fff;
+    text-transform: uppercase;
+    float: right;
+}
+
+.profile-update-information-button:hover {
+    color: #28a745;
+}
+
 /* Footer */
 
 .footer {
