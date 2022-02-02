@@ -551,7 +551,8 @@ body {
     border: 3px #000 solid !important;
 }
 
-.checkout-all-products-button {
+.checkout-all-products-button,
+.back-to-profile-button {
     background-color: #432818;
     color: #fff;
     text-transform: uppercase;
