@@ -667,6 +667,11 @@ body {
 
 /* profile page */
 
+.profile-page-box {
+    position: relative;
+    left: 150px !important;
+}
+
 .profile-delivery-form {
     background-color: #432818;
     color: #fff;
@@ -686,6 +691,19 @@ body {
 
 .profile-update-information-button:hover {
     color: #28a745;
+}
+
+.profile-order-history {
+    background-color: #432818 !important;
+    color: #fff !important;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.profile-order-table {
+    color: #fff !important;
+    text-align: center;
 }
 
 /* Footer */
