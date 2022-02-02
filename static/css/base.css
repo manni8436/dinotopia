@@ -712,10 +712,7 @@ body {
 .footer {
     background-color: #432818;
     text-align: center;
-}
-
-.fixed-bottom {
-    border-top: 3px #000 solid;
+    border-top: 3px black solid !important;
 }
 
 .footer li,
