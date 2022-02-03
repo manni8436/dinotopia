@@ -1,0 +1,36 @@
+/* truncate text if product name too long https: //css-tricks.com/flexbox-truncated-text/  */
+
+.product-trunc {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.blog-welcome-title {
+    background-color: #432818;
+    color: #fff;
+    font-size: 70px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.new-post-button {
+    background-color: #432818;
+    color: #fff;
+    margin: 10px;
+    padding: 5px;
+    text-transform: uppercase;
+    border: 3px #000 solid !important;
+    border-radius: 3px;
+}
+
+.new-post-button:hover {
+    color: #28a745;
+    text-decoration: none;
+}
+
+.card-body {
+    background-color: ;
+}
