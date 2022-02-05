@@ -144,13 +144,10 @@ body {
     border-radius: 10px;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    width: 380px;
 }
 
 .card-img-top {
     background-color: #432818 !important;
-    /* height: 300px; */
     padding: 8px;
 }
 
