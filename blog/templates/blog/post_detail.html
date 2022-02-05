@@ -11,89 +11,96 @@
 {% endblock %}
 
 {% block content %}
-        <div class="container-fluid">
-            <div class="row my-4">
-                <div class="col-12">
-                    <a href="{% url 'blog' %}" class="button">Back to blog homepage</a>
+    <div class="container-fluid">
+        <div class="row my-4">
+            <div class="col-12">
+                <a href="{% url 'blog' %}" class="button">Back to blog homepage</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card blog-card">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h1 class="title-heading-small blog-title">{{ post.title }}</h1>
+                        </div>
+                    </div>
+                    <div class="card-text blog-card-content">
+                        <p class="blog-card-content">
+                            {{ post.content | capfirst }}
+                        </p>
+
+                        <div class="blog-content content">
+                            <p class="blog-p">By: <span class="blog-small">{{ post.author }},
+                                    {{ post.created_on|timesince }}
+                                    ago </span></p>
+                        </div>
+                    </div>
+                    {% if post.author == request.user %}
+                        <div class="row">
+                            <div class="col">
+                                <a href="{% url 'edit_post' post.slug %}" class="button">Edit Post</a>
+                            </div>
+                            <div class="col">
+                                <a href="{% url 'delete_post' post.slug %}" class="button">Delete
+                                    Post</a>
+                            </div>
+                        </div>
+                    {% else %}
+                        <div class="columns">
+                            <div class="column">
+                                <h4 class="title-heading-small">
+                                    Please <a href="{% url 'account_login' %}">log in</a> to add a review of a product.</h4>
+                            </div>
+                        </div>
+                    {% endif %}
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <div class="card blog-card">
-                        <div class="card-body">
-                            <div class="card-title">
-                                <h1 class="title-heading-small blog-title">{{ post.title }}</h1>
-                            </div>
+            <div class="col">
+                <div class="card comments">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h2 class="title-heading-small">Comments about {{ post.title }}</h2>
                         </div>
-                        <div class="card-text blog-card-content">
-                            <p class="blog-card-content">
-                                {{ post.content | capfirst }}
-                            </p>
-
-                            <div class="blog-content content">
-                                <p class="blog-p">By: <span class="blog-small">{{ post.author }}, 
-                                    {{ post.created_on|timesince }}
-                                        ago </span></p>
-                            </div>
-                        </div>
-                        {% if post.author == request.user %}
-                                <div class="row">
-                                    <div class="col">
-                                        <a href="{% url 'edit_post' post.slug %}" class="button">Edit Post</a>
-                                    </div>
-                                    <div class="col">
-                                        <a href="{% url 'delete_post' post.slug %}" class="button">Delete
-                                            Post</a>
-                                    </div>
-                                </div>
-                                {% endif %}
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card comments">
-                        <div class="card-body">
-                            <div class="card-title">
-                                <h2 class="title-heading-small">Comments about {{ post.title }}</h2>
+                    <div class="card-text py-3">
+                        {% for comment in post.comments.all %}
+                            <article class="media">
+                                <div class="media-content">
+                                    <div class="content">
+                                        <p class="blog-content">
+                                            {{ comment.comment }}
+                                        </p>
+                                        <p>comment by: <span class="blog-small">{{ comment.comment_author }}
+                                                {{ comment.date_added|timesince }} ago</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                        {% empty %}
+                            <div class="my-4">
+                                No comments yet...
                             </div>
-                        </div>
-                        <div class="card-text py-3">
-                            {% for comment in post.comments.all %}
-                                <article class="media">
-                                    <div class="media-content">
-                                        <div class="content">
-                                            <p class="blog-content">
-                                                {{ comment.comment }}
-                                            </p>
-                                            <p>comment by: <span class="blog-small">{{ comment.comment_author }}
-                                                    {{ comment.date_added|timesince }} ago</span>
-                                            </p>
+                        {% endfor %}
+                        <form method="post" action=".">
+                            {% csrf_token %}
+                            {{ form|crispy }}
+                            <div class="field">
+                                <div class="control">
+                                    <div class="row">
+                                        <div class="col">
+                                            <button class="button is-info">Submit</button>
                                         </div>
-                                    </div>
-                                </article>
-                            {% empty %}
-                                <div class="my-4">
-                                    No comments yet...
-                                </div>
-                            {% endfor %}
-                            <form method="post" action=".">
-                                {% csrf_token %}
-                                {{ form|crispy }}
-                                <div class="field">
-                                    <div class="control">
-                                        <div class="row">
-                                            <div class="col">
-                                                <button class="button is-info">Submit</button>
-                                            </div>
-                                            <div class="col">
-                                                <button type="reset" class="button is-info is-light">Reset</button>
-                                            </div>
+                                        <div class="col">
+                                            <button type="reset" class="button is-info is-light">Reset</button>
                                         </div>
                                     </div>
                                 </div>
-                            </form>
-                        </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 {% endblock %}
