@@ -52,18 +52,22 @@
     padding: 10px;
 }
 
-.blog-add-comment-link {
+.blog-add-comment-link,
+.blog-see-all-comment-link {
     color: #000;
 }
 
-.blog-add-comment-link:hover {
+.blog-add-comment-link:hover,
+.blog-see-all-comment-link:hover {
     color: #28a745;
     text-decoration: none;
 }
 
 /* post detail page */
 
-.back-to-homepage-button {
+.back-to-homepage-button,
+.post-detail-edit-button,
+.post-detail-delete-button {
     background-color: #432818;
     color: #fff;
     margin: 10px;
@@ -73,7 +77,9 @@
     border-radius: 3px;
 }
 
-.back-to-homepage-button:hover {
+.back-to-homepage-button:hover,
+.post-detail-edit-button:hover,
+.post-detail-delete-button:hover {
     color: #28a745;
     text-decoration: none;
 }
@@ -90,4 +96,75 @@
 .add-review-login-link:hover {
     color: #28a745;
     text-decoration: none;
+}
+
+.submit-comment-button,
+.reset-comment-button {
+    background-color: #432818;
+    color: #fff;
+    text-transform: uppercase;
+    border: 3px #000 solid !important;
+    border-radius: 3px;
+}
+
+.reset-comment-button,
+.post-detail-delete-button {
+    float: right;
+}
+
+.submit-comment-button:hover,
+.reset-comment-button:hover {
+    color: #28a745;
+}
+
+/* add post page */
+
+.add-blog-title-heading {
+    background-color: #432818;
+    color: #fff;
+    font-size: 70px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.submit-add-post-button,
+.cancel-add-post-button {
+    background-color: #14591d;
+    color: #fff;
+    text-transform: uppercase;
+    border: 3px #000 solid !important;
+    border-radius: 3px;
+}
+
+.submit-add-post-button:hover,
+.cancel-add-post-button:hover {
+    color: #000;
+}
+
+/* edit blog post page */
+
+.edit-blog-title-heading {
+    background-color: #432818;
+    color: #fff;
+    font-size: 70px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.edit-post-update-button,
+.cancel-post-update-button {
+    background-color: #14591d;
+    color: #fff;
+    text-transform: uppercase;
+    border: 3px #000 solid !important;
+    border-radius: 3px;
+}
+
+.edit-post-update-button:hover,
+.cancel-post-update-button:hover {
+    color: #28a745;
 }
