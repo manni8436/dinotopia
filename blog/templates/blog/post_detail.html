@@ -14,7 +14,7 @@
     <div class="container-fluid">
         <div class="row my-4">
             <div class="col-12">
-                <a href="{% url 'blog' %}" class="button">Back to blog homepage</a>
+                <a href="{% url 'blog' %}" class="button back-to-homepage-button">Back to blog homepage</a>
             </div>
         </div>
         <div class="row">
@@ -47,10 +47,10 @@
                             </div>
                         </div>
                     {% else %}
-                        <div class="columns">
-                            <div class="column">
-                                <h4 class="title-heading-small">
-                                    Please <a href="{% url 'account_login' %}">log in</a> to add a review of a product.</h4>
+                        <div class="row">
+                            <div class="col">
+                                <h4 class="add-review-box">
+                                    Please <a class="add-review-login-link" href="{% url 'account_login' %}">log in</a> to add a review of a product.</h4>
                             </div>
                         </div>
                     {% endif %}
@@ -89,10 +89,10 @@
                                 <div class="control">
                                     <div class="row">
                                         <div class="col">
-                                            <button class="button is-info">Submit</button>
+                                            <button class="btn submit-comment-button">Submit</button>
                                         </div>
                                         <div class="col">
-                                            <button type="reset" class="button is-info is-light">Reset</button>
+                                            <button type="reset" class="btn">Reset</button>
                                         </div>
                                     </div>
                                 </div>
