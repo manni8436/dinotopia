@@ -9,22 +9,22 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col">
-                <h1 class="title-heading my-3">Add A New Blog Post</h1>
+                <h1 class="add-blog-title-heading my-3">Add A New Blog</h1>
             </div>
         </div>
         <div class="row">
-            <div class="col">
+            <div class="col-8 offset-2">
                 <div class="card">
-                    <div class="card-body">
+                    <div class="card-body add-new-post-box">
                         <form action="{% url 'add_post' %}" method="POST">
                             {% csrf_token %}
                             {{ form | crispy }}
                             <div class="row">
                                 <div class="col">
-                                    <button class="button" type="submit">Add Post</button>
+                                    <button class="btn submit-add-post-button" type="submit">Add Post</button>
                                 </div>
                                 <div class="col">
-                                    <a href="{% url 'blog' %}" class="button">
+                                    <a href="{% url 'blog' %}" class="btn cancel-add-post-button">
                                         Cancel
                                     </a>
                                 </div>

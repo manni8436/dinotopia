@@ -8,12 +8,12 @@
 {% block content %}
     <div class="container-fluid">
         <div class="row">
-            <div class="col">
-                <h1 class="title-heading my-3">Edit a Blog Post</h1>
+            <div class="col-5 offset-4">
+                <h1 class="edit-blog-title-heading my-3">Edit a Blog Post</h1>
             </div>
         </div>
         <div class="row">
-            <div class="col">
+            <div class="col-9 offset-2">
                 <div class="card">
                     <div class="card-body">
                         <form action="{% url 'edit_post' post.slug %}" method="POST">
@@ -21,10 +21,10 @@
                             {{ form | crispy }}
                             <div class="row">
                                 <div class="col">
-                                    <button class="button" type="submit">Update Post</button>
+                                    <button class="btn edit-post-update-button" type="submit">Update Post</button>
                                 </div>
                                 <div class="col">
-                                    <a href="{% url 'post_detail' post.slug %}" class="button">
+                                    <a href="{% url 'post_detail' post.slug %}" class="btn cancel-post-update-button">
                                         Cancel
                                     </a>
                                 </div>
