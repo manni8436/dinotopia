@@ -140,10 +140,10 @@ body {
     color: #fff;
     margin: 40px;
     font-variant: small-caps;
-    border: 3px #000 solid !important;
     border-radius: 10px;
     display: flex;
     justify-content: center;
+    border: 3px #000 solid !important;
 }
 
 .card-img-top {
@@ -158,6 +158,57 @@ body {
 .image-card {
     background-color: #432818 !important;
     flex-basis: 300px;
+}
+
+/* add product page */
+
+.product-management-title {
+    background-color: #432818;
+    color: #fff;
+    position: relative;
+    font-size: 70px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 3px #000 solid;
+}
+
+.add-products-title {
+    background-color: #432818;
+    color: #fff;
+    position: relative;
+    font-size: 30px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 3px #000 solid;
+}
+
+.add-product-form {
+    background-color: #432818;
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    border: 3px #000 solid;
+}
+
+.add-product-add-button {
+    text-transform: uppercase;
+}
+
+.new-image-button,
+.add-product-add-button,
+.add-product-cancel-button {
+    color: #fff;
+    border: 3px #000 solid !important;
+}
+
+.new-image-button:hover,
+.add-product-add-button:hover,
+.add-product-cancel-button:hover {
+    color: #28a745;
 }
 
 /* product details page */
@@ -178,6 +229,11 @@ body {
 .product-tag {
     color: #fff !important;
     text-transform: uppercase;
+}
+
+.keep-shopping-text-and-chevron:hover,
+.add-bag-button:hover {
+    color: #28a745 !important;
 }
 
 /* shopping bag page */
@@ -201,7 +257,6 @@ body {
     padding: 20px;
     border: 3px #000 solid;
     border-radius: 10px;
-    opacity: 0.9;
 }
 
 .empty-bag-paragraph {
@@ -229,11 +284,21 @@ body {
 .bag-icon,
 .bag-secure-checkout-span-text {
     color: #fff;
+    border: 3px #000 solid !important;
 }
 
 .bag-keep-shopping-span-text:hover,
 .bag-icon:hover,
 .bag-secure-checkout-span-text:hover {
+    color: #28a745;
+}
+
+.update-link {
+    color: #17a2b8;
+}
+
+.update-link:hover,
+.remove-item:hover {
     color: #28a745;
 }
 
@@ -730,6 +795,24 @@ body {
     background-color: #dc3545;
     border-color: #dc3545;
     border-radius: 0;
+}
+
+/* log out page */
+
+.sign-out-cancel-button {
+    border: 3px solid #000 !important;
+}
+
+.sign-out-button {
+    text-transform: uppercase;
+}
+
+.sign-out-cancel-button:hover {
+    color: #28a745;
+}
+
+.sign-out-button:hover {
+    color: #28a745;
 }
 
 /* Footer */
