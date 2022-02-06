@@ -67,8 +67,8 @@
                                                 </div>
                                             </div>
                                         </form>
-                                        <a class="update-link text-info"><small>Update</small></a>
-                                        <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}"><small>Remove</small></a>
+                                        <a class="update-link text-info"><small class="update-link">Update</small></a>
+                                        <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}"><small class="remove-item">Remove</small></a>
                                     </td>
                                     <td class="py-3">
                                         <p class="my-0">£ {{ item.product.price | calc_subtotal:item.quantity|intcomma }}</p>
