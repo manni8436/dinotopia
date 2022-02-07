@@ -829,3 +829,16 @@ body {
 .footer a:hover {
     color: #14591d;
 }
+
+@media (max-width: 320px) {
+
+    /* all products page */
+
+    .products-title {
+        font-size: 2rem;
+    }
+
+    .card {
+        width: 250px !important;
+    }
+}
