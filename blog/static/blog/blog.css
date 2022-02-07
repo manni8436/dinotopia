@@ -16,6 +16,7 @@
     padding: 5px;
     text-align: center;
     text-transform: uppercase;
+    border: 3px #000 solid !important;
 }
 
 .new-post-button {
@@ -127,6 +128,11 @@
     padding: 5px;
     text-align: center;
     text-transform: uppercase;
+    border: 3px #000 solid;
+}
+
+.add-new-post-box {
+    opacity: 0.9;
 }
 
 .submit-add-post-button,
@@ -167,4 +173,27 @@
 .edit-post-update-button:hover,
 .cancel-post-update-button:hover {
     color: #28a745;
+}
+
+@media (max-width: 320px) {
+
+    /* blog page */
+
+    .blog-welcome-title {
+        font-size: 2rem;
+    }
+
+    /* add blog page */
+    .add-blog-title-heading {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 576px) { 
+
+    /* blog page */
+
+    .blog-card {
+        margin: 20px;
+    }
 }
