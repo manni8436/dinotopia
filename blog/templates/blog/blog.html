@@ -8,19 +8,19 @@
 {% block content %}
     <div class="container">
         <div class="row">
-            <div class="col-12 offset-1">
+            <div class="col-12">
                 <h2 class="blog-welcome-title my-4">Welcome to the blog!</h2>
             </div>
         </div>
         <div class="row text-center">
-        <div class="col-12 offset-1">
+        <div class="col-12">
             <a class="button new-post-button my-4" href="{% url 'add_post' %}">New Post
                 <i class="fas fa-plus-circle m-2"></i></a>
         </div>
         </div>
         <div class="row">
             {% for post in posts %}
-                <div class="col-4 offset-2 col-sm-10">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="card blog-card">
                         <div class="card-body">
                             <div class="card-title">

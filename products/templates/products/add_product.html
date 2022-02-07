@@ -15,13 +15,13 @@
     <div class="overlay"></div>
         <div class="container">
             <div class="row">
-                <div class="col-12 offset-4 col-md-6">
+                <div class="col-12">
                     <h2 class="product-management-title logo-font mb-4">Product Management</h2>
                     <h5 class="add-products-title">Add a Product</h5>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 offset-4 col-md-6">
+                <div class="col-12">
                     <form method="POST" action="{% url 'add_product' %}" class="form add-product-form mb-2" enctype="multipart/form-data">
                         {% csrf_token %}
                         {% for field in form %}
