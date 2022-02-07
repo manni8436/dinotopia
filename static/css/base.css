@@ -37,6 +37,10 @@ body {
     color: #14591d;
 }
 
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+ }
+
 /* mobile navbar */
 
 .mobile-navbar {
@@ -134,7 +138,6 @@ body {
 
 .card {
     color: #fff;
-    margin: 40px;
     font-variant: small-caps;
     border-radius: 10px;
     display: flex;
@@ -185,6 +188,7 @@ body {
 .add-product-form {
     background-color: #432818;
     color: #fff;
+    margin-bottom: 20px !important;
     padding: 10px;
     text-transform: uppercase;
     border: 3px #000 solid;
@@ -207,6 +211,45 @@ body {
     color: #28a745;
 }
 
+/* edit Product page */
+
+.edit-products-title {
+    background-color: #432818;
+    color: #fff;
+    position: relative;
+    font-size: 70px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 3px #000 solid;
+}
+
+.edit-product-form {
+    background-color: #432818;
+    color: #fff;
+    margin-bottom: 20px !important;
+    padding: 10px;
+    text-transform: uppercase;
+    border: 3px #000 solid;
+}
+
+.add-product-cancel-button {
+    color: #fff;
+    border: 3px #000 solid;
+}
+
+.edit-product-update-button {
+    color: #fff;
+    border: 3px #000 solid !important;
+    text-transform: uppercase;
+}
+
+.add-product-cancel-button:hover,
+.edit-product-update-button:hover {
+    color: #28a745;
+}
+
 /* product details page */
 
 .product-details-img-top {
@@ -216,8 +259,7 @@ body {
 
 .product-details-content-box {
     color: #fff;
-    position: relative;
-    top: 100px;
+    margin: 60px;
     text-transform: uppercase;
     border: 3px solid #000;
 }
@@ -344,6 +386,7 @@ body {
 
 .form-control {
     border: 3px #000 solid;
+    height: max-content;
 }
 
 /* toast messages */
@@ -765,7 +808,7 @@ body {
     text-align: center;
 }
 
-/* Product form */
+/* add Product form */
 
 .btn-file {
     position: relative;
@@ -839,6 +882,93 @@ body {
     }
 
     .card {
-        width: 250px !important;
+        width: 260px !important;
+    }
+
+    /* product details page */
+    
+    .product-details-img-top {
+        height: 150px !important;
+    }
+
+    .product-details-content-box {
+        width: 265px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    /* add a product page */
+
+    .product-management-title {
+        font-size: 2rem;
+    }
+
+    .add-products-title {
+        font-size: 1.4rem !important;
+    }
+
+    /* edit a product page */
+
+    .edit-products-title {
+        font-size: 1.4rem !important;
     }
 }
+
+@media (max-width: 576px) {
+
+    /* all products page */
+
+    .card {
+        width: 220px !important;
+    }
+
+    /* product details page */
+    
+    .product-details-img-top {
+        height: 350px;
+    }
+
+    .product-details-content-box {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* product details page */
+
+    .product-details-content-box {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    /* product details page */
+
+    .product-details-img-top {
+        margin: 20px !important;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    /* all products page */
+
+    .card {
+        width: 230px !important;
+    }
+
+    /* product details page */
+    
+    .product-details-img-top {
+        height: 350px;
+        margin: 50px;
+    }
+
+    .product-details-content-box {
+        margin: 30px;
+    }
+}
+
+/* .product-details-content-box to use on full screen desktop to add relative position with top 100px */
