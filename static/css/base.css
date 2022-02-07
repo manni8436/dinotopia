@@ -1,16 +1,12 @@
 /* google font lobster & permanent marker */
 
-html {
-    height: 100%;
-}
-
 body {
     background-color: #000 !important;
-    background-image: url('/media/jungle.jpg'); 
-    height: calc(100vh - 164px);
+    background: url('/media/jungle.jpg') no-repeat center center fixed;
 }
 
 /* Navbar */
+
 .topnav {
     background-color: #432818;
 }
