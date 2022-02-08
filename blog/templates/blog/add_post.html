@@ -7,13 +7,13 @@
 
 {% block content %}
     <div class="container-fluid">
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-12">
                 <h1 class="add-blog-title-heading my-3">Add A New Blog</h1>
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-12 col-lg-12 col-md-12 col-sm-12">
+            <div class="col-lg-8 col-md-8 col-sm-8">
                 <div class="card add-new-post-box">
                     <div class="card-body">
                         <form action="{% url 'add_post' %}" method="POST">

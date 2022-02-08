@@ -48,3 +48,7 @@
     margin: 0;
     height: 100%;
 }
+
+.back-to-profile-button:hover {
+    color: #28a745 !important;
+}

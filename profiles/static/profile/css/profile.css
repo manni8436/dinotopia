@@ -12,4 +12,15 @@
     padding: 5px;
     text-align: center;
     text-transform: uppercase;
+    border: 3px #000 solid;
+}
+
+.profile-update-information-button {
+    border: 3px #000 solid;
+}
+
+.profile-delivery-form,
+.profile-order-history {
+    border: 3px #000 solid;
+    margin: 10px;
 }

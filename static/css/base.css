@@ -71,6 +71,7 @@ body {
 } 
 
 /* page titles */
+
 .dino-bonanza-box {
     background-color: #432818;
     color: #fff;
@@ -91,6 +92,7 @@ body {
     padding: 5px;
     text-align: center;
     text-transform: uppercase;
+    border: 3px #000 solid;
 }
 
 /* buttons */
@@ -98,16 +100,13 @@ body {
     color: #fff !important;
     text-transform: uppercase;
     float: right;
+    border: 3px #fff solid;
     border-radius: 10px;
 }
 
 .shop-now-button:hover {
     background-color: #14591d !important;
 }
-
-.btn {
-    border: 2px #fff solid !important;
- }
 
  .text-info {
      color: #fff !important;
@@ -628,7 +627,6 @@ body {
     color: #fff;
     text-transform: uppercase;
     padding: 10px;
-    width: fit-content;
     border: 3px #000 solid;
 }
 
@@ -637,7 +635,6 @@ body {
     color: #fff;
     text-transform: uppercase;
     padding: 10px;
-    width: fit-content;
     border: 3px #000 solid;
 }
 
@@ -769,8 +766,6 @@ body {
 /* profile page */
 
 .profile-page-box {
-    position: relative;
-    left: 150px !important;
     opacity: 0.9;
 }
 
@@ -836,6 +831,13 @@ body {
     border-radius: 0;
 }
 
+/* log in page */
+
+.login-home-button,
+.sign-in-button {
+    border: 3px #000 solid !important;
+}
+
 /* log out page */
 
 .sign-out-cancel-button {
@@ -852,6 +854,13 @@ body {
 
 .sign-out-button:hover {
     color: #28a745;
+}
+
+/* sign up page */
+
+.back-to-log-in-button,
+.sign-up-button {
+    border: 3px #000 solid !important;
 }
 
 /* Footer */
@@ -879,10 +888,6 @@ body {
 
     .products-title {
         font-size: 2rem;
-    }
-
-    .card {
-        width: 260px !important;
     }
 
     /* product details page */
@@ -916,12 +921,6 @@ body {
 
 @media (max-width: 576px) {
 
-    /* all products page */
-
-    .card {
-        width: 220px !important;
-    }
-
     /* product details page */
     
     .product-details-img-top {
@@ -952,13 +951,6 @@ body {
 }
 
 @media (max-width: 1200px) {
-
-    /* all products page */
-
-    .card {
-        width: 230px !important;
-    }
-
     /* product details page */
     
     .product-details-img-top {
