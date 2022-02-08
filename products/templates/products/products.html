@@ -19,46 +19,49 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            {% for product in products %}
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
-                    <div class="card mb-3" style="width: 18rem;">
-                        <div class="image-card">
-                            {% if product.image %}
-                                <a href="{% url 'product_detail' product.id %}">
-                                    <img src="{{ product.image.url }}" class="card-img-top image-fluid" alt="{{ product.name }}">
-                                </a>
-                            {% else %}
-                                <a href="{% url 'product_detail' product.id %}">
-                                    <img class="w-100 image-fluid" src="{{ MEDIA_URL }}generic-image.jpg" alt="{{ product.name }}">
-                                </a>
-                            {% endif %}
-                        </div>
-                        <div class="card-body">
-                            <h4 class="product-name">{{ product.name }}</h4>
-                            <p class="card-text trunc">{{ product.description }}</p>
-                            <p class="card-text">£ {{ product.price|intcomma }}</p>
-                            {% if product.category %}
-                                <p class="small mt-1 mb-0">
-                                    <a href="{% url 'products' %}?category={{ product.category.name }}" class="product-tag">
-                                        <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
+            <div class="card-deck">
+                {% for product in products %}
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
+                        <div class="card m-5" style="width: 18rem;">
+                            <div class="image-card">
+                                {% if product.image %}
+                                    <a href="{% url 'product_detail' product.id %}">
+                                        <img src="{{ product.image.url }}" class="card-img-top img-fluid" alt="{{ product.name }}">
                                     </a>
-                                </p>
-                            {% endif %}
-                            {% if product.rating %}
-                                <p class="card-text"><i class="fas fa-star"></i> {{ product.rating }}</p>
-                            {% else %}
-                                <p class="card-text">Currently no rating</p>
-                            {% endif %}
-                            {% if request.user.is_superuser %}
-                                <small class="ml-3">
-                                    <a href="{% url 'edit_product' product.id %}">Edit</a>
-                                    <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
-                                </small>
-                            {% endif %}
+                                {% else %}
+                                    <a href="{% url 'product_detail' product.id %}">
+                                        <img class="w-100 img-fluid" src="{{ MEDIA_URL }}generic-image.jpg"
+                                            alt="{{ product.name }}">
+                                    </a>
+                                {% endif %}
+                            </div>
+                            <div class="card-body">
+                                <h4 class="product-name">{{ product.name }}</h4>
+                                <p class="card-text trunc">{{ product.description }}</p>
+                                <p class="card-text">£ {{ product.price|intcomma }}</p>
+                                {% if product.category %}
+                                    <p class="small mt-1 mb-0">
+                                        <a href="{% url 'products' %}?category={{ product.category.name }}" class="product-tag">
+                                            <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
+                                        </a>
+                                    </p>
+                                {% endif %}
+                                {% if product.rating %}
+                                    <p class="card-text"><i class="fas fa-star"></i> {{ product.rating }}</p>
+                                {% else %}
+                                    <p class="card-text">Currently no rating</p>
+                                {% endif %}
+                                {% if request.user.is_superuser %}
+                                    <small class="ml-3">
+                                        <a href="{% url 'edit_product' product.id %}">Edit</a>
+                                        <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
+                                    </small>
+                                {% endif %}
+                            </div>
                         </div>
                     </div>
-                </div>
-            {% endfor %}
+                {% endfor %}
+            </div>
         </div>
     </div>
 {% endblock %}

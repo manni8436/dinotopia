@@ -18,17 +18,17 @@
             <div class="image-container my-5">
                 {% if product.image %}
                     <a href="{{ product.image.url }}" target="_blank">
-                        <img src="{{ product.image.url }}" class="product-details-img-top image-fluid" alt="{{ product.name }}">
+                        <img src="{{ product.image.url }}" class="product-details-img-top img-fluid" alt="{{ product.name }}">
                     </a>
                 {% else %}
                     <a href="">
-                        <img src="{{ MEDIA_URL }}generic-image.jpg" class="card-img-top image-fluid" alt="{{ product.name }}">
+                        <img src="{{ MEDIA_URL }}generic-image.jpg" class="card-img-top img-fluid" alt="{{ product.name }}">
                     </a>
                 {% endif %}
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-6">
-            <div class="product-details-container">
+            <div class="product-details-container my-5">
                 <div class="card-body product-details-content-box">
                     <h4 class="product-name">{{ product.name }}</h4>
                     <p class="card-text">{{ product.description }}</p>
