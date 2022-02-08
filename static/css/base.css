@@ -144,11 +144,6 @@ body {
     border: 3px #000 solid !important;
 }
 
-.card-img-top {
-    background-color: #432818 !important;
-    padding: 8px;
-}
-
 .card-body {
     background-color: #14591d !important;
 }
@@ -162,12 +157,6 @@ body {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-}
-
-img.card-img-top {
-    width: 100%;
-    height: 19vw;
-    object-fit: contain;
 }
 
 /* add product page */
@@ -263,14 +252,8 @@ img.card-img-top {
 
 /* product details page */
 
-.product-details-img-top {
-    position: relative;
-    height: 500px;
-}
-
 .product-details-content-box {
     color: #fff;
-    margin: 60px;
     text-transform: uppercase;
     border: 3px solid #000;
 }
@@ -291,21 +274,26 @@ img.card-img-top {
     background-color: #432818;
     color: #fff;
     position: relative;
-    font-size: 70px;
+    font-size: 3em;
     margin: 10px;
     padding: 5px;
     text-align: center;
     text-transform: uppercase;
+    border: 3px #000 solid !important;
+}
+
+.table {
+    color: #fff;
 }
 
 .shopping-bag-content {
     background-color: #432818;
-    color: #fff;
-    position: relative;
-    width: fit-content;
-    padding: 20px;
+    color: #fff !important;
+    padding: 10px;
+    text-transform: uppercase;
     border: 3px #000 solid;
     border-radius: 10px;
+    opacity: 0.9;
 }
 
 .empty-bag-paragraph {
@@ -322,6 +310,12 @@ img.card-img-top {
     text-transform: uppercase;
     border: 3px #000 solid !important;
     border-radius: 10px;
+}
+
+.btn-group-lg > .btn, .btn-lg {
+    color: #fff;
+    margin: 10px;
+    border: 3px #000 solid;
 }
 
 .chevron-arrow,
@@ -349,6 +343,10 @@ img.card-img-top {
 .update-link:hover,
 .remove-item:hover {
     color: #28a745;
+}
+
+.bag-total-section {
+    color: #fff;
 }
 
 /* checkout page */
@@ -902,23 +900,8 @@ img.card-img-top {
         font-size: 2rem;
     }
 
-    img.card-img-top {
-        width: 100%;
-        height: 80vw;
-        object-fit: contain;
-    }
-
     /* product details page */
-    
-    .product-details-img-top {
-        height: 150px !important;
-    }
 
-    .product-details-content-box {
-        width: 265px;
-        margin: 10px;
-        padding: 10px;
-    }
 
     /* add a product page */
 
@@ -936,51 +919,12 @@ img.card-img-top {
         font-size: 1.4rem !important;
     }
 
-
 }
 
-@media (max-width: 576px) {
-
-    /* product details page */
-    
-    .product-details-img-top {
-        height: 350px;
-    }
-
-    .product-details-content-box {
-        margin: 10px;
+@media only screen and (min-width: 1200px) {
+    img.card-img-top {
+        width: 100%;
+        height: 19vw;
+        object-fit: contain;
     }
 }
-
-@media (max-width: 768px) {
-
-    /* product details page */
-
-    .product-details-content-box {
-        margin: 20px;
-    }
-}
-
-@media (max-width: 992px) {
-
-    /* product details page */
-
-    .product-details-img-top {
-        margin: 20px !important;
-    }
-}
-
-@media (max-width: 1200px) {
-    /* product details page */
-    
-    .product-details-img-top {
-        height: 350px;
-        margin: 50px;
-    }
-
-    .product-details-content-box {
-        margin: 30px;
-    }
-}
-
-/* .product-details-content-box to use on full screen desktop to add relative position with top 100px */
