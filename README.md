@@ -5,7 +5,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/manni8436/dinotopia)
 ![GitHub top language](https://img.shields.io/github/languages/top/manni8436/dinotopia)
 
-[Here is a link to the live final project]()
+[Here is a link to the live final project](https://dinotopia.herokuapp.com/)
 
 ## INITIAL IDEA
 My initial idea behind Dinotopia is to make a eCommerce site about Dinosaurs, where anyone will be able to purchase their own
