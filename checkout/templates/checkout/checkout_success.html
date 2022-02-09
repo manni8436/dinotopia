@@ -24,7 +24,7 @@
                 <hr>
                 <h2 class="checkout-thank-you-message mb-4">Thank You for your order</h2>
                 <hr>
-                <p class="checkout-order-information-message">Your order information is below. A confirmation email will be sent to <strong class="checkout-order-email">{{ order.email }}</strong>.</p>
+                <p class="checkout-order-information-message">Your order information is below. A confirmation email will be sent to <strong class="checkout-order-email">{{ order.email }}</strong></p>
             </div>
         </div>
         <div class="row justify-content-center">
@@ -168,7 +168,7 @@
                             <p class="mb-0">Order Total</p>
                         </div>
                         <div class="col-12 col-md-8 text-md-right">
-                            <p class="mb-0">{{ order.order_total|intcomma }}</p>
+                            <p class="mb-0">£ {{ order.order_total|floatformat:0|intcomma }}</p>
                         </div>
                     </div>
 
@@ -177,7 +177,7 @@
                             <p class="mb-0">Delivery Charges</p>
                         </div>
                         <div class="col-12 col-md-8 text-md-right">
-                            <p class="mb-0">{{ order.delivery_cost|intcomma }}</p>
+                            <p class="mb-0">£ {{ order.delivery_cost|floatformat:0|intcomma }}</p>
                         </div>
                     </div>
 
@@ -186,7 +186,7 @@
                             <p class="mb-0">Grand Total</p>
                         </div>
                         <div class="col-12 col-md-8 text-md-right">
-                            <p class="mb-0">{{ order.grand_total|intcomma }}</p>
+                            <p class="mb-0">£ {{ order.grand_total|floatformat:0|intcomma }}</p>
                         </div>
                     </div>
                 </div>
