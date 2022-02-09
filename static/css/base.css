@@ -86,10 +86,7 @@ body {
 .products-title {
     background-color: #432818;
     color: #fff;
-    position: relative;
-    font-size: 70px;
     margin: 10px;
-    padding: 5px;
     text-align: center;
     text-transform: uppercase;
     border: 3px #000 solid;
@@ -164,10 +161,7 @@ body {
 .product-management-title {
     background-color: #432818;
     color: #fff;
-    position: relative;
-    font-size: 70px;
     margin: 10px;
-    padding: 5px;
     text-align: center;
     text-transform: uppercase;
     border: 3px #000 solid;
@@ -176,10 +170,7 @@ body {
 .add-products-title {
     background-color: #432818;
     color: #fff;
-    position: relative;
-    font-size: 30px;
     margin: 10px;
-    padding: 5px;
     text-align: center;
     text-transform: uppercase;
     border: 3px #000 solid;
@@ -216,10 +207,7 @@ body {
 .edit-products-title {
     background-color: #432818;
     color: #fff;
-    position: relative;
-    font-size: 70px;
     margin: 10px;
-    padding: 5px;
     text-align: center;
     text-transform: uppercase;
     border: 3px #000 solid;
@@ -273,10 +261,7 @@ body {
 .shopping-bag-title {
     background-color: #432818;
     color: #fff;
-    position: relative;
-    font-size: 3em;
     margin: 10px;
-    padding: 5px;
     text-align: center;
     text-transform: uppercase;
     border: 3px #000 solid !important;
@@ -315,6 +300,21 @@ body {
 .btn-group-lg > .btn, .btn-lg {
     color: #fff;
     margin: 10px;
+}
+
+i.fas.fa-plus.fa-sm {
+    color: white;
+}
+
+i.fas.fa-minus.fa-sm {
+    color: white;
+}
+
+.btn-group-sm > .btn, .btn-sm {
+    background-color: #000;
+}
+
+.btn-group-lg > .btn, .btn-lg {
     border: 3px #000 solid;
 }
 
@@ -357,15 +357,17 @@ body {
     text-transform: uppercase;
 }
 
+#submit-button, .adjust-bag-and-chevron-icon {
+    margin: 5px;
+    border: 3px #000 solid;
+}
+
 /* checkout success page */
 
 .checkout-success-title {
     background-color: #432818;
     color: #fff;
-    position: relative;
-    font-size: 35px;
     margin: 10px;
-    padding: 5px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -599,12 +601,10 @@ body {
 .checkout-title {
     background-color: #432818;
     color: #fff;
-    position: relative;
-    font-size: 70px;
     margin: 10px;
-    padding: 5px;
     text-align: center;
     text-transform: uppercase;
+    border: 3px #000 solid;
 }
 
 .checkout-content {
@@ -643,7 +643,7 @@ body {
 .checkout-order-information-message {
     background-color: #14591d;
     color: #fff;
-    text-transform: uppercase;
+    font-variant: small-caps;
     padding: 10px;
     border: 3px #000 solid;
 }
@@ -655,6 +655,7 @@ body {
 .order-confirmation-wrapper {
     background-color: #432818;
     color: #fff;
+    font-size: 15px;
     text-transform: uppercase;
     border: 3px #000 solid !important;
 }
@@ -676,8 +677,6 @@ body {
 .allauth-form-box {
     background-color: #432818;
     color: #fff;
-    left: 150px;
-    margin: 90px;
     text-transform: uppercase;
     border: 3px solid #000;
 }
@@ -890,35 +889,6 @@ body {
 .footer li:hover,
 .footer a:hover {
     color: #14591d;
-}
-
-@media (max-width: 320px) {
-
-    /* all products page */
-
-    .products-title {
-        font-size: 2rem;
-    }
-
-    /* product details page */
-
-
-    /* add a product page */
-
-    .product-management-title {
-        font-size: 2rem;
-    }
-
-    .add-products-title {
-        font-size: 1.4rem !important;
-    }
-
-    /* edit a product page */
-
-    .edit-products-title {
-        font-size: 1.4rem !important;
-    }
-
 }
 
 @media only screen and (min-width: 1200px) {
