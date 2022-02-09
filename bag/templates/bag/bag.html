@@ -22,7 +22,7 @@
         </div>
     </div>
 
-    <div class="row shopping-bag-content">
+    <div class="row shopping-bag-content mx-1 my-5">
         <div class="col">
             {% if bag_items %}
             <div class="d-block d-md-none">
@@ -47,7 +47,7 @@
                             </span>
                             <span class="text-uppercase">Keep Shopping</span>
                         </a>
-                        <a href="{% url 'checkout' %}" class="btn btn-black rounded-0 btn-lg">
+                        <a href="{% url 'checkout' %}" class="btn btn-black btn-lg">
                             <span class="text-uppercase">Secure Checkout</span>
                             <span class="icon">
                                 <i class="fas fa-lock"></i>
@@ -71,7 +71,7 @@
                         </div>
                         <div class="col-12 col-sm-6 order-sm-last">
                             <p class="my-0">Price Each: £ {{ item.product.price|floatformat:0|intcomma }}</p>
-                            <p><strong>Subtotal: </strong>£ {{ item.product.price | calc_subtotal:item.quantity|floatformat:0|intcomma }}</p>
+                            <p><strong>Subtotal: </strong>£ {{ item.product.price | calc_subtotal:item.quantity|intcomma }}</p>
                         </div>
                         <div class="col-12 col-sm-6">
                             <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
@@ -144,7 +144,7 @@
                             <p class="my-0"><strong>{{ item.product.name }}</strong></p>
                         </td>
                         <td class="py-3">
-                            <p class="my-0">£ {{ item.product.price }}</p>
+                            <p class="my-0">£ {{ item.product.price|intcomma }}</p>
                         </td>
                         <td class="py-3 w-25">
                             <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
@@ -177,7 +177,7 @@
                             <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}"><small class="remove-item">Remove</small></a>
                         </td>
                         <td class="py-3">
-                            <p class="my-0">${{ item.product.price | calc_subtotal:item.quantity }}</p>
+                            <p class="my-0">£ {{ item.product.price | calc_subtotal:item.quantity|intcomma }}</p>
                         </td>
                     </tr>
                     {% endfor %}
@@ -188,7 +188,7 @@
                             <h4 class="mt-4"><strong>Grand Total: £ {{ grand_total|floatformat:0|intcomma }}</strong></h4>
                             {% if free_delivery_delta > 0 %}
                             <p class="mb-1 text-danger">
-                                You could get free delivery by spending just <strong>${{ free_delivery_delta|floatformat:0|intcomma }}</strong>
+                                You could get free delivery by spending just <strong>£ {{ free_delivery_delta|floatformat:0|intcomma }}</strong>
                                 more!
                             </p>
                             {% endif %}
