@@ -83,20 +83,6 @@
         }
     },
     {
-        "pk": 7,
-        "model": "products.product",
-        "fields": {
-            "sku": "old-dino-1",
-            "name": "T-rex",
-            "description": "a carnivorous Dinosaur from the late jurassic period",
-            "rating": "5",
-            "price": "5000",
-            "image_url": "https://www.pngaaa.com/detail/1013890",
-            "image": "tyrannosaurus.png",
-            "category": "5"
-        }
-    },
-    {
         "pk": 8,
         "model": "products.product",
         "fields": {

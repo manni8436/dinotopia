@@ -23,14 +23,6 @@
         }
     },
     {
-        "pk": 4,
-        "model": "products.category",
-        "fields": {
-            "name": "old_dinosaurs",
-            "friendly_name": "Old Dinosaurs"
-        }
-    },
-    {
         "pk": 5,
         "model": "products.category",
         "fields": {
