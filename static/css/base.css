@@ -70,6 +70,12 @@ body {
     border-color: rgb(255,255,255) !important;
 } 
 
+/* home page */
+
+.educational-purposes-text {
+    text-transform: uppercase;
+}
+
 /* page titles */
 
 .dino-bonanza-box {
@@ -311,6 +317,14 @@ i.fas.fa-minus.fa-sm {
     color: white;
 }
 
+i.fas.fa-plus.fa-sm:hover {
+    color: #28a745;
+}
+
+i.fas.fa-minus.fa-sm:hover {
+    color: #28a745;
+}
+
 .btn-group-sm > .btn, .btn-sm {
     background-color: #000;
 }
@@ -398,7 +412,7 @@ i.fas.fa-minus.fa-sm {
 
 .form-control {
     border: 3px #000 solid;
-    height: max-content;
+    height: max-content !important;
 }
 
 /* toast messages */
@@ -887,7 +901,10 @@ i.fas.fa-minus.fa-sm {
     display: inline;
 }
 
-.footer li:hover,
 .footer a:hover {
     color: #14591d;
+} 
+
+.social-media-icons {
+    font-size: 48px !important;
 }
