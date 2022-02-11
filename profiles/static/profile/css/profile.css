@@ -16,11 +16,20 @@
 }
 
 .profile-update-information-button {
+    background-color: #14591d;
     border: 3px #000 solid;
+}
+
+.profile-update-information-button:hover {
+   color: #ffff2d;
 }
 
 .profile-delivery-form,
 .profile-order-history {
     border: 3px #000 solid;
     margin: 10px;
+}
+
+.order-number-link:hover {
+    color: #ffff2d;
 }
