@@ -59,12 +59,12 @@ for mobile, tablet, and desktop devices. The user will be able to navigate easil
 
 ### USER STORIES
 
-The structure of the site was designed to be simple and easy to use. It has a good balance of images and content, so 
-it does not overload the user, while giving them enough information about the products that they are planning to purchase
+The structure of the site is designed to be simple and easy to use. It has a good balance of images and content, so 
+it does not overload the user, while allowing the user to have all the information they require to make a purchase,
 and doesn't leave the user needing more information to carry out all steps needed on the site.
 
 * The website is for the following user types:
-  * Users who are curious at looking at Dinosaurs, what they looked like and have been recommended this site.
+  * Users who are curious at looking at Dinosaurs
   * Users who are browsing to look for their first purchase.
   * Users who are going to make their next purchase and increase their personal collection.
   * Users who are browsing to purchase something as a gift.
@@ -82,7 +82,8 @@ and doesn't leave the user needing more information to carry out all steps neede
 
 #### FIRST TIME VISITORS
 
-* I want the site to be easy to understand on how to navigate throughout the site.
+* I want the site to be easy to understand
+* I want the user how to navigate throughout the site easily.
 * I want the user to be able to create an account easily.
 * I want the content to be easily read and understandable.
 * I want the checkout process to be straightforward and easy to understand.
@@ -92,7 +93,7 @@ and doesn't leave the user needing more information to carry out all steps neede
 
 * To be able to login.
 * To be able to view previous orders.
-* To be able to Create, Read, Update and Delete products.
+* To be able to Create, Read, Update and Delete blogs.
 * To Recommend the site to friends and family.
 * To make new purchases with saved details.
 
@@ -111,13 +112,15 @@ and doesn't leave the user needing more information to carry out all steps neede
 
 ### COLOR THEME
 
-These colors were chosen to connect to a jungle theme. The green has been used to resemble leaves, and the brown resembles the tree trunks and/or ground. This relates to the way that the Dinosaurs lived in the wild. Black was using for form borders and also in the case the background image fails to load correctly, Lastly the `#28A745` shade of green was used for the hover affect and white was chosen as to make the content stand out and be easily readable, ensuring full AAA WCAG colour contrast compliance.
+These colors were chosen to connect to a jungle theme. The green has been used to resemble leaves, and the brown resembles the tree trunks and/or ground. This relates to the way that the Dinosaurs lived in the wild. 
+
+Black was used for form borders, also in the case the background image fails to load correctly, Lastly the `#28A745` shade of green was used for the hover affect, while the white was chosen as to make the content stand out and be easily readable, ensuring full AAA WCAG colour contrast compliance.
 
 ![site colours](static/docs/images/readme-images/color-theme.png)
 
 ### WIREFRAMES
 
-Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported into a pdf format, which can be viewed [Here](static/docs/wireframes/MS4-wireframes.pdf)
+Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported into a pdf format, which can be viewed [here](static/docs/wireframes/MS4-wireframes.pdf)
 
 [Back To Top](#dinotopia)
 
@@ -133,7 +136,7 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported int
 
 ### DATABASE SCHEMA
 
-Database schema were created using [Lucid Chart](https://lucid.co/?gclid=CjwKCAiAzrWOBhBjEiwAq85QZ_xqCMuCxDBFQ8nYCYusbaLl5e8E1E2Ny0sW8Wl7CEZRYSDvAcEE1hoCMHMQAvD_BwE&km_CPC_AdGroupID=55688909257&km_CPC_AdPosition=&km_CPC_CampaignId=1490375427&km_CPC_Country=9045962&km_CPC_Creative=442433236001&km_CPC_Device=c&km_CPC_ExtensionID=&km_CPC_Keyword=lucidchart&km_CPC_MatchType=e&km_CPC_Network=g&km_CPC_TargetID=aud-921551091782%3Akwd-33511936169&km_CPC_placement=&km_CPC_target=&utm_campaign=_chart_en_tier1_mixed_search_brand_exact_&utm_medium=cpc&utm_source=google&_gl=1*1x1hjt1*_gcl_aw*R0NMLjE2NDA4NzczMDEuQ2p3S0NBaUF6cldPQmhCakVpd0FxODVRWl94cUNNdUN4REJGUThuWUNZdXNiYUxsNWU4RTFFMk55MHNXOFdsN0NFWlJZU0R2QWNFRTFob0NNSE1RQXZEX0J3RQ..) and exported into a pdf format, which can be viewed [Here](static/docs/database-schema/MS4-Project.pdf)
+Database schema were created using [Lucid Chart](https://lucid.co/?gclid=CjwKCAiAzrWOBhBjEiwAq85QZ_xqCMuCxDBFQ8nYCYusbaLl5e8E1E2Ny0sW8Wl7CEZRYSDvAcEE1hoCMHMQAvD_BwE&km_CPC_AdGroupID=55688909257&km_CPC_AdPosition=&km_CPC_CampaignId=1490375427&km_CPC_Country=9045962&km_CPC_Creative=442433236001&km_CPC_Device=c&km_CPC_ExtensionID=&km_CPC_Keyword=lucidchart&km_CPC_MatchType=e&km_CPC_Network=g&km_CPC_TargetID=aud-921551091782%3Akwd-33511936169&km_CPC_placement=&km_CPC_target=&utm_campaign=_chart_en_tier1_mixed_search_brand_exact_&utm_medium=cpc&utm_source=google&_gl=1*1x1hjt1*_gcl_aw*R0NMLjE2NDA4NzczMDEuQ2p3S0NBaUF6cldPQmhCakVpd0FxODVRWl94cUNNdUN4REJGUThuWUNZdXNiYUxsNWU4RTFFMk55MHNXOFdsN0NFWlJZU0R2QWNFRTFob0NNSE1RQXZEX0J3RQ..) and exported into a pdf format, which can be viewed [here](static/docs/database-schema/MS4-Project.pdf)
 
 ## TECHNOLOGIES
 
@@ -183,7 +186,9 @@ keep track of the project development by splitting tasks into smaller and more m
 
 ## SOLVED BUGS
 
-1. During the development process a bug was found causing my dropdown menu button on mobile and tablet devices to stop working, when initially the dropdown button was working, after closer inspection on this issue, it turned out that I had changed and I had imported the wrong script, which was rectified by changing the script to the one below.
+1. During the development process a bug was found causing my dropdown menu button on mobile and tablet devices to stop working, when initially the dropdown button was working.
+
+After closer inspection on this issue, it turned out that I had changed and I had imported the wrong script tag, which was rectified by changing the script to the one below.
 
 ![dropdown menu bug](static/docs/images/readme-images/dropdown-menu-bug.png)
 
