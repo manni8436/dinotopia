@@ -902,8 +902,12 @@ i.fas.fa-minus.fa-sm:hover {
 }
 
 .footer a:hover {
-    color: #14591d;
+    color: #28a745;
 } 
+
+a:hover {
+    text-decoration: none;
+}
 
 .social-media-icons {
     font-size: 48px !important;
