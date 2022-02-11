@@ -26,7 +26,7 @@ body {
 .navbar-brand:hover,
 .nav-link:hover,
 .search-button:hover {
-    color: #28a745;
+    color: #FFFF2D;
 }
 
 .navbar-toggler {
@@ -438,7 +438,6 @@ i.fas.fa-minus.fa-sm:hover {
 
 .success-close {
     color: #28a745;
-    text-shadow: 0 1px 0 #28a745;
 }
 
 .success-toast-body {
@@ -450,15 +449,6 @@ i.fas.fa-minus.fa-sm:hover {
 
 .bg-success {
     background-color: #28a745 !important;
-}
-
-.secure-checkout-button {
-    color: #fff;
-    border: 2px #28a745 solid !important;
-}
-
-.secure-checkout-button:hover {
-    color: #28a745;
 }
 
 /* error toast */
@@ -645,28 +635,6 @@ i.fas.fa-minus.fa-sm:hover {
     color: #28a745;
 }
 
-/* checkout success page */
-
-.checkout-thank-you-message {
-    background-color: #432818;
-    color: #fff;
-    text-transform: uppercase;
-    padding: 10px;
-    border: 3px #000 solid;
-}
-
-.checkout-order-information-message {
-    background-color: #14591d;
-    color: #fff;
-    font-variant: small-caps;
-    padding: 10px;
-    border: 3px #000 solid;
-}
-
-.checkout-order-email {
-    color: #000;
-}
-
 .order-confirmation-wrapper {
     background-color: #432818;
     color: #fff;
@@ -687,6 +655,15 @@ i.fas.fa-minus.fa-sm:hover {
     color: #28a745;
 }
 
+.secure-checkout-button {
+    color: #fff;
+    border: 2px #28a745 solid !important;
+}
+
+.secure-checkout-button:hover {
+    color: #28a745;
+}
+
 /* Allauth form formatting */
 
 .allauth-form-box {
@@ -703,7 +680,7 @@ i.fas.fa-minus.fa-sm:hover {
 
 .sign-up-link-text,
 .sign-in-link-text {
-    color: #000 !important;
+    color: #FFFF2D !important;
     font-weight: bolder;
 }
 
@@ -902,7 +879,7 @@ i.fas.fa-minus.fa-sm:hover {
 }
 
 .footer a:hover {
-    color: #28a745;
+    color: #FFFF2D;
 } 
 
 a:hover {
