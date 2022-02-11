@@ -1,3 +1,23 @@
+.checkout-thank-you-message {
+    background-color: #432818;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    border: 3px #000 solid;
+}
+
+.checkout-order-information-message {
+    background-color: #14591d;
+    color: #fff;
+    font-variant: small-caps;
+    padding: 10px;
+    border: 3px #000 solid;
+}
+
+.checkout-order-email {
+    color: #FFFF2d;
+}
+
 .StripeElement,
 .stripe-style-input {
     box-sizing: border-box;
