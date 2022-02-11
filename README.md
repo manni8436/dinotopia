@@ -116,6 +116,8 @@ These colors were chosen to connect to a jungle theme. The green has been used t
 
 Black was used for form borders, also in the case the background image fails to load correctly, Lastly the `#28A745` shade of green was used for the hover affect, while the white was chosen as to make the content stand out and be easily readable, ensuring full AAA WCAG colour contrast compliance.
 
+Lastly using the yellow color so the user knows what the have hovering over while traversing the site.
+
 ![site colours](static/docs/images/readme-images/color-theme.png)
 
 ### WIREFRAMES
