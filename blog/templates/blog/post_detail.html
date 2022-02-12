@@ -41,8 +41,36 @@
                                     <a href="{% url 'edit_post' post.slug %}" class="btn post-detail-edit-button">Edit Post</a>
                                 </div>
                                 <div class="col">
-                                    <a href="{% url 'delete_post' post.slug %}" class="btn post-detail-delete-button">Delete
-                                        Post</a>
+                                     <!-- Button trigger modal -->
+                                    <button type="button" class="btn text-danger delete-blog-modal-button" data-toggle="modal" data-target="#blogDeleteModal">
+                                        Delete
+                                    </button>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="blogDeleteModal" tabindex="-1" role="dialog"
+                                    aria-labelledby="deleteBlogTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content blog-delete-modal">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="deleteBlogTitle">Delete
+                                                    {{ post.title }} blog</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h4>
+                                                    Are you sure you want to delete
+                                                    <span> {{ post.title }}?</span>
+                                                </h4>
+                                                <p class="text-danger">This action cannot be undone!!!</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <a class="btn text-danger blog-modal-delete-button" href="{% url 'delete_post' post.slug %}">Delete</a>
+                                                <button type="button" class="btn btn-secondary blog-modal-cancel-button" data-dismiss="modal">Cancel</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 </div>
                             </div>
                         {% else %}
