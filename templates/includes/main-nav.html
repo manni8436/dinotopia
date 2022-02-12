@@ -6,7 +6,6 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="all-products-link">
                 <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
-                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item">By Rating</a>
                 <a href="{% url 'products' %}" class="dropdown-item">all Products</a>
             </div>
         </li>
@@ -16,7 +15,6 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="all-dino-egg-link">
                 <a href="{% url 'products' %}?category=dinosaur_eggs,sort=price&direction=asc" class="dropdown-item">By Price</a>
-                <a href="{% url 'products' %}?category=dinosaur_eggs,sort=rating&direction=desc" class="dropdown-item">By Rating</a>
                 <a href="{% url 'products' %}?category=dinosaur_eggs" class="dropdown-item">all dinosaur eggs</a>
             </div>
         </li>
@@ -26,7 +24,6 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="all-young-dino-link">
                 <a href="{% url 'products' %}?category=baby_dinosaurs,sort=price&direction=asc" class="dropdown-item">By Price</a>
-                <a href="{% url 'products' %}?category=baby_dinosaurs,sort=rating&direction=desc" class="dropdown-item">By Rating</a>
                 <a href="{% url 'products' %}?category=baby_dinosaurs" class="dropdown-item">all baby dinosaurs</a>
             </div>
         </li>
@@ -36,7 +33,6 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="all-adult-dino-link">
                 <a href="{% url 'products' %}?category=adult_dinosaurs,sort=price&direction=asc" class="dropdown-item">By Price</a>
-                <a href="{% url 'products' %}?category=adult_dinosaurs,sort=rating&direction=desc" class="dropdown-item">By Rating</a>
                 <a href="{% url 'products' %}?category=adult_dinosaurs" class="dropdown-item">all adult dinosaurs</a>
             </div>
         </li>
@@ -46,7 +42,6 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="all-fossils-link">
                 <a href="{% url 'products' %}?category=dinosaur_fossils,sort=price&direction=asc" class="dropdown-item">By Price</a>
-                <a href="{% url 'products' %}?category=dinosaur_fossils,sort=rating&direction=desc" class="dropdown-item">By Rating</a>
                 <a href="{% url 'products' %}?category=dinosaur_fossils" class="dropdown-item">all fossils</a>
             </div>
         </li>
