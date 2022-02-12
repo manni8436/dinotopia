@@ -14,7 +14,7 @@ for mobile, tablet, and desktop devices. The user will be able to navigate easil
 
 ## FINAL DESIGN
 
-![Final project image home page]()
+![Final project image](static/docs/images/readme-images/responsive-image.png)
 
 ## CONTENTS
 
