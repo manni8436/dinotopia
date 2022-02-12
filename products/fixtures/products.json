@@ -5,7 +5,6 @@
             "sku": "egg-1",
             "name": "T-rex",
             "description": "a Dinosaur egg for a T-Rex, this egg can take between three to six months before hatching.",
-            "rating": "2",
             "price": "30000",
             "image_url": "https://www.pngaaa.com/detail/1393984",
             "image": "t-rex-egg.png",
@@ -19,7 +18,6 @@
             "sku": "baby-dino-1",
             "name": "T-rex",
             "description": "this baby T-Rex can grow up to twelve metres in length, and between four to six metres in height when fully grown.",
-            "rating": "3",
             "price": "300000",
             "image_url": "https://www.pngaaa.com/detail/1410440",
             "image": "baby-t-rex.png",
@@ -33,7 +31,6 @@
             "sku": "dino-1",
             "name": "Acrocanthosaurus",
             "description": "Acrocanthosaurus, lived around the Early Creataceous period, it has similar features to the T-Rex as in the height, walking style and both being carnivorous.",
-            "rating": "5",
             "price": "300000",
             "image_url": "https://www.pngaaa.com/detail/1410440",
             "image": "acrocanthosaurus.png",
@@ -45,13 +42,12 @@
         "model": "products.product",
         "fields": {
             "sku": "dino-2",
-            "name": "Afrovenator",
-            "description": "Afrovenator was from the Early Creataceous period, standing at nine metres tall, walking on two legs and a carnivore.",
-            "rating": "4",
+            "name": "Ankylosaurus",
+            "description": "Ankylosaurus was one of the largest armoured Dinosaurus, Ankylosaurus had a wide, heavily armoured skull and a large tail club for defending itself from other predators",
             "price": "300000",
-            "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Afrovenator_reconstruction.png",
-            "image": "afrovenator.png",
-            "category": "3"
+            "image_url": "https://www.pngaaa.com/detail/4687929",
+            "image": "ankylosaurus.png",
+            "category": "2"
         }
     },
     {
@@ -61,7 +57,6 @@
             "sku": "dino-3",
             "name": "Albertosaurus",
             "description": "Albertosaurus, is a large theropod from the Late Creataceous period, nine metres long with saw-edged, flesh slicing teeth and weighing in around 1500kg.",
-            "rating": "5",
             "price": "300000",
             "image_url": "https://images.dinosaurpictures.org/Primeval_Continued_Albertosaurus_promo_d158.jpg",
             "image": "albertosaurus.png",
@@ -75,7 +70,6 @@
             "sku": "dino-4",
             "name": "Allosaurus",
             "description": "Allosaurus is from the late jurassic period, a carnivorous theropod with dagger-like teeth with serrated edges which were around 5-10cm long, curved backwards.",
-            "rating": "4",
             "price": "350000",
             "image_url": "https://www.pngaaa.com/detail/1483363",
             "image": "allosaurus.png",
@@ -83,17 +77,185 @@
         }
     },
     {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "dino-5",
+            "name": "Archaeornithomimus ",
+            "description": "A carnivorous Dinosaur from the late cretaceous period, Archaeornithomimus is a small theropod which grew to be around 3.5metres in length.",
+            "price": "1000",
+            "image_url": "https://www.pngaaa.com/detail/3137367",
+            "image": "archaeornithomimus.png",
+            "category": "3"
+        }
+    },
+    {
         "pk": 8,
         "model": "products.product",
         "fields": {
-            "sku": "fossil-1",
-            "name": "T-rex Fossil",
-            "description": "a carnivorous Dinosaur from the late jurassic period",
-            "rating": "5",
+            "sku": "dino-6",
+            "name": "Baryonyx",
+            "description": "Baryonyx is a carnivorous Dinosaur from the early cretaceous period, Baryonyx was a large theropod which moved on two legs, weighting in 2000kg and 10 metres in length with sharp, finely serrated teeth",
             "price": "1000",
-            "image_url": "https://www.pngaaa.com/detail/753306",
-            "image": "t-rex-fossil.png",
-            "category": "5"
+            "image_url": "https://www.pngaaa.com/detail/2466052",
+            "image": "baryonyx.png",
+            "category": "3"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku": "dino-7",
+            "name": "Carnotaurus",
+            "description": "Carnotaurus is a large carnivorous theropod,  7.6 metres in length, not much is known about this Dinosaur but he originated from Argentina",
+            "price": "1000",
+            "image_url": "https://www.pngaaa.com/detail/1482288",
+            "image": "carnotaurus.png",
+            "category": "3"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku": "dino-8",
+            "name": "Dilophosaurus ",
+            "description": "Dilophosaurus, is a fast-moving carnivorous Dinosaur. A kink in its upper jaw meant that it ate certain types of food, or attacked by gripping and holding onto its prey similar to crocodiles. A interesting feature of Dilophosaurus, is a pair of thin bony crests on its head that is used for displays",
+            "price": "1000",
+            "image_url": "https://www.pngaaa.com/detail/3605349",
+            "image": "dilophosaurus.png",
+            "category": "3"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "sku": "dino-9",
+            "name": "Megalosaurus",
+            "description": "Megalosaurus, a large carnivorous theropod from the mid jurassic period, when fully grown, it can be around 9 metres in length",
+            "price": "1000",
+            "image_url": "https://www.pngaaa.com/detail/1294041",
+            "image": "megalosaurus.png",
+            "category": "3"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "sku": "dino-10",
+            "name": "Edmontonia",
+            "description": "Edmontonia is a armoured Dinosaur, also a herbivore similar to Ankylosaurus but slightly smaller at 4 metres in length from the late cretaceous period",
+            "price": "1000",
+            "image_url": "https://www.pngaaa.com/detail/1293930",
+            "image": "edmontonia.png",
+            "category": "3"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "sku": "dino-11",
+            "name": "Gorgosaurus",
+            "description": "Gorgosaurus, a large 8.6 metres carnivorous theropod from late cretaceous, can also be called fierce lizard",
+            "price": "1000",
+            "image_url": "https://www.pngaaa.com/detail/1293939",
+            "image": "gorgosaurus.png",
+            "category": "3"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "dino-12",
+            "name": "Stegosaurus",
+            "description": "Stegosaurus, a large slow moving plant-eater, Stegosaurus would defend itself from predators with its powerful spiked tail. The bony plates along its back is embedded in the skin of the animal, not attached to the skeleton. A interesting fact is that compared to his body, Stegosaurus has a small head and a brain around the size of a plum.",
+            "price": "1000",
+            "image_url": "https://www.pngaaa.com/detail/4226336",
+            "image": "stegosaurus.png",
+            "category": "3"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "sku": "dino-13",
+            "name": "Gallimimus",
+            "description": "Gallimimus, is a omnivorous Dinosaur which meant they eat both plants and meat, Gallimimus is around 6 metres in length and weights around 200kg",
+            "price": "1000",
+            "image_url": "https://www.pngaaa.com/detail/1482328",
+            "image": "gallimimus.png",
+            "category": "3"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.product",
+        "fields": {
+            "sku": "baby-dino-2",
+            "name": "Homalocephale",
+            "description": "Homalocephale is a euornithopod from the late cretaceous period being around 1.5 metres in length",
+            "price": "1000",
+            "image_url": "https://www.pngaaa.com/detail/4427737",
+            "image": "homalocephale.png",
+            "category": "2"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.product",
+        "fields": {
+            "sku": "dino-14",
+            "name": "Iguanodon",
+            "description": "Iguanodon is a herbivore that can walk on all fours or on two legs, it has a large thumb spike on the end of its hand to fend-off predators.",
+            "price": "1000",
+            "image_url": "https://www.pngaaa.com/detail/4427804",
+            "image": "iguanodon.png",
+            "category": "3"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "products.product",
+        "fields": {
+            "sku": "dino-15",
+            "name": "Brachiosaurus",
+            "description": "Brachiosaurus, a herbivorous Dinosaur and is one of the largest Dinosaurs coming in at 30 metres in length, Brachiosaurus held his head ver high and is able to eat leaves on tall tree-like plants",
+            "price": "1000",
+            "image_url": "https://www.pngaaa.com/detail/197998",
+            "image": "brachiosaurus.png",
+            "category": "3"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "products.product",
+        "fields": {
+            "sku": "dino-16",
+            "name": "Corythosaurus",
+            "description": "Corythosaurus, a 10 metres in length herbivore from the late cretaceous period, capable of walking on two legs",
+            "price": "1000",
+            "image_url": "https://www.pngaaa.com/detail/4427717",
+            "image": "corythosaurus.png",
+            "category": "3"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "products.product",
+        "fields": {
+            "sku": "dino-17",
+            "name": "Parasaurolophus",
+            "description": "Parasaurolophus, a herbivorous from the late cretaceous period, weighting in at 3500kg and 11 metres in length",
+            "price": "1000",
+            "image_url": "https://www.pngaaa.com/detail/2465993",
+            "image": "parasaurolophus.png",
+            "category": "3"
         }
     }
 ]
