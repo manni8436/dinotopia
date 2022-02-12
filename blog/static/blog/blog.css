@@ -121,6 +121,70 @@
     color: #28a745;
 }
 
+.delete-blog-modal-button {
+    background-color: #dc3545;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    border: 3px #000 solid;
+    float: right;
+}
+
+.delete-blog-modal-button:hover {
+    color: #ffc107 !important;
+}
+
+.blog-delete-modal {
+    background-color: #432818;
+    color: #fff;
+    text-transform: uppercase;
+    border: 3px #dc3545 solid;
+}
+
+.modal-header {
+    border-bottom: 1px #dc3545 solid;
+}
+
+.text-danger {
+    font-weight: bolder;
+}
+
+.modal-footer {
+    border-top: 1px #dc3545 solid;
+}
+
+.modal-header .close {
+    color: #dc3545;
+}
+
+.modal-header .close:hover {
+    color: #ffc107;
+}
+
+.blog-modal-delete-button {
+    background-color: #dc3545;
+    color: #fff !important;
+    border: 2px #000 solid;
+}
+
+a.text-danger:focus,
+a.text-danger:hover,
+.modal-delete-button:hover {
+    color: #ffc107 !important;
+}
+
+.blog-modal-cancel-button {
+    background-color: #14591d;
+    color: #fff !important;
+    text-transform: uppercase;
+    border: 2px #000 solid;
+}
+
+.blog-modal-cancel-button:hover {
+    background-color: #14591d;
+    color: #ffc107 !important;
+    border: 2px #000 solid;
+}
+
 /* add post page */
 
 .add-blog-title-heading {
@@ -192,7 +256,7 @@
     }
 }
 
-@media (max-width: 576px) { 
+@media (max-width: 576px) {
 
     /* blog page */
 

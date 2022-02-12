@@ -3,6 +3,7 @@
 body {
     background-color: #000 !important;
     background: url('/media/jungle.jpg') no-repeat center center fixed;
+    overflow-x: hidden;
 }
 
 /* Navbar */
@@ -604,6 +605,69 @@ i.fas.fa-minus.fa-sm:hover {
     height: 100px;
     overflow-x: hidden;
     overflow-y: auto;
+}
+
+/* product page */
+
+.product-edit-button,
+.delete-modal-button {
+    text-transform: uppercase !important;
+}
+
+.product-edit-button:hover,
+.delete-modal-button:hover {
+    color: #ffc107 !important;
+}
+
+.product-delete-modal {
+    background-color: #432818;
+    color: #fff;
+    text-transform: uppercase;
+    border: 3px #dc3545 solid;
+}
+
+.modal-header {
+    border-bottom: 1px #dc3545 solid;
+}
+
+.text-danger {
+    font-weight: bolder;
+}
+
+.modal-footer {
+    border-top: 1px #dc3545 solid;
+}
+
+.modal-header .close {
+    color: #dc3545;
+}
+
+.modal-header .close:hover {
+    color: #ffc107;
+}
+
+.modal-delete-button {
+    background-color: #dc3545;
+    color: #fff !important;
+    border: 2px #000 solid;
+}
+
+a.text-danger:focus, a.text-danger:hover,
+.modal-delete-button:hover {
+    color: #ffc107 !important;
+}
+
+.modal-cancel-button {
+    background-color: #14591d;
+    color: #fff !important;
+    text-transform: uppercase;
+    border: 2px #000 solid;
+}
+
+.modal-cancel-button:hover {
+    background-color: #14591d;
+    color: #ffc107 !important;
+    border: 2px #000 solid;
 }
 
 /* checkout page */
