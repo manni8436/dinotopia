@@ -204,6 +204,22 @@ After looking at the error closely, I connected the numbers that were provided o
 
 From the image above, I made two changes, my first change was `max_digit=6` to `max_digit=10` and my second change was `decimal_places=2` to `decimal_places=4`, after making these changes, it solved my issue.
 
+3. During the production stage of the site, I found an error where I was unable to complete a payment transaction as shown in the image below.
+
+![checkout cache bug](static/docs/images/readme-images/payment-error-bug.png)
+
+After some investigating into this error, while using the terminal as a debugger, I noticed that there was a missing single quote from the metadata stripe payment intent.
+
+![checkout cache bug error code](static/docs/images/readme-images/payment-error-bug-code.png)
+
+Upon inserting the single quote at the end of `save_info` inside the parentheses, I rechecked for any further issues in the code, which none was found.
+
+![checkout cache bug error solved code](static/docs/images/readme-images/payment-error-bug-solved-code.png)
+
+As a result, I was able to make and complete a payment transaction once again.
+
+![checkout cache bug solved](static/docs/images/readme-images/payment-error-bug-solved.png)
+
 [Back To Top](#dinotopia)
 
 ## TESTING
