@@ -51,7 +51,7 @@
                             <a class="product-edit-button" href="{% url 'edit_product' product.id %}">Edit</a>
                             <!-- Button trigger modal -->
                             <button type="button" class="btn text-danger delete-modal-button" data-toggle="modal"
-                                data-target="#deleteProductsModal">
+                                data-target="#delete-{{ product.name }}-Modal">
                                 Delete
                             </button>
                         </small>
@@ -60,12 +60,12 @@
                 </div>
             </div>
             <!-- Modal -->
-            <div class="modal fade" id="deleteProductsModal" tabindex="-1" role="dialog"
-                aria-labelledby="productDeleteModalTitle" aria-hidden="true">
+            <div class="modal fade" id="delete-{{ product.name }}-Modal" tabindex="-1" role="dialog"
+                aria-labelledby="delete-{{ product.name }}-Modal" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content product-delete-modal">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="productDeleteModalTitle">Delete
+                            <h5 class="modal-title" id="delete-{{ product.name }}-Modal">Delete
                                 {{ product.name }}</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
