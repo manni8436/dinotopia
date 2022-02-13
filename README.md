@@ -112,7 +112,7 @@ and doesn't leave the user needing more information to carry out all steps neede
 
 I chose two fonts to use on my site to make my site title and my navigation menu stand out from the rest of the site.
 
-I chose `lobster` for the main page title to stand out but have a modern twist to it, while using `permanent marker` make the navigation menu have a older style look.
+I chose `lobster` font style for the main page title to stand out but have a modern twist to it, while using `permanent marker` font style make the navigation menu have a older style look.
 
 ### COLOR THEME
 
