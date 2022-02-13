@@ -186,7 +186,7 @@
         "fields": {
             "sku": "dino-13",
             "name": "Gallimimus",
-            "description": "Gallimimus, is a omnivorous Dinosaur which meant they eat both plants and meat, Gallimimus is around 6 metres in length and weights around 200kg",
+            "description": "Gallimimus, is a omnivorous Dinosaur which means they eat both plants and meat, Gallimimus is around 6 metres in length and weights around 200kg",
             "price": "1000",
             "image_url": "https://www.pngaaa.com/detail/1482328",
             "image": "gallimimus.png",
