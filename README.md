@@ -172,18 +172,33 @@ Database schema were created using [Lucid Chart](https://lucid.co/?gclid=CjwKCAi
 
 [Git](https://git-scm.com/) was used for version control by using the Gitpod terminal to add and commit to Git and push to Github.
 
+<img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original-wordmark.svg" alt="GitHub logo" width="50px" height="50px" />
+
+[GitHub](https://github.com/) was used to store all the code for this project after being pushed from GitPod, which I also used a Project board to 
+keep track of the project development by splitting tasks into smaller and more managable sections.
+
+<img src="https://github.com/devicons/devicon/blob/master/icons/heroku/heroku-original-wordmark.svg" alt="Heroku logo" width="50px" height="50px" />
+
+[Heroku](https://id.heroku.com) was used for deployment of the live site.
+
+<img src="https://github.com/devicons/devicon/blob/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS logo" width="50px" height="50px" />
+
+[AWS](https://aws.amazon.com/)
+
+
+<img src="https://github.com/devicons/devicon/blob/master/icons/firefox/firefox-original-wordmark.svg" alt="Firefox logo" width="50px" height="50px" />
+
+[Firefox Developer](https://www.mozilla.org/en-GB/firefox/developer/) Tools was used for troubleshooting and trying new visual changes without it affecting the current code.
+
+[Back To Top](#dinotopia)
+
+### Other
+
 #### GitPod
 
 [GitPod](https://gitpod.io) was used as an IDE whilst coding this site.
 
-<img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original-wordmark.svg" alt="Git logo" width="50px" height="50px" />
-
-[GitHub](https://github.com/) is being used to store all the code for this project after being pushed from GitPod, which I also used a Project board to 
-keep track of the project development by splitting tasks into smaller and more managable sections.
-
-[Heroku]()
-
-[AWS]()
+#### Favicon
 
 [Favicon](https://favicon.io/) was used to create a favicon image that was added to the website.
 
@@ -191,17 +206,13 @@ keep track of the project development by splitting tasks into smaller and more m
 
 [Google Fonts](https://fonts.google.com/) was used for all the text content on the site pages.
 
-[Coolors]()
+#### Coolors
+
+[Coolors](https://coolors.co/)
 
 #### Am i Responsive
 
 [Am i Responsive](http://ami.responsivedesign.is/) was used to create the image in my [Final Design](#final-design) section.
-
-#### Firefox Developer Tools
-
-[Firefox Developer](https://www.mozilla.org/en-GB/firefox/developer/) Tools was used for troubleshooting and trying new visual changes without it affecting the current code.
-
-[Back To Top](#dinotopia)
 
 ## SOLVED BUGS
 
