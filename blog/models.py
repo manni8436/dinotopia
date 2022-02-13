@@ -10,7 +10,8 @@ class Post(models.Model):
     slug = models.SlugField(max_length=200, unique=True)
     updated_on = models.DateTimeField(auto_now_add=True)
     content = models.TextField()
-    author = models.ForeignKey(User, on_delete=models.CASCADE, related_name="post", default=1)
+    author = models.ForeignKey(
+        User, on_delete=models.CASCADE, related_name="post", default=1)
     created_on = models.DateTimeField(auto_now_add=True)
 
     class Meta:
@@ -18,6 +19,7 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
 
 def pre_save_blog_post_receiver(sender, instance, *args, **kwargs):
     if not instance.slug:
