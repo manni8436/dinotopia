@@ -126,4 +126,3 @@ def delete_post(request, slug):
         messages.error(request, "You are not allowed to do that.")
 
     return render(request)
-    
