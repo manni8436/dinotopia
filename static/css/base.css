@@ -267,6 +267,33 @@ body {
     color: #28a745 !important;
 }
 
+.product-details-delete-modal {
+    background-color: #432818 !important;
+    border: 3px #dc3545 solid !important;
+}
+
+.product-detail-modal-delete-button {
+    background-color: #dc3545;
+    color: #fff !important;
+    border: 2px #000 solid !important;
+}
+
+.product-detail-modal-cancel-button {
+    background-color: #14591d;
+    color: #fff !important;
+    text-transform: uppercase;
+    border: 2px #000 solid !important;
+}
+
+.product-detail-modal-cancel-button:hover {
+    background-color: #14591d !important;
+    color: #ffc107 !important;
+}
+
+.product-detail-delete-modal-button {
+    text-transform: uppercase;
+}
+
 /* shopping bag page */
 
 .shopping-bag-title {
