@@ -280,12 +280,56 @@ Due to being able to get my order confirmation working locally, the next step wa
 
 ### CODE VALIDATORS
 
-The W3C Markup Validator and W3C CSS Validator was used to validate my project to make sure there were no errors within the site.
+W3C Markup Validator and W3C CSS Validator was used to validate my project to make sure there were no errors within the site.
+
+* W3C HTML Validator Results
+
+All the links below have shown to have had no errors.
+
+* [Home Page](https://validator.w3.org/nu/?doc=https://dinotopia.herokuapp.com/)
+* [Product Details Page](https://validator.w3.org/nu/?doc=https://dinotopia.herokuapp.com/products/10/)
+* [Dinosaur Eggs Page (sorted by price, ascending order)](https://validator.w3.org/nu/?doc=https://dinotopia.herokuapp.com/products/?category=dinosaur_eggs,sort=price&direction=asc)
+* [Dinosaur Eggs Page (sorted by category)](https://validator.w3.org/nu/?doc=https://dinotopia.herokuapp.com/products/?category=dinosaur_eggs)
+* [Dinosaur Eggs Page (sorted by price, ascending order)](https://validator.w3.org/nu/?doc=https://dinotopia.herokuapp.com/products/?category=dinosaur_eggs,sort=price&direction=asc)
+* [Dinosaur Eggs Page (sorted by category)](https://validator.w3.org/nu/?doc=https://dinotopia.herokuapp.com/products/?category=dinosaur_eggs)
+* [Fossil Page (sorted by price, ascending order)](https://validator.w3.org/nu/?doc=https://dinotopia.herokuapp.com/products/?category=dinosaur_fossils,sort=price&direction=asc)
+* [Fossil Page (sorted by category)](https://validator.w3.org/nu/?doc=https://dinotopia.herokuapp.com/products/?category=dinosaur_fossils)
+* [Blog Home Page](https://validator.w3.org/nu/?doc=https://dinotopia.herokuapp.com/blog/)
+* [Add New Blog Page](https://validator.w3.org/nu/?doc=https://dinotopia.herokuapp.com/blog/add_post/)
+* [Edit Blog Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdinotopia.herokuapp.com%2Fblog%2Fedit%2Fmanni8436-test%2F)
+* [Add New Product Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdinotopia.herokuapp.com%2Fproducts%2Fadd%2F)
+* [Edit Product Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdinotopia.herokuapp.com%2Fproducts%2Fedit%2F4%2F)
+* [Profile Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdinotopia.herokuapp.com%2Fprofile%2F)
+* [Order History Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdinotopia.herokuapp.com%2Fprofile%2Forder_history%2F1ADFE0B612E94CBD92B17292E56B45D9)
+* [Sign Up Page](https://validator.w3.org/nu/?doc=https://dinotopia.herokuapp.com/accounts/signup/)
+* [Login In Page](https://validator.w3.org/nu/?doc=https://dinotopia.herokuapp.com/accounts/login/)
+* [Login Out Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdinotopia.herokuapp.com%2Faccounts%2Flogout%2F)
+* [Reset Password Page](https://validator.w3.org/nu/?doc=https://dinotopia.herokuapp.com/accounts/password/reset/)
+* [Shopping Page](https://validator.w3.org/nu/?doc=https://dinotopia.herokuapp.com/bag/)
+
+* Other
+
+However due to a confirmation delete modal which is inside a for loop has made six of pages of my site fail the html validator, after several attempts at fixing the issues below, I have been unable to do so and is unfornately no longer in my control and can not change the out come of the results as shown in the link below.
+
+* [All Products Page](https://validator.w3.org/nu/?doc=https://dinotopia.herokuapp.com/products/)
+* [All Products Page (sorted by price, ascending order)](https://validator.w3.org/nu/?doc=https://dinotopia.herokuapp.com/products/?sort=price&direction=asc)
+* [Baby Dinosaur Page (sorted by price, ascending order)](https://validator.w3.org/nu/?doc=https://dinotopia.herokuapp.com/products/?category=baby_dinosaurs,sort=price&direction=asc)
+* [Baby Dinosaur Page (sorted by category)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdinotopia.herokuapp.com%2Fproducts%2F%3Fcategory%3Dbaby_dinosaurs)
+* [Adult Dinosaur Page (sorted by price, ascending order)](https://validator.w3.org/nu/?doc=https://dinotopia.herokuapp.com/products/?category=adult_dinosaurs,sort=price&direction=asc)
+* [Adult Dinosaur Page (sorted by category)](https://validator.w3.org/nu/?doc=https://dinotopia.herokuapp.com/products/?category=adult_dinosaurs)
+* [Search Bar](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdinotopia.herokuapp.com%2Fproducts%2F%3Fq%3DT-rex)
+
+
 
 * W3C CSS Validator Results
 
+* [CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdinotopia.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+JSHint was used to validate the JavaScript code for my project to make sure there were no errors within the site.
+
 * JSHint
-  * ![JavaScript]()
+  * ![JavaScript validation image one](static/docs/images/readme-images/js-validation-image-one.png)
+  * ![JavaScript validation image one](static/docs/images/readme-images/js-validation-image-two.png)
 
 * PEP8 Online
   * ![PEP8]()
