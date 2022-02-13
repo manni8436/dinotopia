@@ -183,8 +183,7 @@ keep track of the project development by splitting tasks into smaller and more m
 
 <img src="https://github.com/devicons/devicon/blob/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS logo" width="50px" height="50px" />
 
-[AWS](https://aws.amazon.com/)
-
+[AWS](https://aws.amazon.com/) was used for storing static files and media images for this project.
 
 <img src="https://github.com/devicons/devicon/blob/master/icons/firefox/firefox-original-wordmark.svg" alt="Firefox logo" width="50px" height="50px" />
 
@@ -208,7 +207,7 @@ keep track of the project development by splitting tasks into smaller and more m
 
 #### Coolors
 
-[Coolors](https://coolors.co/)
+[Coolors](https://coolors.co/) was used to choose the colour theme of this project, while ensuring full AAA WCAG colour contrast compliance.
 
 #### Am i Responsive
 
