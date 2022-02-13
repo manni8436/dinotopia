@@ -13,7 +13,7 @@ body {
 }
 
 .title-link-home {
-    font-family: permanent marker;
+    font-family: lobster;
     font-size: 50px;
 }
 
@@ -21,7 +21,9 @@ body {
 .nav-link,
 .search-button {
     color: #fff;
+    font-family: permanent marker;
     text-transform: uppercase;
+    font-size: larger;
 }
 
 .navbar-brand:hover,
