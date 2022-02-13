@@ -42,7 +42,7 @@
                     {% endif %}
                     {% if request.user.is_superuser %}
                         <small class="ml-3">
-                            <a href="{% url 'edit_product' product.id %}">Edit</a>
+                            <a class="product-details-edit-button" href="{% url 'edit_product' product.id %}">Edit</a>
                             <!-- Button trigger modal -->
                             <button type="button" class="btn product-detail-delete-modal-button text-danger" data-toggle="modal"
                                 data-target="#productDetailsDeleteModal">

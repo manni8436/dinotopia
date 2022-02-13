@@ -294,6 +294,11 @@ body {
     text-transform: uppercase;
 }
 
+.product-details-edit-button:hover,
+.product-detail-delete-modal-button:hover {
+    color: #ffc107 !important;
+}
+
 /* shopping bag page */
 
 .shopping-bag-title {
