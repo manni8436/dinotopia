@@ -189,8 +189,6 @@ keep track of the project development by splitting tasks into smaller and more m
 
 [Firefox Developer](https://www.mozilla.org/en-GB/firefox/developer/) Tools was used for troubleshooting and trying new visual changes without it affecting the current code.
 
-[Back To Top](#dinotopia)
-
 ### Other
 
 #### GitPod
@@ -212,6 +210,8 @@ keep track of the project development by splitting tasks into smaller and more m
 #### Am i Responsive
 
 [Am i Responsive](http://ami.responsivedesign.is/) was used to create the image in my [Final Design](#final-design) section.
+
+[Back To Top](#dinotopia)
 
 ## SOLVED BUGS
 
