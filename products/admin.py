@@ -5,6 +5,7 @@ from .models import Product, Category
 
 
 class ProductAdmin(admin.ModelAdmin):
+    """ adds products display list to the database"""
     list_display = (
         'sku',
         'name',
@@ -17,6 +18,7 @@ class ProductAdmin(admin.ModelAdmin):
 
 
 class CategoryAdmin(admin.ModelAdmin):
+    """ adds category display list to the database"""
     list_display = (
         'friendly_name',
         'name',
