@@ -134,7 +134,20 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/) and exported int
 
 ### FEATURES IMPLEMENTED
 
+I have used the following features in this project:
+
+* Changing navigation
+* Dinosaur search bar
+* Add products to site
+* Edit and Delete products already on site
+* Add, Edit and Delete blog post to site
+* Edit and Delete blog post already on site
+* Delete modal to prevent accidental deletion
+
 ### FUTURE IMPLEMENTATIONS
+
+* Pagination
+* Star rating
 
 [Back To Top](#dinotopia)
 
