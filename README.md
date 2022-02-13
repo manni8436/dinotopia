@@ -172,11 +172,11 @@ Database schema were created using [Lucid Chart](https://lucid.co/?gclid=CjwKCAi
 
 [Git](https://git-scm.com/) was used for version control by using the Gitpod terminal to add and commit to Git and push to Github.
 
-<img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original-wordmark.svg" alt="Git logo" width="50px" height="50px" />
+#### GitPod
 
 [GitPod](https://gitpod.io) was used as an IDE whilst coding this site.
 
-#### GitHub
+<img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original-wordmark.svg" alt="Git logo" width="50px" height="50px" />
 
 [GitHub](https://github.com/) is being used to store all the code for this project after being pushed from GitPod, which I also used a Project board to 
 keep track of the project development by splitting tasks into smaller and more managable sections.
