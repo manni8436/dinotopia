@@ -44,19 +44,19 @@
                         <small class="ml-3">
                             <a href="{% url 'edit_product' product.id %}">Edit</a>
                             <!-- Button trigger modal -->
-                            <button type="button" class="btn text-danger" data-toggle="modal"
-                                data-target="#productDeleteModal">
+                            <button type="button" class="btn product-detail-delete-modal-button text-danger" data-toggle="modal"
+                                data-target="#productDetailsDeleteModal">
                                 Delete
                             </button>
                         </small>
                     {% endif %}
                     <!-- Modal -->
-                    <div class="modal fade" id="productDeleteModal" tabindex="-1" role="dialog"
-                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal fade" id="productDetailsDeleteModal" tabindex="-1" role="dialog"
+                    aria-labelledby="productDetailsDeleteModal" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
+                        <div class="modal-content product-details-delete-modal">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalCenterTitle">Delete
+                                <h5 class="modal-title" id="productDetailsDeleteModal">Delete
                                     {{ product.name }}</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
@@ -67,11 +67,11 @@
                                     Are you sure you want to delete
                                     <span class=""> {{ product.name }}?</span>
                                 </h4>
-                                <p class="">This action cannot be undone!</p>
+                                <p class="text-danger">This action cannot be undone!</p>
                             </div>
                             <div class="modal-footer">
-                                <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <a class="btn text-danger product-detail-modal-delete-button" href="{% url 'delete_product' product.id %}">Delete</a>
+                                <button type="button" class="btn btn-secondary product-detail-modal-cancel-button" data-dismiss="modal">Cancel</button>
                             </div>
                         </div>
                     </div>
