@@ -309,7 +309,7 @@ All the links below have shown to have had no errors.
 
 * Other
 
-However due to a confirmation delete modal which is inside a for loop has made six of pages of my site fail the html validator, after several attempts at fixing the issues below, I have been unable to do so and is unfornately no longer in my control and can not change the out come of the results as shown in the link below.
+However due to a confirmation delete modal which is inside a for loop has made six of pages of my site fail the html validator, after several attempts at fixing the issues below, I have been unable to do so and is unfornately no longer in my control and can not change the outcome of the results as shown in the link below.
 
 * [All Products Page](https://validator.w3.org/nu/?doc=https://dinotopia.herokuapp.com/products/)
 * [All Products Page (sorted by price, ascending order)](https://validator.w3.org/nu/?doc=https://dinotopia.herokuapp.com/products/?sort=price&direction=asc)
