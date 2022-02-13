@@ -1,7 +1,7 @@
 from django.test import TestCase
 from django.shortcuts import reverse
 
-# Create your tests here.
+
 class TestHomeViews(TestCase):
 
     def test_home_page_url_exists(self):

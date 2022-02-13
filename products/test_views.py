@@ -4,7 +4,7 @@ from django.shortcuts import reverse
 from django.contrib.messages import get_messages
 from .models import Category, Product
 
-# Create your tests here.
+
 class TestProductsViews(TestCase):
 
     fixtures = [
