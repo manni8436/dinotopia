@@ -343,6 +343,8 @@ JSHint was used to validate the JavaScript code for my project to make sure ther
 
 #### Performance
 
+![Home Page](static/docs/images/readme-images/home-page-desktop-lighthouse.png)
+
 #### Accessibility
 
 #### Best Practices
