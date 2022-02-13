@@ -319,8 +319,6 @@ However due to a confirmation delete modal which is inside a for loop has made s
 * [Adult Dinosaur Page (sorted by category)](https://validator.w3.org/nu/?doc=https://dinotopia.herokuapp.com/products/?category=adult_dinosaurs)
 * [Search Bar](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdinotopia.herokuapp.com%2Fproducts%2F%3Fq%3DT-rex)
 
-
-
 * W3C CSS Validator Results
 
 * [CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdinotopia.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
@@ -330,9 +328,6 @@ JSHint was used to validate the JavaScript code for my project to make sure ther
 * JSHint
   * ![JavaScript validation image one](static/docs/images/readme-images/js-validation-image-one.png)
   * ![JavaScript validation image one](static/docs/images/readme-images/js-validation-image-two.png)
-
-* PEP8 Online
-  * ![PEP8]()
 
 [Back To Top](#dinotopia)
 
