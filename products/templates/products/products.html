@@ -49,10 +49,9 @@
                         {% if request.user.is_superuser %}
                         <small class="ml-3">
                             <a class="product-edit-button" href="{% url 'edit_product' product.id %}">Edit</a>
-                            
                             <!-- Button trigger modal -->
                             <button type="button" class="btn text-danger delete-modal-button" data-toggle="modal"
-                                data-target="#productDeleteModal">
+                                data-target="#deleteProductModal">
                                 Delete
                             </button>
                         </small>
@@ -61,7 +60,7 @@
                 </div>
             </div>
             <!-- Modal -->
-            <div class="modal fade" id="productDeleteModal" tabindex="-1" role="dialog"
+            <div class="modal fade" id="deleteProductModal" tabindex="-1" role="dialog"
                 aria-labelledby="productDeleteModalTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content product-delete-modal">
