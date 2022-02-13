@@ -249,23 +249,23 @@ As a result, I was able to make and complete a payment transaction once again.
 
 [Back To Top](#dinotopia)
 
-4. While a fellow student was looking through my project, they made a test purchase. At this point them advised me that they did not get a order confirmation email.
+4. While a fellow student was looking through my project, they made a test purchase. At this point they advised me that they did had no received a order confirmation email.
 
-After thoroughly looking at looking at all the files in my project to see where the error could be coming from. Also watching the email videos from the boutique ado project, I was unable to see any issues.
+After thoroughly looking at all the files in my project to see where the error could be coming from, Also watching the email videos from the boutique ado project once again to verify the steps were done correctly, I was unable to find any issues.
 
-Which at this point, I looked for help from tutor support, I advised that my account registration emails were working but not the order confirmation. which at this point Ed from tutor support had a look at my workspace and advised me that my `checkout/wh` path was not being accessed, which was why the oder confirmation emails were not working as per the image below.
+Which at this point, I looked for help from tutor support, I advised that my account registration emails were working but not the order confirmation. which at this point Ed from tutor support had a look at my workspace and advised me that my `checkout/wh` path was not being accessed, which was why the order confirmation emails was not working as per the image below.
 
 ![checkout filepath not accessed](static/docs/images/readme-images/checkout-filepath-not-accessed.png)
 
-At this point, Ed and I went on to checking the webhook endpoints on heroku and if everything was in order. After doing a few other checking on signing secret and all variables matched on heroku site and gitpod variables also.
+At this point, Ed and I went on to checking the webhook endpoints on heroku and if everything was in order. After doing a few other checking on signing secret and if all variables matched on heroku site and the gitpod variables also.
 
-After making this checks, Ed advised me that it would be best to start from scratch and delete current webhooks end points and create new ones. After doing so and updating variables in heroku, I restarted my workspace and Ed at this point done the following command `echo $STRIPE_WH_SECRET` as shown in the image below.
+After making this checks, Ed advised me that it would be best to start from scratch and delete current webhooks end points and create new ones. After doing so and updating variables in heroku, I restarted my workspace and Ed at this point done the following command `echo $STRIPE_WH_SECRET` in the gitpod terminal as shown in the image below.
 
 ![checkout filepath not accessed](static/docs/images/readme-images/wrong-whsecret-variable-value.png)
 
 This is when I noticed that the `STRIPE_WH_SECRET` variable did not match the one that was created, which is when I realised that I did not update the `STRIPE_WH_SECRET` in the gitpod settings. After updating the gitpod `STRIPE_WH_SECRET` variable and restarting the workspace, I was giving a error saying `original_bag not defined`.
 
-After changing `original_bag=original_bag` to `original_bag=bag`, I was given another error advising me that it was looking for a template but couldn't find it as showing in the image below.
+After changing `original_bag=original_bag` to `original_bag=bag`, I was given another error advising me that `checkout/wh/` was looking for a template but couldn't find it as showing in the image below.
 
 ![accessing webhook still error](static/docs/images/readme-images/accessing-webhook-still-error.png)
 
@@ -274,7 +274,7 @@ Which at this point, by having a closer look at the format of the folders in my 
 
 ![succesfull order confirmation email](static/docs/images/readme-images/working-local-order-email-cofirmation.png)
 
-Due to being able to get it working locally, the next step was to create a new webhook end point for the deployed live site and the email would be working, which was confirmed by making a purchase on the deployed site.
+Due to being able to get my order confirmation working locally, the next step was to create a new webhook end point for the deployed live site and the email would be working, which was confirmed by making a purchase on the deployed site.
 
 ## TESTING
 
