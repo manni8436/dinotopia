@@ -348,5 +348,18 @@
             "image": "baby-triceratops.png",
             "category": "2"
         }
+    },
+    {
+        "pk": 28,
+        "model": "products.product",
+        "fields": {
+            "sku": "fossil-1",
+            "name": "T-rex Fossil",
+            "description": "a carnivorous Dinosaur from the late jurassic period",
+            "price": "1000",
+            "image_url": "https://www.pngaaa.com/detail/753306",
+            "image": "t-rex-fossil.png",
+            "category": "4"
+        }
     }
 ]
