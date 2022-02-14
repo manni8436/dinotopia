@@ -669,6 +669,28 @@ If you need to make a local clone:
 
 ### Code Credit
 
+* During the development of this project, at one point while trying to style my hamburger icon, I found out that I was unable to do so, after speaking to a fellow student [Suzy Bennett](https://github.com/suzybee1987). She had done some research online which allowed me to change the colour of the hamburger menu, which was found on the `stackoverflow` website and a link has been provided below.
+
+[hamburger menu color change](https://stackoverflow.com/questions/42586729/how-can-i-change-the-bootstrap-4-navbar-button-icon-color)
+
+* While creating the shopping bag and maybe payment functionality I had come across a issue that was giving me a huge line of of numbers which mainly zero and was not very good for the User Experience, after some lengthy research, I was able to find a solution which came in the form of `Humanize` and this allowed me to be able to use a comma as seen in the image below.
+
+![Humanize Image](static/docs/images/readme-images/humanize-image.png)
+
+Which was also found on `stackoverflow` on the below provided below.
+
+[Humanize](https://stackoverflow.com/questions/346467/format-numbers-in-django-templates)
+
+Along with `humanize` and the `floatformat` I was to product that correct value I wanted to use within my project.
+
+* While following the `Boutique Ado` videos, I was given code reference links that were using during the development of this project which is listed below.
+
+[Stripe core logic and payment flow](https://stripe.com/docs/payments/accept-a-payment)
+
+* The CSS used for the stripe was used from the link below.
+
+[Stripe CSS](https://stripe.com/docs/stripe-js)
+
 ## ACKNOWLEDGEMENTS
 
 [Back To Top](#dinotopia)
