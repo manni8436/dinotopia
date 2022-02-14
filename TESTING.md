@@ -4,15 +4,22 @@
 
 * [**TESTING**](#testing)
   * [**Navigation**](#navigation)
-  * [**Buttons**](#buttons)
-  * [**Home Page**](#home-page)
+  * [**All Product Button**](#all-product-button)
+  * [**Search Bar**](#search-page)
   * [**Register Page**](#register-page)
   * [**Login Page**](#login-page)
-  * [**Favourites Page**](#favourites-page)
-  * [**Recipes Page**](#recipes-page)
+  * [**All Blog Page**](#all-blog-page)
+  * [**Blog details Page**](#blog-details-page)
+  * [**Edit Blog Page**](#edit-blog-page)
+  * [**Product Management Page**](#product-management-page)
   * [**Profile Page**](#profile-page)
-  * [**Full Recipes Page**](#full-recipes-page)
-  
+  * [**Login out Button**](#login-out-page)
+  * [**Register Page**](#register-page)
+  * [**Login Page**](#login-page)
+  * [**Shopping Bag Page**](#shopping-bag-page)
+  * [**Checkout Page**](#checkout-page)
+
+
 # **Testing**
 
 ### **Navigation** 
@@ -52,8 +59,6 @@
 | | Clicking all fossil dinosaur button | Click all fossil dinosaur | Redirected to all fossil dinosaur page | Pass |
 | | Clicking fossil dinosaur button (sort by price) | Click fossil dinosaur (sort by price) | Redirected to fossil dinosaur (sort by price) page | Pass |
 
-[Back to contents](#contents)
-
 ### **All Product Button** 
 
     - all pages - Logged In Users
@@ -72,6 +77,7 @@
 | | Clicking all fossil dinosaur button | Click all fossil dinosaur | Redirected to all fossil dinosaur page | Pass |
 | | Clicking fossil dinosaur button (sort by price) | Click fossil dinosaur (sort by price) | Redirected to fossil dinosaur (sort by price) page | Pass |
 
+[Back to contents](#contents)
 
 ### **Search bar** 
 
@@ -103,6 +109,7 @@
 | | Clicking blog button takes user to all blogs page | Click blog button | Redirected to all blogs Page | Pass |
 | | Clicking on a blog redirects user to log in page | Click on a blog | Redirected  user to log in page | Pass |
 
+[Back to contents](#contents)
 
 ### **All Blog Page** 
 
@@ -119,8 +126,6 @@
 | | After add site redirects to blog details page | to be redirected to blog details page | redirects to blog details page | Pass |
 | | Clicking on a blog that was created by another user | Click on a blog | Redirected  to blog details page, however advised user to log in if not the author | Pass |
 | | Clicking on a blog that was created  | Click on a blog | Redirected to blog details page, which can be edited or deleted | Pass |
-
-[Back to contents](#contents)
 
 ### **Blog details Page** 
 
@@ -140,6 +145,7 @@
 | | Clicking on a blog that was created by user | Click on a blog created by user | Redirected to blog details page of blog selected | Pass |
 | | Clicking on edit button to edit blog post | Click on edit button | Redirected to edit blog page where user can edit post information | Pass |
 
+[Back to contents](#contents)
 
 ### **Edit Blog Page** 
 
@@ -162,8 +168,6 @@
 | | Clicking on cancel post button | Click on cancel post button | redirects back to blog details page | Pass |
 | | Clicking on add product button | Click on add product button | add product to site and redirects to product details page | Pass |
 
-[Back to contents](#contents)
-
 ### **Profile Page**
 
 | Feature        | Expected           | Testing  | Result | Pass/Fail |
@@ -172,6 +176,7 @@
 | Clicking update information button | upon clicking the button, expecting information to update | click update information button | information get updated | Pass |
 | Clicking order history order number | upon clicking order history order number, redirects to order confirmation page | click order history order number |  redirects to order confirmation page | Pass |
 
+[Back to contents](#contents)
 
 ### **Login out Button**
 
@@ -196,9 +201,7 @@
 | Email Address or Username and Password is required to login | user unable to login without this information | tried to login with wrong information and was informed to fill in all sections | Pass |
 | Clicking sign up link | to redirect to sign up page | click sign up link | redirects to sign up page | Pass |
 
-
 [Back to contents](#contents)
-
 
 ### **Shopping Bag Page**
 
@@ -236,7 +239,6 @@
 | Clicking on secure checkout button | to redirect back to complete order and payment page | click on secure checkout button  | Pass |
 
 
-
 ### **Checkout Page**
 
     - Checkout Page - Logged In Users
@@ -246,3 +248,5 @@
 | To be able to write in text input boxes | to be able to write | tried typing in each section and select a country | Pass |
 | To input all information needed to complete the order | to be able to input all information into input boxes | attempted to type in each section and select a country | Pass |
 | Clicking on secure checkout button | to redirect back to complete order and payment page | click on secure checkout button  | Pass |
+
+[Back to contents](#contents)
