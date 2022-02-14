@@ -501,7 +501,7 @@ I was very happy with my initial lighthouse scores on desktop, however on mobile
 
 #### Accessibility
 
-Overall I am happy with my Accessibility scores with being around mid 80s and high 90s at the moment, improvements can be made to improve those scores at a further date.
+Overall I am happy with my Accessibility scores with being around mid 80s and high 90s at the moment, improvements can be made to those scores at a further date.
 
 #### Best Practices
 
