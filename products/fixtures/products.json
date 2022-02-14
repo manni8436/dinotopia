@@ -320,7 +320,7 @@
             "price": "1000",
             "image_url": "https://www.pngaaa.com/detail/1293936",
             "image": "troodon.png",
-            "category": "2"
+            "category": "3"
         }
     },
     {
@@ -333,7 +333,7 @@
             "price": "1000",
             "image_url": "https://www.pngaaa.com/detail/3037131",
             "image": "velociraptor.png",
-            "category": "2"
+            "category": "3"
         }
     }
 ]
