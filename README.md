@@ -141,13 +141,14 @@ I have used the following features in this project:
 * Add products to site
 * Edit and Delete products already on site
 * Add, Edit and Delete blog post to site
+* Full CRUD functionality
 * Edit and Delete blog post already on site
 * Delete modal to prevent accidental deletion
 
 ### FUTURE IMPLEMENTATIONS
 
-* Pagination
-* Star rating
+* Pagination will be used to have less images in one page, to make it easier.
+* Star rating will be used in the future for user to rating a dinosaur based on their own possible experience
 
 [Back To Top](#dinotopia)
 
