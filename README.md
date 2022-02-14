@@ -690,6 +690,7 @@ If you need to make a local clone:
       * [Ankylosaurus](https://www.pngaaa.com/detail/4687929)
       * [Homalocephale](https://www.pngaaa.com/detail/4427737)
       * [Pachyrhinosaurus](https://www.pngaaa.com/detail/1293936)
+      * [Triceratops](https://www.pngaaa.com/detail/4463408)
 
   * Dinosaurs Eggs:
 
