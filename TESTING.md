@@ -249,4 +249,7 @@
 | To input all information needed to complete the order | to be able to input all information into input boxes | attempted to type in each section and select a country | Pass |
 | Clicking on secure checkout button | to redirect back to complete order and payment page | click on secure checkout button  | Pass |
 
+
+* While trying to process an order, a bug was found where if a user would try to make a purchase over a million would throw an error, unfornately this is out of my control as it is a restriction that is built in to the stripe system.
+
 [Back to contents](#contents)
