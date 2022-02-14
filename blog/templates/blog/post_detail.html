@@ -42,11 +42,11 @@
                                 </div>
                                 <div class="col">
                                      <!-- Button trigger modal -->
-                                    <button type="button" class="btn text-danger delete-blog-modal-button" data-toggle="modal" data-target="#blogDeleteModal">
+                                    <button type="button" class="btn text-danger delete-blog-modal-button" data-toggle="modal" data-target="#delete-{{product.sku}}">
                                         Delete
                                     </button>
                                     <!-- Modal -->
-                                    <div class="modal fade" id="blogDeleteModal" tabindex="-1" role="dialog"
+                                    <div class="modal fade" id="delete-{{product.sku}}" tabindex="-1" role="dialog"
                                     aria-labelledby="deleteBlogTitle" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered" role="document">
                                         <div class="modal-content blog-delete-modal">
