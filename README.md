@@ -693,19 +693,19 @@ Along with `humanize` and the `floatformat` I was to produce that correct value 
 
 ## ACKNOWLEDGEMENTS
 
-I would like to give a massive thanks to my mentor, [Chris Quinn](https://github.com/10xOXR), at [Code Institute](https://codeinstitute.net/), he is one of the most amazing people you will ever meet in life, a truly funny person and the best mentor I could have asked for as guide in the journey of discovery, his knowledge is just out of this world. Thank you so much my friend, you have been truly amazing over the last year.
+I would like to give a massive thanks to my mentor, [Chris Quinn](https://github.com/10xOXR), at [Code Institute](https://codeinstitute.net/), he is one of the most amazing person you will ever meet in life, a truly funny person and the best mentor I could have asked for as guide in the journey of discovery and knowledge, his knowledge and wisdom is just out of this world. Thank you so much my friend, you have been truly amazing over the last year.
 
 I would like give a huge thanks to [Code Institute](https://codeinstitute.net/) for giving me the opportunity to take on this adventure, it has been the best decision that I have made.
 
 I would like to give a incredible massive thanks to three of most fantastic people ever,
 
-[Abi Harrison](https://github.com/Abibubble) for being my coding bestie and keeping me motivated when im at a high and productive day and even more so when I am having a bad day and struggling with imposter syndrome and having such confidence in me, even more confidence then I have in myself, its been incredible watching all the success you have had over the last few months, truly deserved and becoming amazing at accessibility, and keeping me in check with all aspects of accessibility and huge lists of things that are needed to be changed.
+[Abi Harrison](https://github.com/Abibubble) for being my coding bestie and keeping me motivated when im at a high and productive day and even more so when I am having a bad day and struggling with imposter syndrome and having such confidence in me, even more confidence then I have in myself, its been incredible watching all the success you have had over the last few months, truly deserved and becoming amazing at accessibility, and keeping me in check with all aspects of accessibility and giving me huge lists of things that need to be changed.
 
 [Dave Horrocks](https://github.com/DaveyJH), I am highly grateful for all the calls we have had over the last few months, they have been awesome and we have had so many laughs, your logical thinking mind is second to none and its an amazing site to watch you think on solutions right in front of me, I have learnt a huge amount due to the way you have for explaining things.
 
 [Suzy Bennett](https://github.com/suzybee1987), its been a pleasure being able to code along side you during these last two project and see how we have both grown as developers is inspiring and being able to see what you are capable of creating is just awe inspiring, you are an amazing person and an incredible funny person.
 
-without the three of you, this journey would have been a lot harder to copy with and incredibly less fun, you are the best and cant wait for what the future holds.
+without the three of you, this journey would have been a lot harder to copy with and incredibly less fun, you guys are the best and cant wait for what the future holds for us all.
 
 Lastly I want to give the biggest thanks in the world for my fiancee, for her support, love, encouragement and motivation to keep me on track and be able to complete this course, its hasn't been a easy road at times but its been worth while in the end. 
 
