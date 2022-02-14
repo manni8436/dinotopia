@@ -417,15 +417,6 @@ JSHint was used to validate the JavaScript code for my project to make sure ther
 
 ![Sign Up Page](static/docs/images/readme-images/signup-page-desktop-lighthouse.png)
 
-#### Performance
-
-#### Accessibility
-
-#### Best Practices
-
-#### SEO
-
-
 ### Mobile
 
 * Home Page
@@ -506,11 +497,19 @@ JSHint was used to validate the JavaScript code for my project to make sure ther
 
 #### Performance
 
+I was very happy with my initial lighthouse scores on desktop, however on mobile the performance scores need to be improved a lot, more specifically `Adults Dinosaur` page and even more so on the `products details` page which has a very disappointing score currently.
+
 #### Accessibility
+
+Overall I am happy with my Accessibility scores with being around mid 80s and high 90s at the moment, improvements can be made to improve those scores at a further date.
 
 #### Best Practices
 
+I am over the moon with my 100 score all round on desktop and mobile, no room for improvement needed.
+
 #### SEO
+
+I am also extremely happy with my SEO scores as the majority of pages have 100 on the exception on the product details page on desktop has minor improvement that could be made.
 
 ## DEPLOYMENT
 
