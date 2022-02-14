@@ -659,47 +659,47 @@ If you need to make a local clone:
 
   * Background Image:
 
-      [Palm Tree Background Image](https://stocksnap.io/photo/palmtrees-jungle-AYAEFWA4FM)
+      * [Palm Tree Background Image](https://stocksnap.io/photo/palmtrees-jungle-AYAEFWA4FM)
 
   * Adult Dinosaurs:
 
-      [Albertosaurus](https://images.dinosaurpictures.org/Primeval_Continued_Albertosaurus_promo_d158.jpg)
-      [Allosaurus](https://www.pngaaa.com/detail/1482362)
-      [Archaeornithomimus](https://www.pngaaa.com/detail/3137367)
-      [Baryonyx](https://www.pngaaa.com/detail/2466052)
-      [Brachiosaurus](https://www.pngaaa.com/detail/197998)
-      [Carnotaurus](https://www.pngaaa.com/detail/1482288)
-      [Corythosaurus](https://www.pngaaa.com/detail/4427717)
-      [Dilophosaurus](https://www.pngaaa.com/detail/3605349)
-      [Edmontonia](https://www.pngaaa.com/detail/1293930)
-      [Gallimimus](https://www.pngaaa.com/detail/1482328)
-      [Gorgosaurus](https://www.pngaaa.com/detail/1293939)
-      [Guanlong](https://www.pngaaa.com/detail/1410440)
-      [Iguanodon](https://www.pngaaa.com/detail/4427804)
-      [Megalosaurus](https://www.pngaaa.com/detail/1294041)
-      [Megalosaurus](https://www.pngaaa.com/detail/1294041)
-      [Parasaurolophus](https://www.pngaaa.com/detail/2465993)
-      [Proceratosaurus](https://www.pngaaa.com/detail/2004551)
-      [Spinosaurus](https://www.pngaaa.com/detail/3137192)
-      [Stegoceratops](https://www.pngaaa.com/detail/3638658)
-      [Torosaurus](https://www.pngaaa.com/detail/3638705)
-      [Troodon](https://www.pngaaa.com/detail/3605415)
-      [Tyrannosaurus Rex](https://www.pngaaa.com/detail/1013890)
-      [Velociraptor](https://www.pngaaa.com/detail/3037131)
+      * [Albertosaurus](https://images.dinosaurpictures.org/Primeval_Continued_Albertosaurus_promo_d158.jpg)
+      * [Allosaurus](https://www.pngaaa.com/detail/1482362)
+      * [Archaeornithomimus](https://www.pngaaa.com/detail/3137367)
+      * [Baryonyx](https://www.pngaaa.com/detail/2466052)
+      * [Brachiosaurus](https://www.pngaaa.com/detail/197998)
+      * [Carnotaurus](https://www.pngaaa.com/detail/1482288)
+      * [Corythosaurus](https://www.pngaaa.com/detail/4427717)
+      * [Dilophosaurus](https://www.pngaaa.com/detail/3605349)
+      * [Edmontonia](https://www.pngaaa.com/detail/1293930)
+      * [Gallimimus](https://www.pngaaa.com/detail/1482328)
+      * [Gorgosaurus](https://www.pngaaa.com/detail/1293939)
+      * [Guanlong](https://www.pngaaa.com/detail/1410440)
+      * [Iguanodon](https://www.pngaaa.com/detail/4427804)
+      * [Megalosaurus](https://www.pngaaa.com/detail/1294041)
+      * [Megalosaurus](https://www.pngaaa.com/detail/1294041)
+      * [Parasaurolophus](https://www.pngaaa.com/detail/2465993)
+      * [Proceratosaurus](https://www.pngaaa.com/detail/2004551)
+      * [Spinosaurus](https://www.pngaaa.com/detail/3137192)
+      * [Stegoceratops](https://www.pngaaa.com/detail/3638658)
+      * [Torosaurus](https://www.pngaaa.com/detail/3638705)
+      * [Troodon](https://www.pngaaa.com/detail/3605415)
+      * [Tyrannosaurus Rex](https://www.pngaaa.com/detail/1013890)
+      * [Velociraptor](https://www.pngaaa.com/detail/3037131)
 
   * Baby Dinosaurs:
 
-      [Ankylosaurus](https://www.pngaaa.com/detail/4687929)
-      [Homalocephale](https://www.pngaaa.com/detail/4427737)
-      [Pachyrhinosaurus](https://www.pngaaa.com/detail/1293936)
+      * [Ankylosaurus](https://www.pngaaa.com/detail/4687929)
+      * [Homalocephale](https://www.pngaaa.com/detail/4427737)
+      * [Pachyrhinosaurus](https://www.pngaaa.com/detail/1293936)
 
   * Dinosaurs Eggs:
 
-      [T-Rex Egg](https://www.pngaaa.com/detail/1293984)
+      * [T-Rex Egg](https://www.pngaaa.com/detail/1293984)
 
   * Fossils
 
-      [T-Rex Fossil](https://www.pngaaa.com/detail/753306)
+      * [T-Rex Fossil](https://www.pngaaa.com/detail/753306)
 
 [Back To Top](#dinotopia)
 
