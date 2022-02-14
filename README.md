@@ -347,17 +347,6 @@ JSHint was used to validate the JavaScript code for my project to make sure ther
 
 ![Home Page](static/docs/images/readme-images/home-page-desktop-lighthouse.png)
 
-#### Accessibility
-
-#### Best Practices
-
-#### SEO
-
-
-### Mobile
-
-#### Performance
-
 * Home Page
 
 ![Home Page](static/docs/images/readme-images/home-page-desktop-lighthouse.png)
@@ -433,6 +422,17 @@ JSHint was used to validate the JavaScript code for my project to make sure ther
 * Sign Up Page
 
 ![Sign Up Page](static/docs/images/readme-images/signup-page-desktop-lighthouse.png)
+
+#### Accessibility
+
+#### Best Practices
+
+#### SEO
+
+
+### Mobile
+
+#### Performance
 
 #### Accessibility
 
