@@ -394,6 +394,46 @@ JSHint was used to validate the JavaScript code for my project to make sure ther
 
 ![Blog Details Page](static/docs/images/readme-images/blog-details-page-desktop-lighthouse.png)
 
+* New Product Page
+
+![New Product Page](static/docs/images/readme-images/add-product-page-desktop-lighthouse.png)
+
+* Product Details Page
+
+![Product Details Page](static/docs/images/readme-images/product-details-page-desktop-lighthouse.png)
+
+* Profile Page
+
+![Profile Page](static/docs/images/readme-images/profile-page-desktop-lighthouse.png)
+
+* Order History Page
+
+![Order History Page](static/docs/images/readme-images/order-history-page-desktop-lighthouse.png)
+
+* Shopping Bag Page
+
+![Shopping Bag Page](static/docs/images/readme-images/shopping-bag-page-desktop-lighthouse.png)
+
+* Secure Checkout Page
+
+![Secure Checkout Page](static/docs/images/readme-images/secure-checkout-page-desktop-lighthouse.png)
+
+* Order Confirmation Page
+
+![Order Confirmation Page](static/docs/images/readme-images/order-confirmation-page-desktop-lighthouse.png)
+
+* Log Out Page
+
+![Log Out Page](static/docs/images/readme-images/logout-page-desktop-lighthouse.png)
+
+* Log In Page
+
+![Log In Page](static/docs/images/readme-images/login-page-desktop-lighthouse.png)
+
+* Sign Up Page
+
+![Sign Up Page](static/docs/images/readme-images/signup-page-desktop-lighthouse.png)
+
 #### Accessibility
 
 #### Best Practices
