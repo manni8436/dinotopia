@@ -681,7 +681,7 @@ Which was also found on `stackoverflow` on the below provided below.
 
 [Humanize link from stackoverflow](https://stackoverflow.com/questions/346467/format-numbers-in-django-templates)
 
-Along with `humanize` and the `floatformat` I was to product that correct value I wanted to use within my project.
+Along with `humanize` and the `floatformat` I was to produce that correct value I wanted to use within my project.
 
 * While following the `Boutique Ado` videos, I was given code reference links that were using during the development of this project which is listed below.
 
