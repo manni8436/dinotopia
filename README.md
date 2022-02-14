@@ -341,8 +341,6 @@ JSHint was used to validate the JavaScript code for my project to make sure ther
 
 ### DESKTOP
 
-#### Performance
-
 * Home Page
 
 ![Home Page](static/docs/images/readme-images/home-page-desktop-lighthouse.png)
@@ -419,6 +417,8 @@ JSHint was used to validate the JavaScript code for my project to make sure ther
 
 ![Sign Up Page](static/docs/images/readme-images/signup-page-desktop-lighthouse.png)
 
+#### Performance
+
 #### Accessibility
 
 #### Best Practices
@@ -427,6 +427,82 @@ JSHint was used to validate the JavaScript code for my project to make sure ther
 
 
 ### Mobile
+
+* Home Page
+
+![Home Page](static/docs/images/readme-images/home-page-mobile-lighthouse.png)
+
+* All Products Page
+
+![All Products Page](static/docs/images/readme-images/all-products-page-mobile-lighthouse.png)
+
+* Dinosaur Egg Page
+
+![Dinosaur Egg Page](static/docs/images/readme-images/egg-page-mobile-lighthouse.png)
+
+* Baby Dinosaur Page
+
+![Baby Dinosaur Page](static/docs/images/readme-images/baby-dinosaur-page-mobile-lighthouse.png)
+
+* Adult Dinosaur Page
+
+![Adult Dinosaur Page](static/docs/images/readme-images/adult-dinosaur-page-mobile-lighthouse.png)
+
+* Fossil Page
+
+![Fossil Page](static/docs/images/readme-images/fossil-page-mobile-lighthouse.png)
+
+* Blog Page
+
+![Blog Page](static/docs/images/readme-images/blog-page-mobile-lighthouse.png)
+
+* New Blog Page
+
+![New Blog Page](static/docs/images/readme-images/new-blog-page-mobile-lighthouse.png)
+
+* Blog Details Page
+
+![Blog Details Page](static/docs/images/readme-images/blog-page-mobile-lighthouse.png)
+
+* New Product Page
+
+![New Product Page](static/docs/images/readme-images/new-products-page-mobile-lighthouse.png)
+
+* Product Details Page
+
+![Product Details Page](static/docs/images/readme-images/product-details-page-mobile-lighthouse.png)
+
+* Profile Page
+
+![Profile Page](static/docs/images/readme-images/profile-page-mobile-lighthouse.png)
+
+* Order History Page
+
+![Order History Page](static/docs/images/readme-images/order-history-page-mobile-lighthouse.png)
+
+* Shopping Bag Page
+
+![Shopping Bag Page](static/docs/images/readme-images/shoping-bag-page-mobile-lighthouse.png)
+
+* Secure Checkout Page
+
+![Secure Checkout Page](static/docs/images/readme-images/secure-checkout-page-mobile-lighthouse.png)
+
+* Order Confirmation Page
+
+![Order Confirmation Page](static/docs/images/readme-images/order-confirmation-page-mobile-lighthouse.png)
+
+* Log Out Page
+
+![Log Out Page](static/docs/images/readme-images/logout-page-mobile-lighthouse.png)
+
+* Log In Page
+
+![Log In Page](static/docs/images/readme-images/login-page-mobile-lighthouse.png)
+
+* Sign Up Page
+
+![Sign Up Page](static/docs/images/readme-images/signup-page-mobile-lighthouse.png)
 
 #### Performance
 
