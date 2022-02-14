@@ -8,6 +8,7 @@
 [Here is a link to the live final project](https://dinotopia.herokuapp.com/)
 
 ## INITIAL IDEA
+
 My initial idea behind Dinotopia is to make a eCommerce site about Dinosaurs, where anyone will be able to purchase their own
 Dinosaur, including eggs, young dinosaurs, adult dinosaurs, old dinosaurs and fossils. The site is being designed to be responsive
 for mobile, tablet, and desktop devices. The user will be able to navigate easily throughout the site, and the site will be fully accessible for all users.
@@ -59,9 +60,8 @@ for mobile, tablet, and desktop devices. The user will be able to navigate easil
 
 ### USER STORIES
 
-The structure of the site is designed to be simple and easy to use. It has a good balance of images and content, so 
-it does not overload the user, while allowing the user to have all the information they require to make a purchase,
-and doesn't leave the user needing more information to carry out all steps needed on the site.
+The structure of the site is designed to be simple and easy to use. It has a good balance of images and content as not overload the user, 
+while allowing the user to have all the information they require, and not leave the user needing more information to carry out all steps needed on the site.
 
 * The website is for the following user types:
   * Users who are curious at looking at Dinosaurs
@@ -113,6 +113,8 @@ and doesn't leave the user needing more information to carry out all steps neede
 I chose two fonts to use on my site to make my site title and my navigation menu stand out from the rest of the site.
 
 I chose `lobster` font style for the main page title to stand out but have a modern twist to it, while using `permanent marker` font style make the navigation menu have a older style look.
+
+both of these fonts were chosen from [Google Fonts](https://fonts.google.com/)
 
 ### COLOR THEME
 
