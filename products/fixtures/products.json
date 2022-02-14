@@ -257,5 +257,83 @@
             "image": "parasaurolophus.png",
             "category": "3"
         }
+    },
+    {
+        "pk": 21,
+        "model": "products.product",
+        "fields": {
+            "sku": "dino-18",
+            "name": "Proceratosaurus",
+            "description": "Parasaurolophus, a carnivorous 4.1 metres in length theropod from the Mid Jurassic period, slightly smaller then average human person in height.",
+            "price": "1000",
+            "image_url": "https://www.pngaaa.com/detail/2004551",
+            "image": "proceratosaurus.png",
+            "category": "3"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "products.product",
+        "fields": {
+            "sku": "dino-19",
+            "name": "Spinosaurus",
+            "description": "Spinosaurus, a carnivorous with flat, blade like teeth, moved on two legs and mainly eats fish and maybe other Dinosaurs, on average it can be around 18 metres in length and weighting in at 4000Kg",
+            "price": "1000",
+            "image_url": "https://www.pngaaa.com/detail/3137192",
+            "image": "spinosaurus.png",
+            "category": "3"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "products.product",
+        "fields": {
+            "sku": "dino-20",
+            "name": "Torosaurus",
+            "description": "Torosaurus, a herbivorous from Late Cretaceous period, this Dinosaur likes to live in social groups, interesting feature is that it has the largest display crest of any ceratopsian, like all others, it has a beak for grazing.",
+            "price": "1000",
+            "image_url": "https://www.pngaaa.com/detail/3638705",
+            "image": "torosaurus.png",
+            "category": "3"
+        }
+    },
+    {
+        "pk": 24,
+        "model": "products.product",
+        "fields": {
+            "sku": "baby-dino-3",
+            "name": "Pachyrhinosaurus",
+            "description": "Pachyrhinosaurus, a herbivorous from Late Cretaceous period, has a beak for grazing like all ceratopsian but its smaller then all others with a length of 6 metres.",
+            "price": "1000",
+            "image_url": "https://www.pngaaa.com/detail/1293936",
+            "image": "pachyrhinosaurus.png",
+            "category": "2"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "products.product",
+        "fields": {
+            "sku": "dino-21",
+            "name": "Troodon",
+            "description": "Troodon, a small theropod 2metres in length and weighting 40kg, carnivorous Dinosaur from the Late Cretaceous period.",
+            "price": "1000",
+            "image_url": "https://www.pngaaa.com/detail/1293936",
+            "image": "troodon.png",
+            "category": "2"
+        }
+    },
+    {
+        "pk": 26,
+        "model": "products.product",
+        "fields": {
+            "sku": "dino-22",
+            "name": "Velociraptor",
+            "description": "Velociraptor are not as big as people have seen or been told that they are, they come in at 1.8metres in length, weighting 7kg and they can potentially develop a feather like convering",
+            "price": "1000",
+            "image_url": "https://www.pngaaa.com/detail/3037131",
+            "image": "velociraptor.png",
+            "category": "2"
+        }
     }
 ]
