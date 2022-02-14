@@ -250,11 +250,11 @@ As a result, I was able to make and complete a payment transaction once again.
 
 [Back To Top](#dinotopia)
 
-4. While a fellow student was looking through my project, they made a test purchase. At this point they advised me that they did had no received a order confirmation email.
+4. While a fellow student was looking through my project, they made a test purchase. At this point they advised me that they had no received a order confirmation email. 
 
-After thoroughly looking at all the files in my project to see where the error could be coming from, Also watching the email videos from the boutique ado project once again to verify the steps were done correctly, I was unable to find any issues.
+after thoroughly looking at all the files in my project to see where the error could be coming from, Also watching the email videos from the boutique ado project once again to verify the steps were done correctly, I was unable to find any issues.
 
-Which at this point, I looked for help from tutor support, I advised that my account registration emails were working but not the order confirmation. which at this point Ed from tutor support had a look at my workspace and advised me that my `checkout/wh` path was not being accessed, which was why the order confirmation emails was not working as per the image below.
+I looked for help from tutor support, I advised that my account registration emails were working but not the order confirmation. Which at this point Ed from tutor support had a look at my workspace and advised me that my `checkout/wh` path was not being accessed, which was why the order confirmation emails was not working as per the image below.
 
 ![checkout filepath not accessed](static/docs/images/readme-images/checkout-filepath-not-accessed.png)
 
