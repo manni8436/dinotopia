@@ -343,7 +343,56 @@ JSHint was used to validate the JavaScript code for my project to make sure ther
 
 #### Performance
 
+* Home Page
+
 ![Home Page](static/docs/images/readme-images/home-page-desktop-lighthouse.png)
+
+#### Accessibility
+
+#### Best Practices
+
+#### SEO
+
+
+### Mobile
+
+#### Performance
+
+* Home Page
+
+![Home Page](static/docs/images/readme-images/home-page-desktop-lighthouse.png)
+
+* All Products Page
+
+![All Products Page](static/docs/images/readme-images/all-products-page.png)
+
+* Dinosaur Egg Page
+
+![Dinosaur Egg Page](static/docs/images/readme-images/egg-page-desktop-lighthouse.png)
+
+* Baby Dinosaur Page
+
+![Baby Dinosaur Page](static/docs/images/readme-images/baby-dinosaur-page-desktop-lighthouse.png)
+
+* Adult Dinosaur Page
+
+![Adult Dinosaur Page](static/docs/images/readme-images/adult-dinosaur-page-desktop-lighthouse.png)
+
+* Fossil Page
+
+![Fossil Page](static/docs/images/readme-images/fossils-page-desktop-lighthouse.png)
+
+* Blog Page
+
+![Blog Page](static/docs/images/readme-images/blog-page-desktop-lighthouse.png)
+
+* New Blog Page
+
+![New Blog Page](static/docs/images/readme-images/new-blog-page-desktop-lighthouse.png)
+
+* Blog Details Page
+
+![Blog Details Page](static/docs/images/readme-images/blog-details-page-desktop-lighthouse.png)
 
 #### Accessibility
 
