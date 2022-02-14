@@ -258,9 +258,7 @@ I looked for help from tutor support, I advised that my account registration ema
 
 ![checkout filepath not accessed](static/docs/images/readme-images/checkout-filepath-not-accessed.png)
 
-At this point, Ed and I went on to checking the webhook endpoints on heroku and if everything was in order. After doing a few other checking on signing secret and if all variables matched on heroku site and the gitpod variables also.
-
-After making this checks, Ed advised me that it would be best to start from scratch and delete current webhooks end points and create new ones. After doing so and updating variables in heroku, I restarted my workspace and Ed at this point done the following command `echo $STRIPE_WH_SECRET` in the gitpod terminal as shown in the image below.
+At this point, Ed and I went on to checking the webhook endpoints on Heroku and if everything was in order. Ed advised me that it would be best to start from scratch and delete current webhooks end points and create new ones. After doing so and updating variables in Heroku, I restarted my workspace and Ed at this point did the following command `echo $STRIPE_WH_SECRET` in the gitpod terminal as shown in the image below.
 
 ![checkout filepath not accessed](static/docs/images/readme-images/wrong-whsecret-variable-value.png)
 
@@ -270,8 +268,7 @@ After changing `original_bag=original_bag` to `original_bag=bag`, I was given an
 
 ![accessing webhook still error](static/docs/images/readme-images/accessing-webhook-still-error.png)
 
-
-Which at this point, by having a closer look at the format of the folders in my repo, I had noticed that the emails folder was in the incorrect location. Ed advised me that the correct format for the folder was `checkout > templates > checkout > confirmation emails`, upon moving the folder into the correct location and making another test purchase, I was able to get a order confirmation email print out in the terminal as shown below.
+by having a closer look at the format of the folders in my repo, I had noticed that the emails folder was in the incorrect location. Ed advised me that the correct format for the folder was `checkout > templates > checkout > confirmation emails`, upon moving the folder into the correct location and making another test purchase, I was able to get a order confirmation email print out in the terminal as shown below.
 
 ![succesfull order confirmation email](static/docs/images/readme-images/working-local-order-email-cofirmation.png)
 
@@ -743,11 +740,11 @@ I would like give a huge thanks to [Code Institute](https://codeinstitute.net/) 
 
 I would like to give a incredible massive thanks to three of most fantastic people ever,
 
-[Abi Harrison](https://github.com/Abibubble) for being my coding bestie and keeping me motivated when im at a high and productive day and even more so when I am having a bad day and struggling with imposter syndrome and having such confidence in me, even more confidence then I have in myself, its been incredible watching all the success you have had over the last few months, truly deserved and becoming amazing at accessibility, and keeping me in check with all aspects of accessibility and giving me huge lists of things that need to be changed.
+[Abi Harrison](https://github.com/Abibubble), For being my coding bestie and keeping me motivated when im at a high and productive day and even more so when I am having a bad day and struggling with imposter syndrome and having such confidence in me, even more confidence then I have in myself, its been incredible watching all the success you have had over the last few months, truly deserved and becoming amazing at accessibility, and keeping me in check with all aspects of accessibility and giving me huge lists of things that need to be changed.
 
 [Dave Horrocks](https://github.com/DaveyJH), I am highly grateful for all the calls we have had over the last few months, they have been awesome and we have had so many laughs, your logical thinking mind is second to none and its an amazing site to watch you think on solutions right in front of me, I have learnt a huge amount due to the way you have for explaining things.
 
-[Suzy Bennett](https://github.com/suzybee1987), its been a pleasure being able to code along side you during these last two project and see how we have both grown as developers is inspiring and being able to see what you are capable of creating is just awe inspiring, you are an amazing person and an incredible funny person.
+[Suzy Bennett](https://github.com/suzybee1987), Its been a pleasure being able to code along side you during these last two project and see how we have both grown as developers is inspiring and being able to see what you are capable of creating is just awe inspiring, you are an amazing person and an incredible funny person.
 
 without the three of you, this journey would have been a lot harder to copy with and incredibly less fun, you guys are the best and cant wait for what the future holds for us all.
 
