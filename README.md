@@ -513,10 +513,6 @@ I am also extremely happy with my SEO scores as the majority of pages have 100 o
 
 ## DEPLOYMENT
 
-[Heroku](https://www.heroku.com/) was used to deploy the live site.
-
-[Back To Top](#dinotopia)
-
 ### Heroku Deployment
 
 This project was developed using [GitPod](https://gitpod.io) and pushed to [GitHub](https://github.com/) then was deployed using [Heroku](https://www.heroku.com/) using the following steps below:
