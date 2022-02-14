@@ -665,7 +665,7 @@ If you need to make a local clone:
 
 ### TEXT CONTENT
 
-* Text content on all Pages was copied and/or amended from the site of the [National History Museum](https://www.nhm.ac.uk/)
+* All text content on all Pages was copied and/or amended from the site of the [National History Museum](https://www.nhm.ac.uk/)
 
 [Back To Top](#dinotopia)
 
