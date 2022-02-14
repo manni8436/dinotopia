@@ -41,7 +41,7 @@
         "pk": 4,
         "model": "products.product",
         "fields": {
-            "sku": "dino-2",
+            "sku": "baby-dino-2",
             "name": "Ankylosaurus",
             "description": "Ankylosaurus was one of the largest armoured Dinosaurus, Ankylosaurus had a wide, heavily armoured skull and a large tail club for defending itself from other predators",
             "price": "300000",
@@ -197,7 +197,7 @@
         "pk": 16,
         "model": "products.product",
         "fields": {
-            "sku": "baby-dino-2",
+            "sku": "baby-dino-3",
             "name": "Homalocephale",
             "description": "Homalocephale is a euornithopod from the late cretaceous period being around 1.5 metres in length",
             "price": "1000",
@@ -301,7 +301,7 @@
         "pk": 24,
         "model": "products.product",
         "fields": {
-            "sku": "baby-dino-3",
+            "sku": "baby-dino-4",
             "name": "Pachyrhinosaurus",
             "description": "Pachyrhinosaurus, a herbivorous from Late Cretaceous period, has a beak for grazing like all ceratopsian but its smaller then all others with a length of 6 metres.",
             "price": "1000",
@@ -334,6 +334,19 @@
             "image_url": "https://www.pngaaa.com/detail/3037131",
             "image": "velociraptor.png",
             "category": "3"
+        }
+    },
+    {
+        "pk": 27,
+        "model": "products.product",
+        "fields": {
+            "sku": "baby-dino-5",
+            "name": "Triceratops",
+            "description": "Triceratops, this baby Triceratops can grow up to 9metres in length and weighting in at 5500kg, it has a horny beak with shearing teeth, special features are it has three horns, a large frill that can be 1 metre across, also has one of the largest skulls of any land animal. ",
+            "price": "1000",
+            "image_url": "https://www.pngaaa.com/detail/4463408",
+            "image": "baby-triceratops.png",
+            "category": "2"
         }
     }
 ]
