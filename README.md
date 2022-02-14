@@ -347,10 +347,6 @@ JSHint was used to validate the JavaScript code for my project to make sure ther
 
 ![Home Page](static/docs/images/readme-images/home-page-desktop-lighthouse.png)
 
-* Home Page
-
-![Home Page](static/docs/images/readme-images/home-page-desktop-lighthouse.png)
-
 * All Products Page
 
 ![All Products Page](static/docs/images/readme-images/all-products-page.png)
