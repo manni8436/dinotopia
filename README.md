@@ -524,14 +524,14 @@ This project was developed using [GitPod](https://gitpod.io) and pushed to [GitH
 #### Connecting to Heroku
 
 1. Log in to Heroku and create a new app by clicking `New` and `Create New App` and giving it an original name and setting the region to closest to your location.
-2. Navigate to Heroku Resources and add Postgres using the free plan.
+2. Navigate to `Heroku Resources` and add `Postgres` using the free plan.
 3. Create a `requirements.txt` file using the command `pip3 freeze --local > requirements.txt` in the GitPod terminal.
 4. Create a `Procfile` with the terminal command `web: gunicorn dinotopia.wsgi:application` and at this point checking the Procfile to make sure there is no extra blank line as this can cause issues when deploying to Heroku.
-5. Use the loaddata command to load the fixtures for both json files: `python3 manage.py loaddata categories.json` and `python3 manage.py loaddata products.json`.
+5. Use the loaddata command to load the fixtures for both json files: `python3 manage.py loaddata categories` and `python3 manage.py loaddata products`.
 6. If it returns error message: `django.db.utils.OperationalError: FATAL: role <somerandomletters> does not exist` run `unset PGHOSTADDR` in your terminal and run the commands in step 11 again.
 7. From the CLI log in to Heroku using command `heroku login -i`.
 8. Temporarily disable Collectstatic by running: `heroku:config:set DISABLE_COLLECTSTATIC=1 --app <heroku-app-name>` So that Heroku won't try to collect static files when we deploy.
-9. Add Heroku app name to ALLOWED_HOSTS in settings.py.
+9. Add Heroku app name to `ALLOWED_HOSTS` in settings.py.
 10. Commit changes to GitHub using `git add .`, `git commit -m <commit message>`, `git push`.
 11. Then deploy to Heroku using `git push heroku main`.
 12. If the git remote isn't initialised you may have to do that first by running `heroku git:remote -a <heroku-app-name>`
@@ -541,7 +541,7 @@ This project was developed using [GitPod](https://gitpod.io) and pushed to [GitH
 16. Generate secret key. Strong secret keys can be obtained from [MiniWebTool](https://miniwebtool.com/django-secret-key-generator/). This automatically generates a secret key 50 characters long with alphanumeric characters and symbols. 
 17. Add secret key to GitPod variables and Heroku config vars.
 18. Set up Amazon AWS S3 bucket using instructions [below](#amazon-aws)
-19. In the dashboard click "Settings" -> "Reveal Config Vars"
+19. In the dashboard click `Settings` -> `Reveal Config Vars`
 20. Set [config vars](#config-vars) using advice below.
 
 #### Amazon AWS
