@@ -5,7 +5,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/manni8436/dinotopia)
 ![GitHub top language](https://img.shields.io/github/languages/top/manni8436/dinotopia)
 
-[Here is a link to the live final project](https://dinotopia.herokuapp.com/)
+[Here is a link to the live final project](https://dinotopia.onrender.com)
 
 ## INITIAL IDEA
 
